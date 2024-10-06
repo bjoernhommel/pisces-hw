@@ -1,0 +1,67 @@
+{
+    "_comment": "O-TAPE validation paper (stimuli are videos / photos); self report data is assessed in different scales; German version of the Satisfaction With Life Scale",
+    "contentType": "self-report",
+    "datasetFilename": "wp0163.parquet",
+    "datasetUrl": "https://osf.io/43p7k/, https://osf.io/6wuf8/, https://osf.io/36z9f",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Rau, R., Nestler, W., Dufner, M., & Nestler, S. (2021). Seeing the best or worst in others: A measure of generalized other-perceptions. Assessment, 28(8), 1897-1914.",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 0,
+            "maxValue": 1,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "trifft überhaupt nicht zu",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "trifft voll und ganz zu"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "German version of the Satisfaction With Life Scale",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "de",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Glaesmer, H., Grande, G., Braehler, E., & Roth, M. (2011). The German version of the satisfaction with life scale (SWLS). European Journal of Psychological Assessment.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "Life Satisfaction",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "LS_1", "LS_2", "LS_3", "LS_4", "LS_5" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "LS_1", "itemStemText": "In den meisten Bereichen entspricht mein Leben meinen Idealvorstellungen.", "responseFormatId": "RF1" },
+                { "itemId": "LS_2", "itemStemText": "Meine Lebensbedingungen sind ausgezeichnet.", "responseFormatId": "RF1" },
+                { "itemId": "LS_3", "itemStemText": "Ich bin mit meinem Leben zufrieden.", "responseFormatId": "RF1" },
+                { "itemId": "LS_4", "itemStemText": "Bisher habe ich die wesentlichen Dinge erreicht, die ich mir für mein Leben wünsche.", "responseFormatId": "RF1" },
+                { "itemId": "LS_5", "itemStemText": "Wenn ich mein Leben noch einmal leben könnte, würde ich kaum etwas ändern.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

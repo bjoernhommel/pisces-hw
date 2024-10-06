@@ -1,0 +1,109 @@
+{
+    "_comment": "Item Response Warehouse package depression_anxiety_stress, second scale which is data on the Ten Item Personality Inventory, item polarity was drawn from original paper",
+    "contentType": "self-report",
+    "datasetFilename": "wp0049.parquet",
+    "datasetUrl": null,
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 7,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Disagree strongly",
+                "2": "Disagree moderately",
+                "3": "Disagree a little",
+                "4": "Neither agree nor disagree",
+                "5": "Agree a little",
+                "6": "Agree moderately",
+                "7": "Agree strongly"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Ten Item Personality Inventory",
+            "instrumentNameShort": "TIPI",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Gosling, S. D., Rentfrow, P. J., & Swann, W. B., Jr. (2003). A Very Brief Measure of the Big Five Personality Domains. Journal of Research in Personality, 37, 504-528.)",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "Extraversion",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "TIPI6" ],
+                    "upperItemIds": [ "TIPI1" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Agreeableness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "TIPI2" ],
+                    "upperItemIds": [ "TIPI7" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Conscientiousness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "TIPI8" ],
+                    "upperItemIds": [ "TIPI3" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Emotional Stability",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "TIPI4" ],
+                    "upperItemIds": [ "TIPI9" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Openness to Experiences",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "TIPI10" ],
+                    "upperItemIds": [ "TIPI5" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "TIPI1", "itemStemText": "I see myself as extraverted, enthusiastic.", "responseFormatId": "RF1" },
+                { "itemId": "TIPI2", "itemStemText": "I see myself as critical, quarrelsome.", "responseFormatId": "RF1" },
+                { "itemId": "TIPI3", "itemStemText": "I see myself as dependable, self-disciplined.", "responseFormatId": "RF1" },
+                { "itemId": "TIPI4", "itemStemText": "I see myself as anxious, easily upset.", "responseFormatId": "RF1" },
+                { "itemId": "TIPI5", "itemStemText": "I see myself as open to new experiences, complex.", "responseFormatId": "RF1" },
+                { "itemId": "TIPI6", "itemStemText": "I see myself as reserved, quiet.", "responseFormatId": "RF1" },
+                { "itemId": "TIPI7", "itemStemText": "I see myself as sympathetic, warm.", "responseFormatId": "RF1" },
+                { "itemId": "TIPI8", "itemStemText": "I see myself as disorganized, careless.", "responseFormatId": "RF1" },
+                { "itemId": "TIPI9", "itemStemText": "I see myself as calm, emotionally stable.", "responseFormatId": "RF1" },
+                { "itemId": "TIPI10", "itemStemText": "I see myself as conventional, uncreative.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

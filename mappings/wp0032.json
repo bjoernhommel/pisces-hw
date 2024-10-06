@@ -1,0 +1,69 @@
+{
+    "_comment": "Item Response Warehouse package emotion_pcmrs, includes items associated with emotional reactivity from the Freiburg Complaint Checklist in a German sample",
+    "contentType": "self-report",
+    "datasetFilename": "wp0032.parquet",
+    "datasetUrl": null,
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 5,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": ""
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Freiburg Complaint Checklist",
+            "instrumentNameShort": "",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "emotional reactivity",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "Feel upset in whole body", "Eyes well up with tears", "Stammer", "Blush", "Gasp for air", "Rapid heartbeat in excitement", "Urge to defecate in excitement", "Trembling knees" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Feel upset in whole body", "itemStemText": "Do you feel it in the whole body when you get upset about something?", "responseFormatId": "RF1" },
+                { "itemId": "Eyes well up with tears", "itemStemText": "Do your eyes well up with tears in certain situations?", "responseFormatId": "RF1" },
+                { "itemId": "Stammer", "itemStemText": "Do you sometimes start stammering in certain situations?", "responseFormatId": "RF1" },
+                { "itemId": "Blush", "itemStemText": "Do you blush?", "responseFormatId": "RF1" },
+                { "itemId": "Gasp for air", "itemStemText": "Do you have to gasp for air in exciting situations, so that you have to take a deep breath?", "responseFormatId": "RF1" },
+                { "itemId": "Rapid heartbeat in excitement", "itemStemText": "Do you feel a rapid heartbeat in excitement?", "responseFormatId": "RF1" },
+                { "itemId": "Urge to defecate in excitement", "itemStemText": "Do you feel the urge to defecate in excitement?", "responseFormatId": "RF1" },
+                { "itemId": "Trembling knees", "itemStemText": "Do you start trembling in excitement or do you get trembling knees?", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

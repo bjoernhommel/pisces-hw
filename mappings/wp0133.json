@@ -1,0 +1,70 @@
+{
+    "_comment": "Rosenberg Self-Esteem Scale from PRPT Paper",
+    "contentType": "self-report",
+    "datasetFilename": "wp0133.parquet",
+    "datasetUrl": "https://osf.io/teh2g/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 4,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "strongly disagree",
+                "2": "",
+                "3": "",
+                "4": "strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Rosenberg Self-Esteem Scale",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "de",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Ferring, D., & Filipp, S.H. (1996). Messung des Selbstwertgefühls: Befunde zu Reliabilität, Validität und Stabilität der Rosenberg-Skala [Measurement of self-esteem: Findings on reliability, validity, and stability of the Rosenberg Scale]. Diagnostica, 42, 284–292",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "self-esteem",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "SE01_02", "SE01_05", "SE01_06", "SE01_08", "SE01_09" ],
+                    "upperItemIds": [ "SE01_01", "SE01_03", "SE01_04", "SE01_07", "SE01_10" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "SE01_01", "itemStemText": "Alles in allem bin ich mit mir selbst zufrieden.", "responseFormatId": "RF1" },
+                { "itemId": "SE01_02", "itemStemText": "Hin und wieder denke ich, daß ich gar nichts tauge.", "responseFormatId": "RF1" },
+                { "itemId": "SE01_03", "itemStemText": "Ich besitze eine Reihe guter Eigenschaften.", "responseFormatId": "RF1" },
+                { "itemId": "SE01_04", "itemStemText": "Ich besitze die gleichen Fähigkeiten wie die meisten anderen Menschen auch.", "responseFormatId": "RF1" },
+                { "itemId": "SE01_05", "itemStemText": "Ich fürchte, es gibt nicht viel, worauf ich stolz sein kann.", "responseFormatId": "RF1" },
+                { "itemId": "SE01_06", "itemStemText": "Ich fühle mich von Zeit zu Zeit richtig nutzlos.", "responseFormatId": "RF1" },
+                { "itemId": "SE01_07", "itemStemText": "Ich halte mich für einen wertvollen Menschen, jedenfalls bin ich nicht weniger wertvoll als andere auch.", "responseFormatId": "RF1" },
+                { "itemId": "SE01_08", "itemStemText": "Ich wünschte, ich könnte vor mir selbst mehr Achtung haben.", "responseFormatId": "RF1" },
+                { "itemId": "SE01_09", "itemStemText": "Alles in allem neige ich dazu, mich für einen Versager zu halten.", "responseFormatId": "RF1" },
+                { "itemId": "SE01_10", "itemStemText": "Ich habe eine positive Einstellung zu mir selbst gefunden.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

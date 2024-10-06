@@ -1,0 +1,74 @@
+{
+    "_comment": "Item Response Warehouse package political_psychology, data on attitudes towards federal spendings on different political issues",
+    "contentType": "self-report",
+    "datasetFilename": "wp0105.parquet",
+    "datasetUrl": "https://osf.io/3pwvb/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Brandt, M. J., Turner-Zwinkels, F. M., & Kubin, E. (2021). Political Psychology Data from a 26-wave Yearlong Longitudinal Study (2019–2020). Journal of Open Psychology Data, 9(1). 10.5334/jopd.54",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 9,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Greatly decrease",
+                "2": "Decrease",
+                "3": "Somewhat decrease",
+                "4": "Keep the same",
+                "5": "Somewhat increase",
+                "6": "Increase",
+                "7": "Greatly increase",
+                "8": "Don't Know",
+                "9": "I haven't thought much about it"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": null,
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "Preferences on federal spending",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "def", "crime", "terror", "poor", "health", "econ", "abort", "unemploy", "blkaid", "imm" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "def", "itemStemText": "Should federal spending on defense be increased, decreased, or kept the same?", "responseFormatId": "RF2" },
+                { "itemId": "crime", "itemStemText": "Should federal spending for dealing with crime be increased, decreased, or kept the same?", "responseFormatId": "RF2" },
+                { "itemId": "terror", "itemStemText": "Should federal spending on the war on terrorism be increased, decreased, or kept the same?", "responseFormatId": "RF2" },
+                { "itemId": "poor", "itemStemText": "Should federal spending on aid to the poor be increased, decreased, or kept the same?", "responseFormatId": "RF2" },
+                { "itemId": "health", "itemStemText": "Should federal spending on healthcare be increased, decreased, or kept the same?", "responseFormatId": "RF2" },
+                { "itemId": "econ", "itemStemText": "Should federal spending to stimulate the economy be increased, decreased, or kept the same?", "responseFormatId": "RF2" },
+                { "itemId": "unemploy", "itemStemText": "Should federal spending on benefits for the unemployed be increased, decreased, or kept the same?", "responseFormatId": "RF2" },
+                { "itemId": "blkaid", "itemStemText": "Should federal spending to improve the social and economic position of blacks be increased, decreased, or kept the same?", "responseFormatId": "RF2" },
+                { "itemId": "imm", "itemStemText": "Should federal spending to control immigration be increased, decreased, or kept the same?", "responseFormatId": "RF2" }
+            ]
+        }
+    ]
+}

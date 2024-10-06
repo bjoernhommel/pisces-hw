@@ -1,0 +1,147 @@
+{
+    "_comment": "excerpt of 50 items from the IPIP big five scales that was presented before the duckworth grit scale as part of the Item Response Warehouse package duckworth_grit_scale",
+    "contentType": "self-report",
+    "datasetFilename": "wp0060.parquet",
+    "datasetUrl": null,
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 5,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Disagree",
+                "2": "Slightly Disagree",
+                "3": "Neutral",
+                "4": "Slightly Agree",
+                "5": "Agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "International Personality Item Pool (excerpt)",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "Extraversion",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "E2", "E4", "E6", "E8", "E10" ],
+                    "upperItemIds": [ "E1", "E3", "E5", "E7", "E9" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Neuroticism",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "N2", "N4" ],
+                    "upperItemIds": [ "N1", "N3", "N5", "N6", "N7", "N8", "N9", "N10" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Agreeableness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "A1", "A3", "A5", "A7" ],
+                    "upperItemIds": [ "A2", "A4", "A6", "A8", "A9", "A10" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Conscientiousness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "C2", "C4", "C6", "C8" ],
+                    "upperItemIds": [ "C1", "C3", "C5", "C7", "C9", "C10" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Openness to experience",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "O2", "O4", "O6" ],
+                    "upperItemIds": [ "O1", "O3", "O5", "O7", "O8", "O9", "O10" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "E1", "itemStemText": "I am the life of the party.", "responseFormatId": "RF1" },
+                { "itemId": "E2", "itemStemText": "I don't talk a lot.", "responseFormatId": "RF1" },
+                { "itemId": "E3", "itemStemText": "I feel comfortable around people.", "responseFormatId": "RF1" },
+                { "itemId": "E4", "itemStemText": "I keep in the background.", "responseFormatId": "RF1" },
+                { "itemId": "E5", "itemStemText": "I start conversations.", "responseFormatId": "RF1" },
+                { "itemId": "E6", "itemStemText": "I have little to say.", "responseFormatId": "RF1" },
+                { "itemId": "E7", "itemStemText": "I talk to a lot of different people at parties.", "responseFormatId": "RF1" },
+                { "itemId": "E8", "itemStemText": "I don't like to draw attention to myself.", "responseFormatId": "RF1" },
+                { "itemId": "E9", "itemStemText": "I don't mind being the center of attention.", "responseFormatId": "RF1" },
+                { "itemId": "E10", "itemStemText": "I am quiet around strangers.", "responseFormatId": "RF1" },
+                { "itemId": "N1", "itemStemText": "I get stressed out easily.", "responseFormatId": "RF1" },
+                { "itemId": "N2", "itemStemText": "I am relaxed most of the time.", "responseFormatId": "RF1" },
+                { "itemId": "N3", "itemStemText": "I worry about things.", "responseFormatId": "RF1" },
+                { "itemId": "N4", "itemStemText": "I seldom feel blue.", "responseFormatId": "RF1" },
+                { "itemId": "N5", "itemStemText": "I am easily disturbed.", "responseFormatId": "RF1" },
+                { "itemId": "N6", "itemStemText": "I get upset easily.", "responseFormatId": "RF1" },
+                { "itemId": "N7", "itemStemText": "I change my mood a lot.", "responseFormatId": "RF1" },
+                { "itemId": "N8", "itemStemText": "I have frequent mood swings.", "responseFormatId": "RF1" },
+                { "itemId": "N9", "itemStemText": "I get irritated easily.", "responseFormatId": "RF1" },
+                { "itemId": "N10", "itemStemText": "I often feel blue.", "responseFormatId": "RF1" },
+                { "itemId": "A1", "itemStemText": "I feel little concern for others.", "responseFormatId": "RF1" },
+                { "itemId": "A2", "itemStemText": "I am interested in people.", "responseFormatId": "RF1" },
+                { "itemId": "A3", "itemStemText": "I insult people.", "responseFormatId": "RF1" },
+                { "itemId": "A4", "itemStemText": "I sympathize with others' feelings.", "responseFormatId": "RF1" },
+                { "itemId": "A5", "itemStemText": "I am not interested in other people's problems.", "responseFormatId": "RF1" },
+                { "itemId": "A6", "itemStemText": "I have a soft heart.", "responseFormatId": "RF1" },
+                { "itemId": "A7", "itemStemText": "I am not really interested in others.", "responseFormatId": "RF1" },
+                { "itemId": "A8", "itemStemText": "I take time out for others.", "responseFormatId": "RF1" },
+                { "itemId": "A9", "itemStemText": "I feel others' emotions.", "responseFormatId": "RF1" },
+                { "itemId": "A10", "itemStemText": "I make people feel at ease.", "responseFormatId": "RF1" },
+                { "itemId": "C1", "itemStemText": "I am always prepared.", "responseFormatId": "RF1" },
+                { "itemId": "C2", "itemStemText": "I leave my belongings around.", "responseFormatId": "RF1" },
+                { "itemId": "C3", "itemStemText": "I pay attention to details.", "responseFormatId": "RF1" },
+                { "itemId": "C4", "itemStemText": "I make a mess of things.", "responseFormatId": "RF1" },
+                { "itemId": "C5", "itemStemText": "I get chores done right away.", "responseFormatId": "RF1" },
+                { "itemId": "C6", "itemStemText": "I often forget to put things back in their proper place.", "responseFormatId": "RF1" },
+                { "itemId": "C7", "itemStemText": "I like order.", "responseFormatId": "RF1" },
+                { "itemId": "C8", "itemStemText": "I shirk my duties.", "responseFormatId": "RF1" },
+                { "itemId": "C9", "itemStemText": "I follow a schedule.", "responseFormatId": "RF1" },
+                { "itemId": "C10", "itemStemText": "I am exacting in my work.", "responseFormatId": "RF1" },
+                { "itemId": "O1", "itemStemText": "I have a rich vocabulary.", "responseFormatId": "RF1" },
+                { "itemId": "O2", "itemStemText": "I have difficulty understanding abstract ideas.", "responseFormatId": "RF1" },
+                { "itemId": "O3", "itemStemText": "I have a vivid imagination.", "responseFormatId": "RF1" },
+                { "itemId": "O4", "itemStemText": "I am not interested in abstract ideas.", "responseFormatId": "RF1" },
+                { "itemId": "O5", "itemStemText": "I have excellent ideas.", "responseFormatId": "RF1" },
+                { "itemId": "O6", "itemStemText": "I do not have a good imagination.", "responseFormatId": "RF1" },
+                { "itemId": "O7", "itemStemText": "I am quick to understand things.", "responseFormatId": "RF1" },
+                { "itemId": "O8", "itemStemText": "I use difficult words.", "responseFormatId": "RF1" },
+                { "itemId": "O9", "itemStemText": "I spend time reflecting on things.", "responseFormatId": "RF1" },
+                { "itemId": "O10", "itemStemText": "I am full of ideas.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "_comment": "Item Response Warehouse package anxiety_lordif, contains responsesn of n=766 to PROMIS Anxiety scale",
+    "contentType": "self-report",
+    "datasetFilename": "wp0027.parquet",
+    "datasetUrl": null,
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 5,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Never",
+                "2": "Rarely",
+                "3": "Sometimes",
+                "4": "Often",
+                "5": "Always"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "PROMIS Anxiety scale",
+            "instrumentNameShort": "",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "anxiety",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8", "R9", "R10", "R11", "R12", "R13", "R14", "R15", "R16", "R17", "R18", "R19", "R20", "R21", "R22", "R23", "R24", "R25", "R26", "R27", "R28", "R29" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "R1", "itemStemText": "I felt fearful", "responseFormatId": "RF1" },
+                { "itemId": "R2", "itemStemText": "I felt frightened", "responseFormatId": "RF1" },
+                { "itemId": "R3", "itemStemText": "It scared me when I felt nervous", "responseFormatId": "RF1" },
+                { "itemId": "R4", "itemStemText": "I felt anxious", "responseFormatId": "RF1" },
+                { "itemId": "R5", "itemStemText": "I felt like I needed help for my anxiety", "responseFormatId": "RF1" },
+                { "itemId": "R6", "itemStemText": "I was concerned about my mental health", "responseFormatId": "RF1" },
+                { "itemId": "R7", "itemStemText": "I felt upset", "responseFormatId": "RF1" },
+                { "itemId": "R8", "itemStemText": "I had a racing or pounding heart", "responseFormatId": "RF1" },
+                { "itemId": "R9", "itemStemText": "I was anxious if my normal routine was disturbed", "responseFormatId": "RF1" },
+                { "itemId": "R10", "itemStemText": "I had sudden feelings of panic", "responseFormatId": "RF1" },
+                { "itemId": "R11", "itemStemText": "I was easily startled", "responseFormatId": "RF1" },
+                { "itemId": "R12", "itemStemText": "I had trouble paying attention", "responseFormatId": "RF1" },
+                { "itemId": "R13", "itemStemText": "I avoided public places or activities", "responseFormatId": "RF1" },
+                { "itemId": "R14", "itemStemText": "I felt fidgety", "responseFormatId": "RF1" },
+                { "itemId": "R15", "itemStemText": "I felt something awful would happen", "responseFormatId": "RF1" },
+                { "itemId": "R16", "itemStemText": "I felt worried", "responseFormatId": "RF1" },
+                { "itemId": "R17", "itemStemText": "I felt terrified", "responseFormatId": "RF1" },
+                { "itemId": "R18", "itemStemText": "I worried about other people’s reactions to me", "responseFormatId": "RF1" },
+                { "itemId": "R19", "itemStemText": "I found it hard to focus on anything other than my anxiety", "responseFormatId": "RF1" },
+                { "itemId": "R20", "itemStemText": "My worries overwhelmed me", "responseFormatId": "RF1" },
+                { "itemId": "R21", "itemStemText": "I had twitching or trembling muscles", "responseFormatId": "RF1" },
+                { "itemId": "R22", "itemStemText": "I felt nervous", "responseFormatId": "RF1" },
+                { "itemId": "R23", "itemStemText": "I felt indecisive", "responseFormatId": "RF1" },
+                { "itemId": "R24", "itemStemText": "Many situations made me worry", "responseFormatId": "RF1" },
+                { "itemId": "R25", "itemStemText": "I had difficulty sleeping", "responseFormatId": "RF1" },
+                { "itemId": "R26", "itemStemText": "I had trouble relaxing", "responseFormatId": "RF1" },
+                { "itemId": "R27", "itemStemText": "I felt uneasy", "responseFormatId": "RF1" },
+                { "itemId": "R28", "itemStemText": "I felt tense", "responseFormatId": "RF1" },
+                { "itemId": "R29", "itemStemText": "I had difficulty calming down", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

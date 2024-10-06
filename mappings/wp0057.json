@@ -1,0 +1,80 @@
+{
+    "_comment": "Item Response Warehouse package protestant_workethic, data from an online survey that collects participants' sentiments on various \"protestant work ethic\" statements",
+    "contentType": "self-report",
+    "datasetFilename": "wp0057.parquet",
+    "datasetUrl": null,
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 5,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Disagree",
+                "2": "Slightly disagree",
+                "3": "Neutral",
+                "4": "Slightly agree",
+                "5": "Agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Protestant Work Ethic Scale",
+            "instrumentNameShort": "PWE",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Mirels, H. L., & Garrett, J. B. (1971). The Protestant Ethic as a personality variable. Journal of Consulting and Clinical Psychology, 36(1), 40-44.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "Protestant Ethic",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Q9A", "Q13A", "Q15A" ],
+                    "upperItemIds": [ "Q1A", "Q2A", "Q3A", "Q4A", "Q5A", "Q6A", "Q7A", "Q8A", "Q10A", "Q11A", "Q12A", "Q16A", "Q17A", "Q18A", "Q19A" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Q1A", "itemStemText": "Most people spend too much time in unprofitable amusements.", "responseFormatId": "RF1" },
+                { "itemId": "Q2A", "itemStemText": "Our society would have fewer problems if people had less leisure time.", "responseFormatId": "RF1" },
+                { "itemId": "Q3A", "itemStemText": "Money acquired easily (e.g., through gambling or speculation) is usually spent unwisely.", "responseFormatId": "RF1" },
+                { "itemId": "Q4A", "itemStemText": "There are few satisfactions equal to the realization that one has done one's best at a job.", "responseFormatId": "RF1" },
+                { "itemId": "Q5A", "itemStemText": "The most difficult college courses usually turn out to be the most rewarding.", "responseFormatId": "RF1" },
+                { "itemId": "Q6A", "itemStemText": "Most people who don't succeed in life are just plain lazy.", "responseFormatId": "RF1" },
+                { "itemId": "Q7A", "itemStemText": "The self-made person is likely to be more ethical than someone who is born to wealth.", "responseFormatId": "RF1" },
+                { "itemId": "Q8A", "itemStemText": "I often feel I would be more successful if I sacrificed certain pleasures.", "responseFormatId": "RF1" },
+                { "itemId": "Q9A", "itemStemText": "People should have more leisure time to spend in relaxation.", "responseFormatId": "RF1" },
+                { "itemId": "Q10A", "itemStemText": "Anyone who is able and willing to work hard has a good chance of succeeding.", "responseFormatId": "RF1" },
+                { "itemId": "Q11A", "itemStemText": "People who fail at a job have usually not tried hard enough.", "responseFormatId": "RF1" },
+                { "itemId": "Q12A", "itemStemText": "Life would have very little meaning if we never had to suffer.", "responseFormatId": "RF1" },
+                { "itemId": "Q13A", "itemStemText": "Hard work offers little guarantee of success.", "responseFormatId": "RF1" },
+                { "itemId": "Q14A", "itemStemText": "The credit card is a ticket to careless spending.", "responseFormatId": "RF1" },
+                { "itemId": "Q15A", "itemStemText": "Life would be more meaningful if we had more leisure time.", "responseFormatId": "RF1" },
+                { "itemId": "Q16A", "itemStemText": "The person who can approach an unpleasant task with enthusiasm is the one who gets ahead.", "responseFormatId": "RF1" },
+                { "itemId": "Q17A", "itemStemText": "If one works hard enough they are likely to make a good life for themselves.", "responseFormatId": "RF1" },
+                { "itemId": "Q18A", "itemStemText": "I feel uneasy when there is little work for me to do.", "responseFormatId": "RF1" },
+                { "itemId": "Q19A", "itemStemText": "A distaste for hard work usually reflects a weakness of character.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

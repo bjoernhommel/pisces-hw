@@ -1,0 +1,93 @@
+{
+    "_comment": "O-TAPE validation paper (stimuli are videos / photos); self report data is assessed in different scales; German version of the Attachment styles questionnaire",
+    "contentType": "self-report",
+    "datasetFilename": "wp0162.parquet",
+    "datasetUrl": "https://osf.io/43p7k/, https://osf.io/6wuf8/, https://osf.io/36z9f",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Rau, R., Nestler, W., Dufner, M., & Nestler, S. (2021). Seeing the best or worst in others: A measure of generalized other-perceptions. Assessment, 28(8), 1897-1914.",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 0,
+            "maxValue": 1,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "trifft überhaupt nicht zu",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "trifft voll und ganz zu"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Attachment Styles (German version)",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "de",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Bartholomew, K., & Horowitz, L. M. (1991). Attachment styles among young adults: a test of a four-category model. Journal of personality and social psychology, 61(2), 226.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "Bindungsstil (secure)",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "Attach_1" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Bindungsstil (dismissive)",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "Attach_2" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Bindungsstil (preoccupied)",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "Attach_3" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Bindungsstil (fearful)",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "Attach_4" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Attach_1", "itemStemText": "„Es fällt mir leicht, emotionale Nähe zu anderen aufzubauen. Ich fühle mich wohl damit, dass ich manchmal von anderen abhängig bin und, dass manchmal andere von mir abhängig sind. Ich mache mir keine Sorgen darüber, alleine zu sein oder von anderen nicht akzeptiert zu werden.“", "responseFormatId": "RF1" },
+                { "itemId": "Attach_2", "itemStemText": "„Ich fühle mich ohne enge emotionale Beziehungen wohl. Es ist mir wichtig, unabhängig und selbstgenügsam zu sein. Ich bevorzuge es, wenn ich mich nicht auf andere verlassen muss und sich andere nicht auf mich verlassen müssen.“", "responseFormatId": "RF1" },
+                { "itemId": "Attach_3", "itemStemText": "„Ich mag sehr emotionale, enge Beziehungen zu anderen, aber bemerke häufig, dass andere mir gegenüber zurückhaltend sind und weniger Nähe möchten als ich. Ich fühle mich unwohl ohne enge Beziehungen, aber befürchte manchmal, dass andere mich weniger wertschätzen als ich sie.“", "responseFormatId": "RF1" },
+                { "itemId": "Attach_4", "itemStemText": "„Es ist mir unangenehm, anderen nahe zu kommen. Ich möchte gerne enge emotionale Beziehungen eingehen, aber es fällt mir schwer, anderen komplett zu vertrauen oder von ihnen abzuhängen. Ich habe manchmal Angst verletzt zu werden, wenn ich anderen zu nah komme.“", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
