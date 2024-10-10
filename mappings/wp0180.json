@@ -1,0 +1,90 @@
+{
+    "_comment": "German version of the Barratt Impulsiveness Scale-11 (BIS), data from the German Creature of Habit Scale; German items are requested from author and need to be added",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0180.parquet",
+    "datasetUrl": "sciencedirect.com/science/article/pii/S019188692030218X#ac0005",
+    "datasetIsbn": null,
+    "datasetDoi": "https://doi.org/10.1016/j.paid.2020.110029",
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 4,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": ""
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Barratt Impulsiveness Scale-11",
+            "instrumentNameShort": "BIS",
+            "instrumentLanguage": "de",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Preuss, U. W., Rujescu, D., Giegling, I., Koller, G., Bottlender, M., Engel, R. R., ... & Soyka, M. (2003). Factor structure and validity of a german version of the barratt impulsiveness scale. Fortschritte der Neurologie-psychiatrie, 71(10), 527-534.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "impulsitivity",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "BIS_1", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_2", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_3", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_4", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_5", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_6", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_7", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_8", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_9", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_10", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_11", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_12", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_13", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_14", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_15", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_16", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_17", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_18", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_19", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_20", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_21", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_22", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_23", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_24", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_25", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_26", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_27", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_28", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_29", "itemStemText": "", "responseFormatId": "RF1" },
+                { "itemId": "BIS_30", "itemStemText": "", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

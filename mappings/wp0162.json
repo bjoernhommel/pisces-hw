@@ -1,6 +1,6 @@
 {
     "_comment": "O-TAPE validation paper (stimuli are videos / photos); self report data is assessed in different scales; German version of the Attachment styles questionnaire",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0162.parquet",
     "datasetUrl": "https://osf.io/43p7k/, https://osf.io/6wuf8/, https://osf.io/36z9f",
     "datasetIsbn": null,
@@ -35,7 +35,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": "Bartholomew, K., & Horowitz, L. M. (1991). Attachment styles among young adults: a test of a four-category model. Journal of personality and social psychology, 61(2), 226.",
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "Bindungsstil (secure)",

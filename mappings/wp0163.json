@@ -1,6 +1,6 @@
 {
     "_comment": "O-TAPE validation paper (stimuli are videos / photos); self report data is assessed in different scales; German version of the Satisfaction With Life Scale",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0163.parquet",
     "datasetUrl": "https://osf.io/43p7k/, https://osf.io/6wuf8/, https://osf.io/36z9f",
     "datasetIsbn": null,
@@ -35,7 +35,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": "Glaesmer, H., Grande, G., Braehler, E., & Roth, M. (2011). The German version of the satisfaction with life scale (SWLS). European Journal of Psychological Assessment.",
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "Life Satisfaction",

@@ -1,6 +1,6 @@
 {
     "_comment": "Item Response Warehouse package: introversion_extroversion, participants respond to statements on zhe Multidimensional Introversion-Extraversion Scale",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0050.parquet",
     "datasetUrl": null,
     "datasetIsbn": null,
@@ -34,7 +34,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": null,
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "Extraversion",

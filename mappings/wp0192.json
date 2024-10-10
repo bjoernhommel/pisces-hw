@@ -1,6 +1,6 @@
 {
     "_comment": "5-item emotional exhaustion measure, adapted from one of the subscales of the Maslach Burnout inventory (Maslach and Jackson, 1986), data of British sample from the German HWC validation paper",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0192.parquet",
     "datasetUrl": "https://osf.io/rmt95/",
     "datasetIsbn": null,
@@ -34,7 +34,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": "Xie, J. L., Elangovan, A. R., Hu, J., & Hrabluik, C. (2019). Charting new terrain in work design: A study of hybrid work characteristics. Applied Psychology: An International Review, 68(3), 479–512. 10.1111/apps.12169",
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "Emotional Exhaustion",

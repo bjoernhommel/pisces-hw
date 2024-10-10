@@ -1,6 +1,6 @@
 {
     "_comment": "excerpt of 50 items from the IPIP big five scales that was presented before the duckworth grit scale as part of the Item Response Warehouse package duckworth_grit_scale",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0060.parquet",
     "datasetUrl": null,
     "datasetIsbn": null,
@@ -34,7 +34,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": null,
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "Extraversion",

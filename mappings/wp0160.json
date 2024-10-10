@@ -1,6 +1,6 @@
 {
     "_comment": "O-TAPE validation paper (stimuli are videos / photos); self report data is assessed in different scales; German version of the Dispositional Contempt Scale - short version",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0160.parquet",
     "datasetUrl": "https://osf.io/43p7k/, https://osf.io/6wuf8/, https://osf.io/36z9f",
     "datasetIsbn": null,
@@ -35,7 +35,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": "Schriber, R. A., Chung, J. M., Sorensen, K. S., & Robins, R. W. (2017). Dispositional contempt: A first look at the contemptuous person. Journal of personality and social psychology, 113(2), 280.",
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "Dispositional Contempt",

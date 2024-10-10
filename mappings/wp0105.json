@@ -1,6 +1,6 @@
 {
     "_comment": "Item Response Warehouse package political_psychology, data on attitudes towards federal spendings on different political issues",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0105.parquet",
     "datasetUrl": "https://osf.io/3pwvb/",
     "datasetIsbn": null,
@@ -38,7 +38,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": null,
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "Preferences on federal spending",

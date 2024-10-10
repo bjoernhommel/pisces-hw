@@ -1,6 +1,6 @@
 {
     "_comment": "Item Response Warehouse package anxiety_lordif, contains responsesn of n=766 to PROMIS Anxiety scale",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0027.parquet",
     "datasetUrl": null,
     "datasetIsbn": null,
@@ -34,7 +34,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": null,
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "anxiety",

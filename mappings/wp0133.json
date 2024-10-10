@@ -1,6 +1,6 @@
 {
     "_comment": "Rosenberg Self-Esteem Scale from PRPT Paper",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0133.parquet",
     "datasetUrl": "https://osf.io/teh2g/",
     "datasetIsbn": null,
@@ -33,7 +33,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": "Ferring, D., & Filipp, S.H. (1996). Messung des Selbstwertgefühls: Befunde zu Reliabilität, Validität und Stabilität der Rosenberg-Skala [Measurement of self-esteem: Findings on reliability, validity, and stability of the Rosenberg Scale]. Diagnostica, 42, 284–292",
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "self-esteem",

@@ -1,6 +1,6 @@
 {
     "_comment": "Item Response Warehouse package emotion_pcmrs, includes items associated with emotional reactivity from the Freiburg Complaint Checklist in a German sample",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0032.parquet",
     "datasetUrl": null,
     "datasetIsbn": null,
@@ -34,7 +34,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": null,
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "emotional reactivity",

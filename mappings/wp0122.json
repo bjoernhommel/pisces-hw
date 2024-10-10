@@ -1,6 +1,6 @@
 {
     "_comment": "Inventory of Depression and Anxiety Symptoms (IDAS-II), development and validation of a German version",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0122.parquet",
     "datasetUrl": "https://osf.io/x3rqm/",
     "datasetIsbn": null,
@@ -34,7 +34,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": null,
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "Dysphorie",

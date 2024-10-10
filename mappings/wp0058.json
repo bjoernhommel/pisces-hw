@@ -1,6 +1,6 @@
 {
     "_comment": "Item Response Warehouse package protestant_workethic, second scale which is data on the Ten Item Personality Inventory, item polarity was drawn from original paper",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0058.parquet",
     "datasetUrl": null,
     "datasetIsbn": null,
@@ -36,7 +36,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": "Gosling, S. D., Rentfrow, P. J., & Swann, W. B., Jr. (2003). A Very Brief Measure of the Big Five Personality Domains. Journal of Research in Personality, 37, 504-528.)",
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "Extraversion",

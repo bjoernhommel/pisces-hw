@@ -1,6 +1,6 @@
 {
     "_comment": "Item Response Warehouse package protestant_workethic, data from an online survey that collects participants' sentiments on various \"protestant work ethic\" statements",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0057.parquet",
     "datasetUrl": null,
     "datasetIsbn": null,
@@ -34,7 +34,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": "Mirels, H. L., & Garrett, J. B. (1971). The Protestant Ethic as a personality variable. Journal of Consulting and Clinical Psychology, 36(1), 40-44.",
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "Protestant Ethic",
