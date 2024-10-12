@@ -1,5 +1,5 @@
 {
-    "_comment": "5-item emotional exhaustion measure, adapted from one of the subscales of the Maslach Burnout inventory (Maslach and Jackson, 1986), data of British sample from the German HWC validation paper",
+    "_comment": "5-item emotional exhaustion measure, adapted from one of the subscales of the Maslach Burnout inventory (Maslach and Jackson, 1986), data of British sample from the German HWC validation paper. English and GErman versions of the items were requested from Dr. A. Paruzel",
     "datasetContentType": "self-report",
     "datasetFilename": "wp0192.parquet",
     "datasetUrl": "https://osf.io/rmt95/",
@@ -34,7 +34,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": "Xie, J. L., Elangovan, A. R., Hu, J., & Hrabluik, C. (2019). Charting new terrain in work design: A study of hybrid work characteristics. Applied Psychology: An International Review, 68(3), 479–512. 10.1111/apps.12169",
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": false,
+            "instrumentIsProprietary": true,
             "scales": [
                 {
                     "scaleName": "Emotional Exhaustion",
@@ -57,13 +57,9 @@
             "items": [
                 { "itemId": "EE_1", "itemStemText": "I feel emotionally drained from my work", "responseFormatId": "RF1" },
                 { "itemId": "EE_2", "itemStemText": "I feel used up at the end of the workday", "responseFormatId": "RF1" },
-                { "itemId": "EE_3", "itemStemText": "I feel fatigued when I get up in the morning and have to face another day on the job", "responseFormatId": "RF1" },
-                { "itemId": "EE_4", "itemStemText": "Working with people all day is really a strain for me", "responseFormatId": "RF1" },
-                { "itemId": "EE_5", "itemStemText": "I feel burned out from my work", "responseFormatId": "RF1" },
-                { "itemId": "EE_6", "itemStemText": "I feel frustrated by my job", "responseFormatId": "RF1" },
-                { "itemId": "EE_7", "itemStemText": "I feel I’m working too hard on my job", "responseFormatId": "RF1" },
-                { "itemId": "", "itemStemText": "Working with people directly puts too much stress on me", "responseFormatId": "RF1" },
-                { "itemId": "", "itemStemText": "I feel like I’m at the end of my rope", "responseFormatId": "RF1" }
+                { "itemId": "EE_3", "itemStemText": "I feel burned out from work.", "responseFormatId": "RF1" },
+                { "itemId": "EE_4", "itemStemText": "I feel I'm working too hard on my job.", "responseFormatId": "RF1" },
+                { "itemId": "EE_5", "itemStemText": "I feel frustrated by my job.", "responseFormatId": "RF1" }
             ]
         }
     ]

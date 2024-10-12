@@ -1,5 +1,5 @@
 {
-    "_comment": "German version of the Barratt Impulsiveness Scale-11 (BIS), data from the German Creature of Habit Scale; German items are requested from author and need to be added",
+    "_comment": "German version of the Barratt Impulsiveness Scale-11 (BIS), data from the German Creature of Habit Scale; German items were requestes from the author",
     "datasetContentType": "self-report",
     "datasetFilename": "wp0180.parquet",
     "datasetUrl": "sciencedirect.com/science/article/pii/S019188692030218X#ac0005",
@@ -16,17 +16,17 @@
             "maxValue": 4,
             "incrementValue": 1,
             "responseFormatLabels": {
-                "1": "",
-                "2": "",
-                "3": "",
-                "4": ""
+                "1": "Selten/Nie",
+                "2": "Gelegentlich",
+                "3": "Oft",
+                "4": "Fast immer/Immer"
             }
         }
     ],
     "instruments": [
         {
             "instrumentName": "Barratt Impulsiveness Scale-11",
-            "instrumentNameShort": "BIS",
+            "instrumentNameShort": "BIS-11",
             "instrumentLanguage": "de",
             "instrumentUrl": null,
             "instrumentIsbn": null,
@@ -38,8 +38,8 @@
                 {
                     "scaleName": "impulsitivity",
                     "scaleDefinitionText": null,
-                    "lowerItemIds": [],
-                    "upperItemIds": [],
+                    "lowerItemIds": ["BIS_1", "BIS_7", "BIS_8", "BIS_9", "BIS_10", "BIS_12", "BIS_13", "BIS_15", "BIS_20", "BIS_23", "BIS_29", "BIS_30"],
+                    "upperItemIds": ["BIS_2", "BIS_3", "BIS_4", "BIS_5", "BIS_6", "BIS_14", "BIS_16", "BIS_17", "BIS_18", "BIS_19", "BIS_21", "BIS_22", "BIS_24", "BIS_25", "BIS_26", "BIS_28"],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -54,36 +54,36 @@
                 }
             ],
             "items": [
-                { "itemId": "BIS_1", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_2", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_3", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_4", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_5", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_6", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_7", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_8", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_9", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_10", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_11", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_12", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_13", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_14", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_15", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_16", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_17", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_18", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_19", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_20", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_21", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_22", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_23", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_24", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_25", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_26", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_27", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_28", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_29", "itemStemText": "", "responseFormatId": "RF1" },
-                { "itemId": "BIS_30", "itemStemText": "", "responseFormatId": "RF1" }
+                { "itemId": "BIS_1", "itemStemText": "Ich plane meine Vorhaben gründlich.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_2", "itemStemText": "Ich mache häufig Dinge ohne vorher darüber nachzudenken.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_3", "itemStemText": "Ich überlege häufig nicht lange.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_4", "itemStemText": "Ich bin unbekümmert.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_5", "itemStemText": "Ich bin unaufmerksam.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_6", "itemStemText": "Meine Gedanken rasen.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_7", "itemStemText": "Ich plane Reisen rechtzeitig.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_8", "itemStemText": "Ich habe gute Selbstkontrolle.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_9", "itemStemText": "Ich kann mich gut konzentrieren.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_10", "itemStemText": "Ich sichere mich im Leben in allen Dingen ab.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_11", "itemStemText": "Ich rutsche bei Spielen oder Vorträgen oft hin und her.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_12", "itemStemText": "Ich denke gründlich nach.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_13", "itemStemText": "Ich plane für meine berufliche Sicherheit.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_14", "itemStemText": "Ich sage Dinge ohne darüber nachzudenken.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_15", "itemStemText": "Ich mag es, über komplizierte Dinge nachzudenken.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_16", "itemStemText": "Ich wechsle häufig die Arbeit.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_17", "itemStemText": "Ich handele spontan.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_18", "itemStemText": "Mir wird beim Lösen von Denkaufgaben schnell langweilig.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_19", "itemStemText": "Ich handele gerne aus dem Moment heraus.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_20", "itemStemText": "Ich bin ein beständiger Denker.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_21", "itemStemText": "Ich wechsele häufig den Wohnort.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_22", "itemStemText": "Ich kaufe Sachen ganz spontan.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_23", "itemStemText": "Ich kann nur an eine Sache ganz allein denken.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_24", "itemStemText": "Ich wechsle häufig meine Hobbys.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_25", "itemStemText": "Ich gebe mehr Geld aus, als ich verdiene.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_26", "itemStemText": "Ich denke häufig über Belangloses nach.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_27", "itemStemText": "Ich bin mehr an der Gegenwart als an der Zukunft interessiert.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_28", "itemStemText": "Ich werde im Theater oder bei Vorträgen schnell unruhig.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_29", "itemStemText": "Ich mag Rätsel.", "responseFormatId": "RF1" },
+                { "itemId": "BIS_30", "itemStemText": "Ich bin zukunftsorientiert.", "responseFormatId": "RF1" }
             ]
         }
     ]
