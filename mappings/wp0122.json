@@ -40,7 +40,7 @@
                     "scaleName": "Dysphorie",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_2", "IDAS_5", "IDAS_8", "IDAS_9", "IDAS_21", "IDAS_31", "IDAS_39", "IDAS_47", "IDAS_56", "IDAS_60" ],
+                    "upperItemIds": [ "IDAS_2", "IDAS_5", "IDAS_8", "IDAS_9", "IDAS_22", "IDAS_32", "IDAS_40", "IDAS_48", "IDAS_57", "IDAS_61" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -49,7 +49,7 @@
                     "scaleName": "Abgeschlagenheit",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_6", "IDAS_29", "IDAS_30", "IDAS_42", "IDAS_53", "IDAS_54" ],
+                    "upperItemIds": [ "IDAS_6", "IDAS_30", "IDAS_31", "IDAS_43", "IDAS_54", "IDAS_55" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -58,7 +58,7 @@
                     "scaleName": "Schlaflosigkeit",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_4", "IDAS_11", "IDAS_17", "IDAS_25", "IDAS_36", "IDAS_50" ],
+                    "upperItemIds": [ "IDAS_4", "IDAS_11", "IDAS_18", "IDAS_26", "IDAS_37", "IDAS_51" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -67,7 +67,7 @@
                     "scaleName": "Suizidalität",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_13", "IDAS_22", "IDAS_33", "IDAS_37", "IDAS_45", "IDAS_51" ],
+                    "upperItemIds": [ "IDAS_14", "IDAS_23", "IDAS_34", "IDAS_38", "IDAS_46", "IDAS_52" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -76,7 +76,7 @@
                     "scaleName": "Appetitsteigerung",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_19", "IDAS_24", "IDAS_62" ],
+                    "upperItemIds": [ "IDAS_20", "IDAS_25", "IDAS_63" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -85,7 +85,7 @@
                     "scaleName": "Appetitlosigkeit",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_1", "IDAS_26", "IDAS_59" ],
+                    "upperItemIds": [ "IDAS_1", "IDAS_27", "IDAS_60"],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -94,7 +94,7 @@
                     "scaleName": "Wohlbefinden",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_3", "IDAS_10", "IDAS_23", "IDAS_27", "IDAS_49", "IDAS_52", "IDAS_58", "IDAS_63" ],
+                    "upperItemIds": [ "IDAS_3", "IDAS_10", "IDAS_24", "IDAS_28", "IDAS_50", "IDAS_53", "IDAS_59", "IDAS_64" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -103,7 +103,7 @@
                     "scaleName": "Übellaunigkeit",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_12", "IDAS_35", "IDAS_43", "IDAS_61" ],
+                    "upperItemIds": [ "IDAS_13", "IDAS_36", "IDAS_44", "IDAS_62" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -112,7 +112,7 @@
                     "scaleName": "Manie",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_66", "IDAS_70", "IDAS_76", "IDAS_82", "IDAS_86" ],
+                    "upperItemIds": [ "IDAS_67", "IDAS_71", "IDAS_77", "IDAS_83", "IDAS_87" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -121,7 +121,7 @@
                     "scaleName": "Euphorie",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_71", "IDAS_77", "IDAS_87", "IDAS_91", "IDAS_96" ],
+                    "upperItemIds": [ "IDAS_72", "IDAS_78", "IDAS_88", "IDAS_92", "IDAS_97" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -130,7 +130,7 @@
                     "scaleName": "Soziale Angst",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_15", "IDAS_18", "IDAS_20", "IDAS_40", "IDAS_46", "IDAS_98" ],
+                    "upperItemIds": [ "IDAS_16", "IDAS_19", "IDAS_21", "IDAS_41", "IDAS_47", "IDAS_99" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -139,7 +139,7 @@
                     "scaleName": "Klaustrophobie",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_73", "IDAS_79", "IDAS_83", "IDAS_89", "IDAS_93" ],
+                    "upperItemIds": [ "IDAS_74", "IDAS_80", "IDAS_84", "IDAS_90", "IDAS_94" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -148,7 +148,7 @@
                     "scaleName": "Traumatische Intrusionen",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_14", "IDAS_28", "IDAS_34", "IDAS_41" ],
+                    "upperItemIds": [ "IDAS_15", "IDAS_29", "IDAS_35", "IDAS_42" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -157,7 +157,7 @@
                     "scaleName": "Traumatische Vermeidung",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_72", "IDAS_78", "IDAS_88", "IDAS_92" ],
+                    "upperItemIds": [ "IDAS_73", "IDAS_79", "IDAS_89", "IDAS_93" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -166,7 +166,7 @@
                     "scaleName": "Ordnungszwang",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_64", "IDAS_68", "IDAS_81", "IDAS_84", "IDAS_94" ],
+                    "upperItemIds": [ "IDAS_65", "IDAS_69", "IDAS_82", "IDAS_85", "IDAS_95" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -175,7 +175,7 @@
                     "scaleName": "Reinigungszwang",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_65", "IDAS_69", "IDAS_75", "IDAS_85", "IDAS_90", "IDAS_95", "IDAS_97" ],
+                    "upperItemIds": [ "IDAS_66", "IDAS_70", "IDAS_76", "IDAS_86", "IDAS_91", "IDAS_96", "IDAS_98" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -184,7 +184,7 @@
                     "scaleName": "Kontrollzwang",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_67", "IDAS_74", "IDAS_80" ],
+                    "upperItemIds": [ "IDAS_68", "IDAS_75", "IDAS_81" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -193,7 +193,7 @@
                     "scaleName": "Panik",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "IDAS_7", "IDAS_16", "IDAS_32", "IDAS_38", "IDAS_44", "IDAS_48", "IDAS_55", "IDAS_57" ],
+                    "upperItemIds": [ "IDAS_7", "IDAS_17", "IDAS_33", "IDAS_39", "IDAS_45", "IDAS_49", "IDAS_56", "IDAS_58" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null

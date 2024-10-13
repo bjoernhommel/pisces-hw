@@ -44,7 +44,7 @@
                     "scaleName": "Preferences on federal spending",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": [ "def", "crime", "terror", "poor", "health", "econ", "abort", "unemploy", "blkaid", "imm" ],
+                    "upperItemIds": [ "def", "crime", "terror", "poor", "health", "econ", "unemploy", "blkaid", "imm" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
