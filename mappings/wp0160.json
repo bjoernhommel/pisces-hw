@@ -17,7 +17,7 @@
             "incrementValue": 1,
             "responseFormatDataType": "integer",
             "responseFormatMinValue": 1,
-            "responseFormatMaxValue": 5,
+            "responseFormatMaxValue": 6,
             "responseFormatIncrementValue": 1,
             "responseFormatLabels": {
                 "1": "trifft überhaupt nicht zu",
