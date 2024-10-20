@@ -1,0 +1,155 @@
+{
+    "_comment": "Selected personality data from the SAPA-Project by David Condon: 08Dec2013 to 26Jul2014, QB6 scale, variable 'country' codes the origin country of participants",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0209.parquet",
+    "datasetUrl": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SD7SVE",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Condon, David M.; Revelle, William, 2015, 'Selected personality data from the SAPA-Project: 08Dec2013 to 26Jul2014', https://doi.org/10.7910/DVN/SD7SVE, Harvard Dataverse, V4, UNF:6:9B60JNIFXXKXmyLhABjoUA==",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Very Inaccurate",
+                "2": "Moderately Inaccurate",
+                "3": "Slightly Inaccurate",
+                "4": "Slightly Accurate",
+                "5": "Moderately Accurate",
+                "6": "Very Accurate"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Questionnaire Big Six scales",
+            "instrumentNameShort": "QB6",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Thalmayer, A G, Saucier, G and Eigenhuis, A (2011). “Comparative validity of brief to medium-length Big Five and Big Six personality questionnaires” Psychological Assessment 23(4): 995–1009, DOI: https://doi.org/10.1037/a0024165",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Agreeableness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_238", "q_331", "q_952", "q_958", "q_1033" ],
+                    "upperItemIds": [ "q_145", "q_278", "q_1591" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Conscientiousness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_1254", "q_1511", "q_1696", "q_1949" ],
+                    "upperItemIds": [ "q_519", "q_1290", "q_1321", "q_2737" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Resiliency",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_66", "q_549", "q_811", "q_1505", "q_2786" ],
+                    "upperItemIds": [ "q_1596", "q_1610", "q_2765" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Extraversion",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_55", "q_1635", "q_1685", "q_2900" ],
+                    "upperItemIds": [ "q_1243", "q_1703", "q_1803", "q_1899" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Openness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_1088", "q_1676", "q_2775", "q_2891" ],
+                    "upperItemIds": [ "q_79", "q_348", "q_1050", "q_2756" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Honesty/Propriety",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_1747", "q_1780", "q_1896" ],
+                    "upperItemIds": [ "q_185", "q_1306", "q_1752", "q_2021", "q_2853" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "q_55", "itemStemText": "I am a very private person.", "responseFormatId": "RF1" },
+                { "itemId": "q_66", "itemStemText": "I am afraid of many things.", "responseFormatId": "RF1" },
+                { "itemId": "q_79", "itemStemText": "I am an extraordinary person.", "responseFormatId": "RF1" },
+                { "itemId": "q_145", "itemStemText": "I am inclined to forgive others.", "responseFormatId": "RF1" },
+                { "itemId": "q_185", "itemStemText": "I am not good at deceiving other people.", "responseFormatId": "RF1" },
+                { "itemId": "q_238", "itemStemText": "I am quick to correct others.", "responseFormatId": "RF1" },
+                { "itemId": "q_278", "itemStemText": "I am usually a patient person.", "responseFormatId": "RF1" },
+                { "itemId": "q_331", "itemStemText": "I am angry with people who don't live up to my expectations.", "responseFormatId": "RF1" },
+                { "itemId": "q_348", "itemStemText": "I believe in the importance of art.", "responseFormatId": "RF1" },
+                { "itemId": "q_519", "itemStemText": "I complete my duties as soon as possible.", "responseFormatId": "RF1" },
+                { "itemId": "q_549", "itemStemText": "I demand a lot from others.", "responseFormatId": "RF1" },
+                { "itemId": "q_811", "itemStemText": "I feel a sense of worthlessness or hopelessness.", "responseFormatId": "RF1" },
+                { "itemId": "q_952", "itemStemText": "I get angry easily.", "responseFormatId": "RF1" },
+                { "itemId": "q_958", "itemStemText": "I get back at people who insult me.", "responseFormatId": "RF1" },
+                { "itemId": "q_1033", "itemStemText": "I hate waiting for anything.", "responseFormatId": "RF1" },
+                { "itemId": "q_1050", "itemStemText": "I have a rich vocabulary.", "responseFormatId": "RF1" },
+                { "itemId": "q_1088", "itemStemText": "I have difficulty understanding abstract ideas.", "responseFormatId": "RF1" },
+                { "itemId": "q_1243", "itemStemText": "I laugh a lot.", "responseFormatId": "RF1" },
+                { "itemId": "q_1254", "itemStemText": "I leave a mess in my room.", "responseFormatId": "RF1" },
+                { "itemId": "q_1290", "itemStemText": "I like order.", "responseFormatId": "RF1" },
+                { "itemId": "q_1306", "itemStemText": "I like to do frightening things.", "responseFormatId": "RF1" },
+                { "itemId": "q_1321", "itemStemText": "I like to plan ahead.", "responseFormatId": "RF1" },
+                { "itemId": "q_1505", "itemStemText": "I panic easily.", "responseFormatId": "RF1" },
+                { "itemId": "q_1511", "itemStemText": "I pay too little attention to details.", "responseFormatId": "RF1" },
+                { "itemId": "q_1591", "itemStemText": "I rarely show my anger.", "responseFormatId": "RF1" },
+                { "itemId": "q_1596", "itemStemText": "I rarely worry.", "responseFormatId": "RF1" },
+                { "itemId": "q_1610", "itemStemText": "I recover quickly from stress and illness.", "responseFormatId": "RF1" },
+                { "itemId": "q_1635", "itemStemText": "I reveal little about myself.", "responseFormatId": "RF1" },
+                { "itemId": "q_1676", "itemStemText": "I seldom experience sudden intuitive insights.", "responseFormatId": "RF1" },
+                { "itemId": "q_1685", "itemStemText": "I seldom joke around.", "responseFormatId": "RF1" },
+                { "itemId": "q_1696", "itemStemText": "I shirk my duties.", "responseFormatId": "RF1" },
+                { "itemId": "q_1703", "itemStemText": "I show my feelings when I'm happy.", "responseFormatId": "RF1" },
+                { "itemId": "q_1747", "itemStemText": "I steal things.", "responseFormatId": "RF1" },
+                { "itemId": "q_1752", "itemStemText": "I stick to the rules.", "responseFormatId": "RF1" },
+                { "itemId": "q_1780", "itemStemText": "I take risks that could cause trouble for me.", "responseFormatId": "RF1" },
+                { "itemId": "q_1803", "itemStemText": "I talk to a lot of different people at parties.", "responseFormatId": "RF1" },
+                { "itemId": "q_1896", "itemStemText": "I use others for my own ends.", "responseFormatId": "RF1" },
+                { "itemId": "q_1899", "itemStemText": "I usually enjoy being with people.", "responseFormatId": "RF1" },
+                { "itemId": "q_1949", "itemStemText": "I waste my time.", "responseFormatId": "RF1" },
+                { "itemId": "q_2021", "itemStemText": "I would never take things that aren't mine.", "responseFormatId": "RF1" },
+                { "itemId": "q_2737", "itemStemText": "I am a goal-oriented person.", "responseFormatId": "RF1" },
+                { "itemId": "q_2756", "itemStemText": "I am considered to be a wise person.", "responseFormatId": "RF1" },
+                { "itemId": "q_2765", "itemStemText": "I am happy with my life.", "responseFormatId": "RF1" },
+                { "itemId": "q_2775", "itemStemText": "I am not all that curious about the world.", "responseFormatId": "RF1" },
+                { "itemId": "q_2786", "itemStemText": "I am often worried by things that I said or did.", "responseFormatId": "RF1" },
+                { "itemId": "q_2853", "itemStemText": "I cannot imagine lying or cheating.", "responseFormatId": "RF1" },
+                { "itemId": "q_2891", "itemStemText": "I don't pride myself on being original.", "responseFormatId": "RF1" },
+                { "itemId": "q_2900", "itemStemText": "I don't think it's important to socialize with others.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

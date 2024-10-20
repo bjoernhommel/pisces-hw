@@ -1,7 +1,7 @@
 {
     "_comment": "Selected personality data from the SAPA-Project by David Condon: 08Dec2013 to 26Jul2014, HEXACO scale, variable 'country' codes the origin country of participants",
     "datasetContentType": "self-report",
-    "datasetFilename": "wp0198.parquet",
+    "datasetFilename": "wp0208.parquet",
     "datasetUrl": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SD7SVE",
     "datasetIsbn": null,
     "datasetDoi": null,
