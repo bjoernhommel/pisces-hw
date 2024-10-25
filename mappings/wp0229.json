@@ -1,0 +1,111 @@
+{
+    "_comment": "Selected personality data from the SAPA-Project by David Condon: 08Dec2013 to 26Jul2014, PS scale, variable 'country' codes the origin country of participants",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0229.parquet",
+    "datasetUrl": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SD7SVE",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Condon, David M.; Revelle, William, 2015, 'Selected personality data from the SAPA-Project: 08Dec2013 to 26Jul2014', https://doi.org/10.7910/DVN/SD7SVE, Harvard Dataverse, V4, UNF:6:9B60JNIFXXKXmyLhABjoUA==",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Very Inaccurate",
+                "2": "Moderately Inaccurate",
+                "3": "Slightly Inaccurate",
+                "4": "Slightly Accurate",
+                "5": "Moderately Accurate",
+                "6": "Very Accurate"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Plasticity/Stability scales",
+            "instrumentNameShort": "PS",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "DeYoung, C G (2010). “Toward a Theory of the Big Five” Psychological Inquiry 21(1): 26–33, DOI: https://doi.org/10.1080/10478401003648674",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Plasticity",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_1081", "q_1114", "q_1998", "q_3090" ],
+                    "upperItemIds": [ "q_131", "q_148", "q_254", "q_438", "q_492", "q_698", "q_740", "q_803", "q_1045", "q_1055", "q_1110", "q_1205", "q_2745", "q_2754", "q_2951", "q_3023" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Stability",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_26", "q_201", "q_878", "q_880", "q_919", "q_920", "q_978", "q_1020", "q_1022", "q_1038", "q_1477", "q_1697", "q_1798", "q_2821", "q_3691" ],
+                    "upperItemIds": [ "q_824", "q_875", "q_882", "q_1840", "q_1867" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "q_26", "itemStemText": "I act or feel in a way that does not fit me.", "responseFormatId": "RF1" },
+                { "itemId": "q_131", "itemStemText": "I am good at making impromptu speeches.", "responseFormatId": "RF1" },
+                { "itemId": "q_148", "itemStemText": "I interested in many things.", "responseFormatId": "RF1" },
+                { "itemId": "q_201", "itemStemText": "I am not sure where my life is going.", "responseFormatId": "RF1" },
+                { "itemId": "q_254", "itemStemText": "I am skilled in handling social situations.", "responseFormatId": "RF1" },
+                { "itemId": "q_438", "itemStemText": "I can say things beautifully.", "responseFormatId": "RF1" },
+                { "itemId": "q_492", "itemStemText": "I carry the conversation to a higher level.", "responseFormatId": "RF1" },
+                { "itemId": "q_698", "itemStemText": "I don't mind being the center of attention.", "responseFormatId": "RF1" },
+                { "itemId": "q_740", "itemStemText": "I engage in discussions.", "responseFormatId": "RF1" },
+                { "itemId": "q_803", "itemStemText": "I express myself easily.", "responseFormatId": "RF1" },
+                { "itemId": "q_824", "itemStemText": "I feel desperate.", "responseFormatId": "RF1" },
+                { "itemId": "q_875", "itemStemText": "I feel that my life lacks direction.", "responseFormatId": "RF1" },
+                { "itemId": "q_878", "itemStemText": "I feel that others misunderstand me.", "responseFormatId": "RF1" },
+                { "itemId": "q_880", "itemStemText": "I feel that people are against me.", "responseFormatId": "RF1" },
+                { "itemId": "q_882", "itemStemText": "I feel that people have a hard time understanding me.", "responseFormatId": "RF1" },
+                { "itemId": "q_919", "itemStemText": "I find life difficult.", "responseFormatId": "RF1" },
+                { "itemId": "q_920", "itemStemText": "I find myself in the same kinds of trouble, time after time.", "responseFormatId": "RF1" },
+                { "itemId": "q_978", "itemStemText": "I get out of control.", "responseFormatId": "RF1" },
+                { "itemId": "q_1020", "itemStemText": "I grumble about things.", "responseFormatId": "RF1" },
+                { "itemId": "q_1022", "itemStemText": "I habitually blow my chances.", "responseFormatId": "RF1" },
+                { "itemId": "q_1038", "itemStemText": "I have a dark outlook on the future.", "responseFormatId": "RF1" },
+                { "itemId": "q_1045", "itemStemText": "I have a natural talent for influencing people.", "responseFormatId": "RF1" },
+                { "itemId": "q_1055", "itemStemText": "I have a strong personality.", "responseFormatId": "RF1" },
+                { "itemId": "q_1081", "itemStemText": "I have difficulty expressing my feelings.", "responseFormatId": "RF1" },
+                { "itemId": "q_1110", "itemStemText": "I have leadership abilities.", "responseFormatId": "RF1" },
+                { "itemId": "q_1114", "itemStemText": "I have little to say.", "responseFormatId": "RF1" },
+                { "itemId": "q_1205", "itemStemText": "I know how to captivate people.", "responseFormatId": "RF1" },
+                { "itemId": "q_1477", "itemStemText": "I often express doubts.", "responseFormatId": "RF1" },
+                { "itemId": "q_1697", "itemStemText": "I shoot my mouth off.", "responseFormatId": "RF1" },
+                { "itemId": "q_1798", "itemStemText": "I talk even when I know I shouldn’t.", "responseFormatId": "RF1" },
+                { "itemId": "q_1840", "itemStemText": "I think that my moods don’t change more than most people’s do.", "responseFormatId": "RF1" },
+                { "itemId": "q_1867", "itemStemText": "I try to follow the rules.", "responseFormatId": "RF1" },
+                { "itemId": "q_1998", "itemStemText": "I would describe my experiences as somewhat dull.", "responseFormatId": "RF1" },
+                { "itemId": "q_2745", "itemStemText": "I am able to come up with new and different ideas.", "responseFormatId": "RF1" },
+                { "itemId": "q_2754", "itemStemText": "I am an original thinker.", "responseFormatId": "RF1" },
+                { "itemId": "q_2821", "itemStemText": "I behave in unusual and strange ways.", "responseFormatId": "RF1" },
+                { "itemId": "q_2951", "itemStemText": "I have a colorful and dramatic way of talking about things.", "responseFormatId": "RF1" },
+                { "itemId": "q_3023", "itemStemText": "I look forward to the opportunity to learn and grow.", "responseFormatId": "RF1" },
+                { "itemId": "q_3090", "itemStemText": "I when with a group, have difficulties selecting a good topic to talk about.", "responseFormatId": "RF1" },
+                { "itemId": "q_3691", "itemStemText": "I am self-destructive.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
