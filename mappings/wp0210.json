@@ -1,11 +1,11 @@
 {
-    "_comment": "Selected personality data from the SAPA-Project by David Condon: 08Dec2013 to 26Jul2014, MPQ scale, variable 'country' codes the origin country of participants, subscales were drawn from https://www.upress.umn.edu/test-division/mpq/",
+    "_comment": "MPQ scale from selected personality data from three wave SAPA-Project by David Condon: 08Dec2013 to 26Jul2014 / 26jul2014 to 22dec2015 / 22dec2015 to 07feb2017, data from three wave survey was bound in RStudio. Item info was presented in English language but participant's origin is specified in variable 'country'. All of the items were administered with the same six response options",
     "datasetContentType": "self-report",
     "datasetFilename": "wp0210.parquet",
-    "datasetUrl": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SD7SVE",
+    "datasetUrl": "wave 1: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SD7SVE; wave 2: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GU70EV; wave 3: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TZJGAT",
     "datasetIsbn": null,
     "datasetDoi": null,
-    "datasetApaReference": "Condon, David M.; Revelle, William, 2015, 'Selected personality data from the SAPA-Project: 08Dec2013 to 26Jul2014', https://doi.org/10.7910/DVN/SD7SVE, Harvard Dataverse, V4, UNF:6:9B60JNIFXXKXmyLhABjoUA==",
+    "datasetApaReference": "wave 1: Condon, David M.; Revelle, William, 2015, 'Selected personality data from the SAPA-Project: 08Dec2013 to 26Jul2014', https://doi.org/10.7910/DVN/SD7SVE, Harvard Dataverse, V4, UNF:6:9B60JNIFXXKXmyLhABjoUA==; wave 2: Condon, David; Roney, Ellen; Revelle, William, 2017, 'Selected personality data from the SAPA-Project: 26Jul2014 to 22Dec2015', https://doi.org/10.7910/DVN/GU70EV, Harvard Dataverse, V2, UNF:6:lghIwf9uBMIg3wHkM8nOEg== [fileUNF]; wave 3: Condon, David; Roney, Ellen; Revelle, William, 2017, 'Selected personality data from the SAPA-Project: 22Dec2015 to 07Feb2017', https://doi.org/10.7910/DVN/TZJGAT, Harvard Dataverse, V2, UNF:6:+zDglHZEg5KlTdNuYA1/CQ== [fileUNF]; ",
     "datasetApaCitation": null,
     "responseFormats": [
         {
