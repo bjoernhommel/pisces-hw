@@ -1,0 +1,119 @@
+{
+    "_comment": "SPI 20 scale from selected personality data from three wave SAPA-Project by David Condon: 08Dec2013 to 26Jul2014 / 26jul2014 to 22dec2015 / 22dec2015 to 07feb2017, data from three wave survey was bound in RStudio. Item info was presented in English language but participant's origin is specified in variable 'country'. All of the items were administered with the same six response options",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0237.parquet",
+    "datasetUrl": "wave 1: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SD7SVE; wave 2: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GU70EV; wave 3: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TZJGAT",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "wave 1: Condon, David M.; Revelle, William, 2015, 'Selected personality data from the SAPA-Project: 08Dec2013 to 26Jul2014', https://doi.org/10.7910/DVN/SD7SVE, Harvard Dataverse, V4, UNF:6:9B60JNIFXXKXmyLhABjoUA==; wave 2: Condon, David; Roney, Ellen; Revelle, William, 2017, 'Selected personality data from the SAPA-Project: 26Jul2014 to 22Dec2015', https://doi.org/10.7910/DVN/GU70EV, Harvard Dataverse, V2, UNF:6:lghIwf9uBMIg3wHkM8nOEg== [fileUNF]; wave 3: Condon, David; Roney, Ellen; Revelle, William, 2017, 'Selected personality data from the SAPA-Project: 22Dec2015 to 07Feb2017', https://doi.org/10.7910/DVN/TZJGAT, Harvard Dataverse, V2, UNF:6:+zDglHZEg5KlTdNuYA1/CQ== [fileUNF]; ",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Very Inaccurate",
+                "2": "Moderately Inaccurate",
+                "3": "Slightly Inaccurate",
+                "4": "Slightly Accurate",
+                "5": "Moderately Accurate",
+                "6": "Very Accurate"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "SAPA Personality Inventory, 20 item version",
+            "instrumentNameShort": "SPI-20",
+            "instrumentLanguage": "en",
+            "instrumentUrl": "https://www.sapa-project.org/survey/start.php",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Agreeableness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_1896" ],
+                    "upperItemIds": [ "q_90", "q_253", "q_1763" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Conscientiousness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_1452" ],
+                    "upperItemIds": [ "q_1290", "q_1744", "q_1979" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Extraversion",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_312", "q_565" ],
+                    "upperItemIds": [ "q_1904", "q_4243" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Neuroticism",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "q_979", "q_1505", "q_1989", "q_4252" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Openness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "q_128", "q_1392", "q_2745", "q_2754" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "q_90", "itemStemText": "I am concerned about others.", "responseFormatId": "RF1" },
+                { "itemId": "q_128", "itemStemText": "I am full of ideas.", "responseFormatId": "RF1" },
+                { "itemId": "q_253", "itemStemText": "I am sensitive to the needs of others.", "responseFormatId": "RF1" },
+                { "itemId": "q_312", "itemStemText": "I avoid company.", "responseFormatId": "RF1" },
+                { "itemId": "q_565", "itemStemText": "I dislike being the center of attention.", "responseFormatId": "RF1" },
+                { "itemId": "q_979", "itemStemText": "I get overwhelmed by emotions.", "responseFormatId": "RF1" },
+                { "itemId": "q_1290", "itemStemText": "I like order.", "responseFormatId": "RF1" },
+                { "itemId": "q_1392", "itemStemText": "I love to think up new ways of doing things.", "responseFormatId": "RF1" },
+                { "itemId": "q_1452", "itemStemText": "I neglect my duties.", "responseFormatId": "RF1" },
+                { "itemId": "q_1505", "itemStemText": "I panic easily.", "responseFormatId": "RF1" },
+                { "itemId": "q_1744", "itemStemText": "I start tasks right away.", "responseFormatId": "RF1" },
+                { "itemId": "q_1763", "itemStemText": "I sympathize with others' feelings.", "responseFormatId": "RF1" },
+                { "itemId": "q_1896", "itemStemText": "I use others for my own ends.", "responseFormatId": "RF1" },
+                { "itemId": "q_1904", "itemStemText": "I usually like to spend my free time with people.", "responseFormatId": "RF1" },
+                { "itemId": "q_1979", "itemStemText": "I work hard.", "responseFormatId": "RF1" },
+                { "itemId": "q_1989", "itemStemText": "I worry about things.", "responseFormatId": "RF1" },
+                { "itemId": "q_2745", "itemStemText": "I am able to come up with new and different ideas.", "responseFormatId": "RF1" },
+                { "itemId": "q_2754", "itemStemText": "I am an original thinker.", "responseFormatId": "RF1" },
+                { "itemId": "q_4243", "itemStemText": "I like going out a lot.", "responseFormatId": "RF1" },
+                { "itemId": "q_4252", "itemStemText": "I am a worrier.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

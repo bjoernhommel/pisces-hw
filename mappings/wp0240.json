@@ -1,0 +1,119 @@
+{
+    "_comment": "mini IPIP scale from selected personality data from three wave SAPA-Project by David Condon: 08Dec2013 to 26Jul2014 / 26jul2014 to 22dec2015 / 22dec2015 to 07feb2017, data from three wave survey was bound in RStudio. Item info was presented in English language but participant's origin is specified in variable 'country'. All of the items were administered with the same six response options",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0240.parquet",
+    "datasetUrl": "wave 1: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SD7SVE; wave 2: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GU70EV; wave 3: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TZJGAT",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "wave 1: Condon, David M.; Revelle, William, 2015, 'Selected personality data from the SAPA-Project: 08Dec2013 to 26Jul2014', https://doi.org/10.7910/DVN/SD7SVE, Harvard Dataverse, V4, UNF:6:9B60JNIFXXKXmyLhABjoUA==; wave 2: Condon, David; Roney, Ellen; Revelle, William, 2017, 'Selected personality data from the SAPA-Project: 26Jul2014 to 22Dec2015', https://doi.org/10.7910/DVN/GU70EV, Harvard Dataverse, V2, UNF:6:lghIwf9uBMIg3wHkM8nOEg== [fileUNF]; wave 3: Condon, David; Roney, Ellen; Revelle, William, 2017, 'Selected personality data from the SAPA-Project: 22Dec2015 to 07Feb2017', https://doi.org/10.7910/DVN/TZJGAT, Harvard Dataverse, V2, UNF:6:+zDglHZEg5KlTdNuYA1/CQ== [fileUNF]; ",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Very Inaccurate",
+                "2": "Moderately Inaccurate",
+                "3": "Slightly Inaccurate",
+                "4": "Slightly Accurate",
+                "5": "Moderately Accurate",
+                "6": "Very Accurate"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "International Personality Item Pool, mini version",
+            "instrumentNameShort": "mini IPIP",
+            "instrumentLanguage": "en",
+            "instrumentUrl": "https://ipip.ori.org/MiniIPIPKey.htm",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Goldberg, L. R. (1992). The development of markers for the Big-Five factor structure. Psychological Assessment, 4, 26-42.; Donnellan, M. B., Oswald, F. L., Baird, B. M., & Lucas, R. E. (2006). The mini-IPIP scales: tiny-yet-effective measures of the Big Five factors of personality. Psychological assessment, 18(2), 192.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Agreeableness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_195", "q_200" ],
+                    "upperItemIds": [ "q_844", "q_1763" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Conscientiousness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_1397", "q_1483" ],
+                    "upperItemIds": [ "q_962", "q_1290" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Extraversion",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_712", "q_1180" ],
+                    "upperItemIds": [ "q_262", "q_1803" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Emotional Instability",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_248", "q_1677" ],
+                    "upperItemIds": [ "q_995", "q_1099" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Intellect",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q_194", "q_609", "q_1088" ],
+                    "upperItemIds": [ "q_1058" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "q_194", "itemStemText": "I am not interested in abstract ideas.", "responseFormatId": "RF1" },
+                { "itemId": "q_195", "itemStemText": "I am not interested in other people's problems.", "responseFormatId": "RF1" },
+                { "itemId": "q_200", "itemStemText": "I am not really interested in others.", "responseFormatId": "RF1" },
+                { "itemId": "q_248", "itemStemText": "I am relaxed most of the time.", "responseFormatId": "RF1" },
+                { "itemId": "q_262", "itemStemText": "I am the life of the party.", "responseFormatId": "RF1" },
+                { "itemId": "q_609", "itemStemText": "I do not have a good imagination.", "responseFormatId": "RF1" },
+                { "itemId": "q_712", "itemStemText": "I don't talk a lot.", "responseFormatId": "RF1" },
+                { "itemId": "q_844", "itemStemText": "I feel others' emotions.", "responseFormatId": "RF1" },
+                { "itemId": "q_962", "itemStemText": "I get chores done right away.", "responseFormatId": "RF1" },
+                { "itemId": "q_995", "itemStemText": "I get upset easily.", "responseFormatId": "RF1" },
+                { "itemId": "q_1058", "itemStemText": "I have a vivid imagination.", "responseFormatId": "RF1" },
+                { "itemId": "q_1088", "itemStemText": "I have difficulty understanding abstract ideas.", "responseFormatId": "RF1" },
+                { "itemId": "q_1099", "itemStemText": "I have frequent mood swings.", "responseFormatId": "RF1" },
+                { "itemId": "q_1180", "itemStemText": "I keep in the background.", "responseFormatId": "RF1" },
+                { "itemId": "q_1290", "itemStemText": "I like order.", "responseFormatId": "RF1" },
+                { "itemId": "q_1397", "itemStemText": "I make a mess of things.", "responseFormatId": "RF1" },
+                { "itemId": "q_1483", "itemStemText": "I often forget to put things back in their proper place.", "responseFormatId": "RF1" },
+                { "itemId": "q_1677", "itemStemText": "I seldom feel blue.", "responseFormatId": "RF1" },
+                { "itemId": "q_1763", "itemStemText": "I sympathize with others' feelings.", "responseFormatId": "RF1" },
+                { "itemId": "q_1803", "itemStemText": "I talk to a lot of different people at parties.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
