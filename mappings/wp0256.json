@@ -1,0 +1,66 @@
+{
+    "_comment": "additional scale from the HWC paper; Emotional Exhaustion subscale from Maslach Burnout Imnventory in German; items were provided by Agnieszka Paruzel from Uni Bielefeld on request",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0256.parquet",
+    "datasetUrl": "https://osf.io/rmt95/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "A. Paruzel, A. Abendroth, A. Mayer, J. L. Xie, and G. W. Maier, “The German Version of the Hybrid Work Characteristics Scale,” Psychological Test Adaptation and Development, vol. 3, no. 1, pp. 116–124, Dec. 2022, doi: 10.1027/2698-1866/a000025.",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Rarely",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "Very Often"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Emotional Exhaustion Subscale, German version",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "de",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Büssing, A., & Perrar, K.-M. (1992). Die Messung von Burnout.Untersuchung einer deutschen Fassung des Maslach BurnoutInventory (MBI-D)",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": true,
+            "scales": [
+                {
+                    "scaleName": "Emotionale Erschöpfung",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "EE_1", "EE_2", "EE_3", "EE_4", "EE_5" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "EE_1", "itemStemText": "Ich fühle mich durch meine Arbeit emotional erschöpft.", "responseFormatId": "RF1" },
+                { "itemId": "EE_2", "itemStemText": "Am Ende eines Arbeitstages fühle ich mich verbraucht.", "responseFormatId": "RF1" },
+                { "itemId": "EE_3", "itemStemText": "Ich fühle mich durch meine Arbeit ausgebrannt.", "responseFormatId": "RF1" },
+                { "itemId": "EE_4", "itemStemText": "Ich habe das Gefühl, dass ich an meinem Arbeitsplatz zu hart arbeite.", "responseFormatId": "RF1" },
+                { "itemId": "EE_5", "itemStemText": "Ich fühle mich durch meine Arbeit frustriert.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

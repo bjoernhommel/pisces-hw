@@ -1,0 +1,66 @@
+{
+    "_comment": "additional scale from the HWC paper; subscale 'Job Satisfaction' from Job Diagnostic Survey (JDS) in English; items were provided by Agnieszka Paruzel from Uni Bielefeld on request",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0253.parquet",
+    "datasetUrl": "https://osf.io/rmt95/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "A. Paruzel, A. Abendroth, A. Mayer, J. L. Xie, and G. W. Maier, “The German Version of the Hybrid Work Characteristics Scale,” Psychological Test Adaptation and Development, vol. 3, no. 1, pp. 116–124, Dec. 2022, doi: 10.1027/2698-1866/a000025.",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Disagree",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "",
+                "7": "Strongly Agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Job Satisfacion Subscale, English version",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Hackman, J. R., & Oldham, G. R. (1980). Work redesign. Addison-Wesley.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": true,
+            "scales": [
+                {
+                    "scaleName": "Job Satisfaction",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "js_1", "js_2", "js_3" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "js_1", "itemStemText": "All in all, the job I have is great.", "responseFormatId": "RF1" },
+                { "itemId": "js_2", "itemStemText": "In general, I am satisfied with my job.", "responseFormatId": "RF1" },
+                { "itemId": "js_3", "itemStemText": "I am generally satisfied with the kind work that I do in this job.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

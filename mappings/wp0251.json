@@ -1,0 +1,66 @@
+{
+    "_comment": "additional scale from the HWC paper; subscale 'Job Satisfaction' from Job Diagnostic Survey (JDS) in German; items were provided by Agnieszka Paruzel from Uni Bielefeld on request",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0251.parquet",
+    "datasetUrl": "https://osf.io/rmt95/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "A. Paruzel, A. Abendroth, A. Mayer, J. L. Xie, and G. W. Maier, “The German Version of the Hybrid Work Characteristics Scale,” Psychological Test Adaptation and Development, vol. 3, no. 1, pp. 116–124, Dec. 2022, doi: 10.1027/2698-1866/a000025.",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Disagree",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "",
+                "7": "Strongly Agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Job Satisfacion Subscale, German version",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "de",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "van Dick, R., Schnitger, C., Schwartzmann-Buchelt, C., & Wagner, U. (2001). Der Job Diagnostic Survey im Bildungsbereich [The Job Diagnostic Survey (JDS) for educational sector occupations]. Zeitschrift für Arbeits- und Organisationspsychologie, 45(1), 74–92. 10.1026//0932-4089.45.2.74 ; Hackman, J. R., & Oldham, G. R. (1980). Work redesign. Addison-Wesley.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": true,
+            "scales": [
+                {
+                    "scaleName": "Globale Arbeitszufriedenheit",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "js_1", "js_2", "js_3" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "js_1", "itemStemText": "Generell gefällt mir mein Job gut.", "responseFormatId": "RF1" },
+                { "itemId": "js_2", "itemStemText": "Alles in allem bin ich mit meinem Beruf sehr zufrieden.", "responseFormatId": "RF1" },
+                { "itemId": "js_3", "itemStemText": "Mit der Art meiner Tätigkeiten bin ich im Allgemeinen zufrieden.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
