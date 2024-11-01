@@ -1,5 +1,5 @@
 {
-    "_comment": "additional scale from the HWC paper; Emotional Exhaustion subscale from Maslach Burnout Imnventory in English; items were provided by Agnieszka Paruzel from Uni Bielefeld on request",
+    "_comment": "additional scale from the HWC paper; Emotional Exhaustion subscale from Maslach Burnout Inventory in English; items were provided by Agnieszka Paruzel from Uni Bielefeld on request",
     "datasetContentType": "self-report",
     "datasetFilename": "wp0257.parquet",
     "datasetUrl": "https://osf.io/rmt95/",
@@ -13,7 +13,7 @@
             "responseFormatType": "rating scale",
             "responseFormatDataType": "integer",
             "responseFormatMinValue": 1,
-            "responseFormatMaxValue": 6,
+            "responseFormatMaxValue": 5,
             "responseFormatIncrementValue": 1,
             "responseFormatLabels": {
                 "1": "Rarely",
