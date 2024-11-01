@@ -1,7 +1,7 @@
 {
-    "_comment": "additional scale from the HWC paper; subscale 'Job Satisfaction' from Job Diagnostic Survey (JDS) in German; items were provided by Agnieszka Paruzel from Uni Bielefeld on request",
+    "_comment": "additional scale from the HWC paper; Occupational Commitment Scale translated to German; items were provided by Agnieszka Paruzel from Uni Bielefeld on request",
     "datasetContentType": "self-report",
-    "datasetFilename": "wp0251.parquet",
+    "datasetFilename": "wp0261.parquet",
     "datasetUrl": "https://osf.io/rmt95/",
     "datasetIsbn": null,
     "datasetDoi": null,
@@ -28,21 +28,21 @@
     ],
     "instruments": [
         {
-            "instrumentName": "Job Satisfacion Subscale, German version",
+            "instrumentName": "Occupational Commitment Scale, German version",
             "instrumentNameShort": null,
             "instrumentLanguage": "de",
             "instrumentUrl": null,
             "instrumentIsbn": null,
             "instrumentDoi": null,
-            "instrumentApaReference": "van Dick, R., Schnitger, C., Schwartzmann-Buchelt, C., & Wagner, U. (2001). Der Job Diagnostic Survey im Bildungsbereich [The Job Diagnostic Survey (JDS) for educational sector occupations]. Zeitschrift für Arbeits- und Organisationspsychologie, 45(1), 74–92. 10.1026//0932-4089.45.2.74 ; Hackman, J. R., & Oldham, G. R. (1980). Work redesign. Addison-Wesley.",
+            "instrumentApaReference": "Felfe, J., Six, B., Schmook, R., & Knorz, C. (2002). Commitment Organisation, Beruf und Beschäftigungsform (COBB) [Commitment Organisation, Profession and Form of Employment (COBB)]. https://doi.org/10.6102/zis9",
             "instrumentApaCitation": null,
             "instrumentIsProprietary": true,
             "scales": [
                 {
-                    "scaleName": "Globale Arbeitszufriedenheit",
+                    "scaleName": "berufliche Bindung",
                     "scaleDefinitionText": null,
-                    "lowerItemIds": [  ],
-                    "upperItemIds": [ "js_1", "js_2", "js_3" ],
+                    "lowerItemIds": [ "aoc_2", "aoc_4" ],
+                    "upperItemIds": [ "aoc_1", "aoc_3", "aoc_5" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -57,9 +57,11 @@
                 }
             ],
             "items": [
-                { "itemId": "js_1", "itemStemText": "Generell gefällt mir mein Job gut.", "responseFormatId": "RF1" },
-                { "itemId": "js_2", "itemStemText": "Alles in allem bin ich mit meinem Beruf sehr zufrieden.", "responseFormatId": "RF1" },
-                { "itemId": "js_3", "itemStemText": "Mit der Art meiner Tätigkeiten bin ich im Allgemeinen zufrieden.", "responseFormatId": "RF1" }
+                { "itemId": "aoc_1", "itemStemText": "Mein Beruf ist wichtig für mein Selbstbild.", "responseFormatId": "RF1" },
+                { "itemId": "aoc_2", "itemStemText": "Ich bereue es, diesen Beruf ergriffen zu haben.", "responseFormatId": "RF1" },
+                { "itemId": "aoc_3", "itemStemText": "Ich bin stolz auf meinen Beruf.", "responseFormatId": "RF1" },
+                { "itemId": "aoc_4", "itemStemText": "Ich identifiziere mich nicht mit diesem Beruf.", "responseFormatId": "RF1" },
+                { "itemId": "aoc_5", "itemStemText": "Ich bin begeistert, in diesem Beruf zu sein.", "responseFormatId": "RF1" }
             ]
         }
     ]

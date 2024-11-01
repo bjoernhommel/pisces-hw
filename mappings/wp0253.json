@@ -13,7 +13,7 @@
             "responseFormatType": "rating scale",
             "responseFormatDataType": "integer",
             "responseFormatMinValue": 1,
-            "responseFormatMaxValue": 6,
+            "responseFormatMaxValue": 7,
             "responseFormatIncrementValue": 1,
             "responseFormatLabels": {
                 "1": "Strongly Disagree",

@@ -1,7 +1,7 @@
 {
-    "_comment": "additional scale from the HWC paper; Emotional Exhaustion subscale from Maslach Burnout Inventory in German; items were provided by Agnieszka Paruzel from Uni Bielefeld on request",
+    "_comment": "additional scale from the HWC paper; Somatic Health Symptoms Scale from a 1975 report on job remands and worker health in English; items were provided by Agnieszka Paruzel from Uni Bielefeld on request",
     "datasetContentType": "self-report",
-    "datasetFilename": "wp0256.parquet",
+    "datasetFilename": "wp0260.parquet",
     "datasetUrl": "https://osf.io/rmt95/",
     "datasetIsbn": null,
     "datasetDoi": null,
@@ -26,21 +26,21 @@
     ],
     "instruments": [
         {
-            "instrumentName": "Emotional Exhaustion Subscale, German version",
+            "instrumentName": "Somatic Health Symptoms Scale",
             "instrumentNameShort": null,
-            "instrumentLanguage": "de",
+            "instrumentLanguage": "en",
             "instrumentUrl": null,
             "instrumentIsbn": null,
             "instrumentDoi": null,
-            "instrumentApaReference": "Büssing, A., & Perrar, K.-M. (1992). Die Messung von Burnout.Untersuchung einer deutschen Fassung des Maslach BurnoutInventory (MBI-D)",
+            "instrumentApaReference": "Caplan, R. D., Cobb, S., French, J. R., JR, van Harrison, R., & Pinneau, S. R., JR. (1975). Job demands and worker health: Main effects and occupational differences. US Department of Health, Education, and Welfare, Public Health Service, Center for Disease Control, National Institute for Occupational Safety and Health. https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB276809.xhtml",
             "instrumentApaCitation": null,
             "instrumentIsProprietary": true,
             "scales": [
                 {
-                    "scaleName": "Emotionale Erschöpfung",
+                    "scaleName": "Somatic Health Symptoms Scale",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [  ],
-                    "upperItemIds": [ "EE_1", "EE_2", "EE_3", "EE_4", "EE_5" ],
+                    "upperItemIds": [ "shs_1", "shs_2", "shs_3", "shs_4", "shs_5", "shs_6" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -55,11 +55,12 @@
                 }
             ],
             "items": [
-                { "itemId": "EE_1", "itemStemText": "Ich fühle mich durch meine Arbeit emotional erschöpft.", "responseFormatId": "RF1" },
-                { "itemId": "EE_2", "itemStemText": "Am Ende eines Arbeitstages fühle ich mich verbraucht.", "responseFormatId": "RF1" },
-                { "itemId": "EE_3", "itemStemText": "Ich fühle mich durch meine Arbeit ausgebrannt.", "responseFormatId": "RF1" },
-                { "itemId": "EE_4", "itemStemText": "Ich habe das Gefühl, dass ich an meinem Arbeitsplatz zu hart arbeite.", "responseFormatId": "RF1" },
-                { "itemId": "EE_5", "itemStemText": "Ich fühle mich durch meine Arbeit frustriert.", "responseFormatId": "RF1" }
+                { "itemId": "shs_1", "itemStemText": "I got tired for no reason.", "responseFormatId": "RF1" },
+                { "itemId": "shs_2", "itemStemText": "I was bothered by my heart beating hard.", "responseFormatId": "RF1" },
+                { "itemId": "shs_3", "itemStemText": "My hands sweated so that I felt damp and clammy.", "responseFormatId": "RF1" },
+                { "itemId": "shs_4", "itemStemText": "I had spells of dizziness.", "responseFormatId": "RF1" },
+                { "itemId": "shs_5", "itemStemText": "I was bothered by my heart beating faster than usual.", "responseFormatId": "RF1" },
+                { "itemId": "shs_6", "itemStemText": "I had trouble sleeping at night.", "responseFormatId": "RF1" }
             ]
         }
     ]
