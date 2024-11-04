@@ -1,0 +1,119 @@
+{
+    "_comment": "Gender Identity Counselor Competency Scale (GICCS), tested in a sample of US-American school counselors",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0262.parquet",
+    "datasetUrl": "https://www.openicpsr.org/openicpsr/project/122501/version/V1/view?path=/openicpsr/122501/fcr:versions/V1/data-file-for-sc-adv-for-ti-092520.sav&type=file",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Simons, Jack. Transgender and Intersex Advocacy: National Study of School Counselors: data file for sc adv for ti 092520.sav. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2020-09-25. https://doi.org/10.3886/E122501V1-156444",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Not At All True",
+                "2": "",
+                "3": "",
+                "4": "Somewhat True",
+                "5": "",
+                "6": "",
+                "7": "Totally True"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Gender Identity Counselor Competency Scale",
+            "instrumentNameShort": "GICCS",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "O’Hara, C., Dispenza, F., Brack, G., & Blood, R. A. C. (2013). The Preparedness of Counselors in Training to Work with Transgender Clients: A Mixed Methods Investigation. Journal of LGBT Issues in Counseling, 7(3), 236–256. https://doi.org/10.1080/15538605.2013.812929; Simons, J. D., Bahr, M. W., & Ramdas, S. M. (2022). Counselor competence gender identity scale: Measuring bias, knowledge, and skills among school counselors. Professional School Counseling, 26(1), Article 2156759X221110790. https://doi.org/10.1177/2156759X221110790",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": true,
+            "scales": [
+                {
+                    "scaleName": "Self-Awareness of Bias",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "giccs1", "giccs2", "giccs3", "giccs10", "giccs4", "giccs5", "giccs6", "giccs7", "giccs8", "giccs9", "giccs10" ],
+                    "upperItemIds": [  ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Gaining Knowledge/Skills to Counsel Gender Diverse Individuals",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "giccs16" ],
+                    "upperItemIds": [ "giccs11", "giccs12", "giccs13", "giccs14", "giccs15" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Awareness of Barriers to Gender Diverse Practice",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "giccs22" ],
+                    "upperItemIds": [ "giccs17", "giccs18", "giccs19", "giccs20", "giccs21", "giccs23", "giccs24" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Professional Exposure to Gender Diverse Individuals",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "giccs27", "giccs28", "giccs29", "giccs25", "giccs26" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "giccs1", "itemStemText": "Personally, I think being gender diverse is a mental disorder or a sin and can be treated through counseling or spiritual help.", "responseFormatId": "RF1" },
+                { "itemId": "giccs2", "itemStemText": "I believe that gender diverse couples don’t need special rights (domestic partner benefits, or the right to marry) because that would undermine normal and traditional family values.", "responseFormatId": "RF1" },
+                { "itemId": "giccs3", "itemStemText": "The lifestyle of a gender diverse counselee is unnatural or immoral.", "responseFormatId": "RF1" },
+                { "itemId": "giccs4", "itemStemText": "When it comes to being gender diverse, I agree with the statement: “You should love the sinner but hate or condemn the sin.", "responseFormatId": "RF1" },
+                { "itemId": "giccs5", "itemStemText": "I think that my counselees should accept some degree of conformity to traditional gender identities.", "responseFormatId": "RF1" },
+                { "itemId": "giccs6", "itemStemText": "I believe that all gender diverse counselees must be discreet about their gender identity or expression around children.", "responseFormatId": "RF1" },
+                { "itemId": "giccs7", "itemStemText": "It would be best if my clients viewed a non-gender diverse lifestyle as ideal.", "responseFormatId": "RF1" },
+                { "itemId": "giccs8", "itemStemText": "I believe that gender diverse counselees will benefit most from counseling with a non-gender diverse counselor who endorses conventional values and norms.", "responseFormatId": "RF1" },
+                { "itemId": "giccs9", "itemStemText": "It’s obvious that a relationship involving a gender diverse person is not as strong or as committed as one involving a non-gender diverse person.", "responseFormatId": "RF1" },
+                { "itemId": "giccs10", "itemStemText": "I believe that being highly discreet about their gender identity is a trait that gender diverse counselees should work towards.", "responseFormatId": "RF1" },
+                { "itemId": "giccs11", "itemStemText": "I have received adequate training and supervision to counsel gender diverse counselees.", "responseFormatId": "RF1" },
+                { "itemId": "giccs12", "itemStemText": "At this point in my professional development, I feel competent, skilled, and qualified to counsel gender diverse counselees.", "responseFormatId": "RF1" },
+                { "itemId": "giccs13", "itemStemText": "I feel competent to assess the mental health needs of a person who is gender diverse in a therapeutic setting.", "responseFormatId": "RF1" },
+                { "itemId": "giccs14", "itemStemText": "I check up on my gender diverse counseling skills by monitoring my functioning/competency via consultation, supervision, and continuing education.", "responseFormatId": "RF1" },
+                { "itemId": "giccs15", "itemStemText": "I have been to in-services, conference sessions, or workshops, which focused on gender diverse issues in counseling.", "responseFormatId": "RF1" },
+                { "itemId": "giccs16", "itemStemText": "Currently, I do not have the skills or training to do a case presentation or consultation if my counselee were gender diverse.", "responseFormatId": "RF1" },
+                { "itemId": "giccs17", "itemStemText": "I am aware that counselors frequently impose their values concerning gender identity or expression upon gender diverse clients.", "responseFormatId": "RF1" },
+                { "itemId": "giccs18", "itemStemText": "Prejudicial concepts and fear of gender diverse people have permeated the counseling field.", "responseFormatId": "RF1" },
+                { "itemId": "giccs19", "itemStemText": "I am aware of institutional barriers that may inhibit gender diverse people from using counseling services.", "responseFormatId": "RF1" },
+                { "itemId": "giccs20", "itemStemText": "I am aware some research indicates that gender diverse counselees are more likely to be diagnosed with mental illnesses than are non-gender diverse counselees.", "responseFormatId": "RF1" },
+                { "itemId": "giccs21", "itemStemText": "There are different psychological/social issues impacting gender diverse men versus gender diverse women.", "responseFormatId": "RF1" },
+                { "itemId": "giccs22", "itemStemText": "Being born a non-gender diverse person in this society carries with it certain advantages.", "responseFormatId": "RF1" },
+                { "itemId": "giccs23", "itemStemText": "Gender diverse counselees receive “less preferred” forms of counseling treatment than non-gender diverse counselees.", "responseFormatId": "RF1" },
+                { "itemId": "giccs24", "itemStemText": "I feel that gender identity differences between counselor and client may serve as an initial barrier to effective counseling of gender diverse individuals.", "responseFormatId": "RF1" },
+                { "itemId": "giccs25", "itemStemText": "I have experience counseling sexual minority gender diverse counselees.", "responseFormatId": "RF1" },
+                { "itemId": "giccs26", "itemStemText": "I have experience counseling male-to-female gender diverse counselees.", "responseFormatId": "RF1" },
+                { "itemId": "giccs27", "itemStemText": "I have experience counseling female-to-male gender diverse counselees.", "responseFormatId": "RF1" },
+                { "itemId": "giccs28", "itemStemText": "I have experience counseling gender diverse couples.", "responseFormatId": "RF1" },
+                { "itemId": "giccs29", "itemStemText": "I have done a counseling role-play as either the counselee or counselor involving a gender diverse issue.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
