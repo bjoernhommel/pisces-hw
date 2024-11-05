@@ -1,0 +1,69 @@
+{
+    "_comment": "Intergroup Anxiety Scale from Cyber-aggression towards women paper",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0272.parquet",
+    "datasetUrl": "https://osf.io/jyfdu/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Jagayat, A., & Choma, B. L. (2021). Cyber-aggression towards women: Measurement and psychological predictors in gaming communities. Computers in Human Behavior, 120, Article 106753. https://doi.org/10.1016/j.chb.2021.106753",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Not at all",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "",
+                "7": "Extremely"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Intergroup Anxiety Scale",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Stephan, W. G., & Stephan, C. W. (1985). Intergroup anxiety. Journal of social issues, 41(3), 157-175.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": true,
+            "scales": [
+                {
+                    "scaleName": "Intergroup Anxiety directed toward gaming women",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "itganx3", "itganx4" ],
+                    "upperItemIds": [ "itganx1", "itganx2", "itganx5", "itganx6" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "itganx1", "itemStemText": "If you were in a group of female gamers, would you feel awkward", "responseFormatId": "RF1" },
+                { "itemId": "itganx2", "itemStemText": "If you were in a group of female gamers, would you feel self-conscious", "responseFormatId": "RF1" },
+                { "itemId": "itganx3", "itemStemText": "If you were in a group of female gamers, would you feel happy", "responseFormatId": "RF1" },
+                { "itemId": "itganx4", "itemStemText": "If you were in a group of female gamers, would you feel accepted", "responseFormatId": "RF1" },
+                { "itemId": "itganx5", "itemStemText": "If you were in a group of female gamers, would you feel irritated", "responseFormatId": "RF1" },
+                { "itemId": "itganx6", "itemStemText": "If you were in a group of female gamers, would you feel suspicious", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

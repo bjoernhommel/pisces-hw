@@ -1,0 +1,72 @@
+{
+    "_comment": "Negative Stereotypes Scale from Cyber-aggression towards women paper",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0273.parquet",
+    "datasetUrl": "https://osf.io/jyfdu/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Jagayat, A., & Choma, B. L. (2021). Cyber-aggression towards women: Measurement and psychological predictors in gaming communities. Computers in Human Behavior, 120, Article 106753. https://doi.org/10.1016/j.chb.2021.106753",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 10,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Not at all",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "",
+                "7": "",
+                "8": "",
+                "9": "",
+                "10": "Extremely"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Negative Stereotypes Scale",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Stephan, W. G., & Stephan, C. W. (1993). Cognition and affect in stereotyping: Parallel interactive networks. In Affect, cognition and stereotyping (pp. 111-136). Academic Press.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": true,
+            "scales": [
+                {
+                    "scaleName": "Negative Stereotypes towards gaming women",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "negstereo_fav_1", "negstereo_fav_2", "negstereo_fav_3" ],
+                    "upperItemIds": [ "negstereo_fav_4", "negstereo_fav_5", "negstereo_fav_6" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "negstereo_fav_1", "itemStemText": "The trait 'talented' is favorable in female gamers.", "responseFormatId": "RF1" },
+                { "itemId": "negstereo_fav_2", "itemStemText": "The trait 'smart' is favorable in female gamers.", "responseFormatId": "RF1" },
+                { "itemId": "negstereo_fav_3", "itemStemText": "The trait 'friendly' is favorable in female gamers.", "responseFormatId": "RF1" },
+                { "itemId": "negstereo_fav_4", "itemStemText": "The trait 'attention-seeking' is favorable in female gamers.", "responseFormatId": "RF1" },
+                { "itemId": "negstereo_fav_5", "itemStemText": "The trait 'annoying' is favorable in female gamers.", "responseFormatId": "RF1" },
+                { "itemId": "negstereo_fav_6", "itemStemText": "The trait 'unattractive' is favorable in female gamers.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
