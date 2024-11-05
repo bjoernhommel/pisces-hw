@@ -1,0 +1,75 @@
+{
+    "_comment": "Right Wing Authoritarianism Scale",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0271.parquet",
+    "datasetUrl": "https://osf.io/jyfdu/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Jagayat, A., & Choma, B. L. (2021). Cyber-aggression towards women: Measurement and psychological predictors in gaming communities. Computers in Human Behavior, 120, Article 106753. https://doi.org/10.1016/j.chb.2021.106753",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Disagree",
+                "2": "Moderately Disagree",
+                "3": "Slightly Disagree",
+                "4": "Neither Disagree Nor Agree",
+                "5": "Slightly Agree",
+                "6": "Moderately Agree",
+                "7": "Strongly Agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Right Wing Authoritarianism Scale",
+            "instrumentNameShort": "RWA",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Bob Altemeyer, The Other “Authoritarian Personality”, Editor(s): Mark P. Zanna, Advances in Experimental Social Psychology, Academic Press, Volume 30, 1998, Pages 47-92, ISSN 0065-2601, ISBN 9780120152308, https://doi.org/10.1016/S0065-2601(08)60382-2.(https://www.sciencedirect.com/science/article/pii/S0065260108603822)",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": true,
+            "scales": [
+                {
+                    "scaleName": "Right Wing Authoritarianism",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "rwa1", "rwa2", "rwa6", "rwa7", "rwa9", "rwa11" ],
+                    "upperItemIds": [ "rwa3", "rwa4", "rwa5", "rwa8", "rwa10", "rwa12" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "rwa1", "itemStemText": "Gays and lesbians are just as healthy and moral as anybody else.", "responseFormatId": "RF1" },
+                { "itemId": "rwa2", "itemStemText": "Atheists and others who have rebelled against the established religions are no doubt every bit as good and virtuous as those who attend church regularly.", "responseFormatId": "RF1" },
+                { "itemId": "rwa3", "itemStemText": "There are many radical, immoral people in our country today who are trying to ruin it for their godless purposes, whom the authorities should put out of action.", "responseFormatId": "RF1" },
+                { "itemId": "rwa4", "itemStemText": "Our country will be destroyed someday if we do not smash the perversions eating away at our moral and traditional beliefs.", "responseFormatId": "RF1" },
+                { "itemId": "rwa5", "itemStemText": "The situation in our country is getting so serious, the strongest methods would be justified if they eliminated the troublemakers and got us back to our true path.", "responseFormatId": "RF1" },
+                { "itemId": "rwa6", "itemStemText": "Everyone should have their own lifestyle, religious beliefs, and sexual preferences, even if it makes them different from everyone else.", "responseFormatId": "RF1" },
+                { "itemId": "rwa7", "itemStemText": "People should pay less attention to the Bible and the other old traditional forms of religious guidance, and instead develop their own personal standards of what is moral and immoral.", "responseFormatId": "RF1" },
+                { "itemId": "rwa8", "itemStemText": "The only way our country can get through the crisis ahead is to get back to our traditional values, put some tough leaders in power, and silence the troublemakers spreading bad ideas.", "responseFormatId": "RF1" },
+                { "itemId": "rwa9", "itemStemText": "There is nothing wrong with premarital sexual intercourse.", "responseFormatId": "RF1" },
+                { "itemId": "rwa10", "itemStemText": "What our country really needs, instead of more “civil rights” is a good, stiff dose of law and order.", "responseFormatId": "RF1" },
+                { "itemId": "rwa11", "itemStemText": "Some of the best people in our country are those who are challenging our government, criticizing religion, and ignoring the “normal way” things are supposed to be done.", "responseFormatId": "RF1" },
+                { "itemId": "rwa12", "itemStemText": "The facts on crime, sexual immorality, and the recent public disorders all show that we have to crack down harder on deviant groups and trouble-makers if we are going to save our moral standards and preserve law and order.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
