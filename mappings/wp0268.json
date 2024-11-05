@@ -1,0 +1,71 @@
+{
+    "_comment": "Social Dominance Orientation Scale",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0268.parquet",
+    "datasetUrl": "https://osf.io/jyfdu/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Jagayat, A., & Choma, B. L. (2021). Cyber-aggression towards women: Measurement and psychological predictors in gaming communities. Computers in Human Behavior, 120, Article 106753. https://doi.org/10.1016/j.chb.2021.106753",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Oppose",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "",
+                "7": "Strongly Favor"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Social Dominance Orientation Scale",
+            "instrumentNameShort": "SDO",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Pratto, Felicia, James Sidanius, Lisa M. Stallworth, and Bertram F. Malle. 1994. Social dominance orientation: A personality variable predicting social and political attitudes. Journal of Personality and Social Psychology 67, no. 4: 741-763.; ",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": true,
+            "scales": [
+                {
+                    "scaleName": "Social Dominance Orientation",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "sdo3", "sdo4", "sdo7", "sdo8" ],
+                    "upperItemIds": [ "sdo1", "sdo2", "sdo5", "sdo6" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "sdo1", "itemStemText": "An ideal society requires some groups to be on top and others to be on the bottom.", "responseFormatId": "RF1" },
+                { "itemId": "sdo2", "itemStemText": "Some groups of people are simply inferior to other groups.", "responseFormatId": "RF1" },
+                { "itemId": "sdo3", "itemStemText": "No one group should dominate in society.", "responseFormatId": "RF1" },
+                { "itemId": "sdo4", "itemStemText": "Groups at the bottom are just as deserving as groups at the top.", "responseFormatId": "RF1" },
+                { "itemId": "sdo5", "itemStemText": "Group equality should not be our primary goal.", "responseFormatId": "RF1" },
+                { "itemId": "sdo6", "itemStemText": "It is unjust to try to make groups equal.", "responseFormatId": "RF1" },
+                { "itemId": "sdo7", "itemStemText": "We should do what we can to equalize conditions for different groups.", "responseFormatId": "RF1" },
+                { "itemId": "sdo8", "itemStemText": "We should work to give all groups an equal chance to succeed.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
