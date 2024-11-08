@@ -1,0 +1,109 @@
+{
+    "_comment": "Endorsement of Cyber Violence Against Women and Girls Scale from Cyber-aggression towards women paper",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0283.parquet",
+    "datasetUrl": "https://osf.io/jyfdu/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Jagayat, A., & Choma, B. L. (2021). Cyber-aggression towards women: Measurement and psychological predictors in gaming communities. Computers in Human Behavior, 120, Article 106753. https://doi.org/10.1016/j.chb.2021.106753",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Disagree Strongly",
+                "2": "Disagree Somewhat",
+                "3": "Disagree Slightly",
+                "4": "Neither Agree or Disagree",
+                "5": "Agree Slightly",
+                "6": "Agree Somewhat",
+                "7": "Agree Strongly"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Endorsement of Cyber Violence Against Women and Girls Scale",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Jagayat, A., & Choma, B. L. (2021). Cyber-aggression towards women: Measurement and psychological predictors in gaming communities. Computers in Human Behavior, 120, Article 106753. https://doi.org/10.1016/j.chb.2021.106753",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": true,
+            "scales": [
+                {
+                    "scaleName": "Endorsement of Cyber Violence Against Women and Girls",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "cvawg1", "cvawg3", "cvawg9", "cvawg10", "cvawg12", "cvawg14", "cvawg16", "cvawg19", "cvawg22", "cvawg29", "cvawg33", "cvawg34", "cvawg40" ],
+                    "upperItemIds": [ "cvawg2", "cvawg4", "cvawg5", "cvawg6", "cvawg7", "cvawg8", "cvawg11", "cvawg13", "cvawg15", "cvawg17", "cvawg18", "cvawg20", "cvawg21", "cvawg23", "cvawg24", "cvawg25", "cvawg26", "cvawg27", "cvawg28", "cvawg30", "cvawg31", "cvawg32", "cvawg35", "cvawg36", "cvawg37", "cvawg38", "cvawg39", "cvawg41", "cvawg42", "cvawg43", "cvawg44", "cvawg45", "cvawg46" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "cvawg1", "itemStemText": "Obtaining a woman’s personal information online without her permission is never okay.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg2", "itemStemText": "If I want to access information about a woman online, I can do what I need to do to acquire it.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg3", "itemStemText": "Even if I can, I am not free to bypass security to get information about a woman online.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg4", "itemStemText": "It is okay to gain access to a live stream of a woman’s webcam without her knowledge.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg5", "itemStemText": "It is acceptable to gain unauthorized access to a woman’s information on the Internet.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg6", "itemStemText": "If I have figured out the password to a woman’s account or profile, I can do what I want with it.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg7", "itemStemText": "To get information about a woman, it’s okay to pose as her online.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg8", "itemStemText": "It is okay to impersonate someone online to learn more about a woman.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg9", "itemStemText": "Pretending to be someone else when contacting a woman on the Internet is not okay.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg10", "itemStemText": "It is not appropriate to forge identifying information of a woman on the Internet to learn more about her.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg11", "itemStemText": "If a woman has an online presence, it is okay for me to use information she puts out there to learn more about her.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg12", "itemStemText": "It is not okay to use the Internet to track down a woman.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg13", "itemStemText": "There is nothing wrong with using the Internet to trace a woman’s history.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg14", "itemStemText": "It is unacceptable to use the Internet to trace where a woman has been.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg15", "itemStemText": "Continually monitoring the activities of a woman online is totally fine.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg16", "itemStemText": "It is not okay to use GPS or location tracking to find out where a woman is right now.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg17", "itemStemText": "I have the right to express my anger towards a woman online as frequently as I wish.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg18", "itemStemText": "Just because someone is telling a woman what they think, it does not mean it is threatening or intimidating.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg19", "itemStemText": "There is potential harm in repeatedly messaging, calling or texting a woman.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg20", "itemStemText": "It is fine to use the Internet to contact a woman even though she does not want to be contacted.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg21", "itemStemText": "It is okay to use the Internet to tell a woman what I think about her, regardless of if she wants to know or not.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg22", "itemStemText": "Spamming a woman’s e-mail, social media, phone or voicemail with messages is wrong.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg23", "itemStemText": "There is no problem with telling a woman to kill herself on the Internet.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg24", "itemStemText": "It's okay to create new, anonymous online profiles or accounts for the sole purpose of using them to spam a woman with messages.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg25", "itemStemText": "There’s nothing wrong with threatening real life violence to a woman on the Internet.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg26", "itemStemText": "There’s nothing wrong with making unprovoked sexual remarks towards or sexual requests of a woman on the Internet.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg27", "itemStemText": "It is okay to trick a woman into a compromising situation using the Internet.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg28", "itemStemText": "There is nothing wrong with using fake advertisements or profiles to trick a woman online.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg29", "itemStemText": "It is unacceptable to bend the truth on the Internet to get the information you want out of a woman.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg30", "itemStemText": "It is okay to mislead a woman online.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg31", "itemStemText": "On the Internet, to convince a woman of something, sometimes you have to say things that are not entirely true.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg32", "itemStemText": "It is okay to share intimate photos or videos of a woman online without her consent.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg33", "itemStemText": "I do not have the right to spread fake stories or rumors about a woman online.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg34", "itemStemText": "Twisting the truth about a woman online for my personal purposes is not right.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg35", "itemStemText": "Threatening to release private information about a woman onto the Internet in order to get my way is acceptable thing to do.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg36", "itemStemText": "I’m at liberty to send intimate photos of myself to any woman I choose.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg37", "itemStemText": "Women have too much influence on the Internet today.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg38", "itemStemText": "Women should know the risks of putting any information about themselves online.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg39", "itemStemText": "With how pervasive Internet access is today, women should not be surprised if people use it to hunt down more information about them.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg40", "itemStemText": "Women are fair and reasonable in the demands they express online.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg41", "itemStemText": "Because of the lack of accountability and consequences online, it is acceptable to target and attack women online.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg42", "itemStemText": "It is okay to express and perpetuate misogynistic beliefs online.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg43", "itemStemText": "Greater anonymity on the Internet allows me to express my true feelings about women.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg44", "itemStemText": "Attacking women online helps me gain followers, views, and/or popularity.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg45", "itemStemText": "One of the advantages of attacking women online is that people acknowledge my opinions.", "responseFormatId": "RF1" },
+                { "itemId": "cvawg46", "itemStemText": "On the Internet, there is no issue with making sexual comments about women.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "_comment": "Engagement in Cyber Violence Against Women and Girls Scale from Cyber-aggression towards women paper",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0284.parquet",
+    "datasetUrl": "https://osf.io/jyfdu/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Jagayat, A., & Choma, B. L. (2021). Cyber-aggression towards women: Measurement and psychological predictors in gaming communities. Computers in Human Behavior, 120, Article 106753. https://doi.org/10.1016/j.chb.2021.106753",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Never",
+                "2": "Very Rarely",
+                "3": "Rarely",
+                "4": "Occasionally",
+                "5": "Frequently",
+                "6": "Very Frequently"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Engagement in Cyber Violence Against Women and Girls Scale",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Jagayat, A., & Choma, B. L. (2021). Cyber-aggression towards women: Measurement and psychological predictors in gaming communities. Computers in Human Behavior, 120, Article 106753. https://doi.org/10.1016/j.chb.2021.106753",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": true,
+            "scales": [
+                {
+                    "scaleName": "Engagement in Cyber Violence Against Women and Girls",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "engagement_1", "engagement_2", "engagement_3", "engagement_4", "engagement_5", "engagement_6" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "engagement_1", "itemStemText": "I engage in gaining access to a woman’s online accounts or profiles.", "responseFormatId": "RF1" },
+                { "itemId": "engagement_2", "itemStemText": "I engage in pretending to be someone I’m not when talking to a woman online.", "responseFormatId": "RF1" },
+                { "itemId": "engagement_3", "itemStemText": "I engage in monitoring a woman’s activities online.", "responseFormatId": "RF1" },
+                { "itemId": "engagement_4", "itemStemText": "I engage in spamming or repeatedly expressing anger towards a woman online.", "responseFormatId": "RF1" },
+                { "itemId": "engagement_5", "itemStemText": "I engage in intentionally misleading a woman online.", "responseFormatId": "RF1" },
+                { "itemId": "engagement_6", "itemStemText": "I engage in posting rumours or intimate photos of a woman online.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

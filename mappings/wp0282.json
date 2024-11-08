@@ -1,0 +1,83 @@
+{
+    "_comment": "Ambivalent Sexism Inventory from Cyber-aggression towards women paper",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0282.parquet",
+    "datasetUrl": "https://osf.io/jyfdu/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Jagayat, A., & Choma, B. L. (2021). Cyber-aggression towards women: Measurement and psychological predictors in gaming communities. Computers in Human Behavior, 120, Article 106753. https://doi.org/10.1016/j.chb.2021.106753",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Disagree Strongly",
+                "2": "Disagree Somewhat",
+                "3": "Disagree Slightly",
+                "4": "Agree Slighty",
+                "5": "Agree Somewhat",
+                "6": "Agree Strongly"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Ambivalent Sexism Inventory",
+            "instrumentNameShort": "ASI",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Glick, P., & Fiske, S. T. (1996). The Ambivalent Sexism Inventory: Differentiating hostile and benevolent sexism. Journal of Personality and Social Psychology, 70, 491–512.; Rollero, C., Peter, G., & Tartaglia, S. (2014). Psychometric properties of short versions of the ambivalent sexism inventory and ambivalence toward men inventory. TPM. Testing, Psychometrics, Methodology in Applied Psychology, 21(2), 149-159.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": true,
+            "scales": [
+                {
+                    "scaleName": "Hostile Sexism",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "asi_3", "asi_6", "asi_7", "asi_8", "asi_9", "asi_12" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Benevolent Sexism",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "asi_1", "asi_2", "asi_4", "asi_5", "asi_10", "asi_11" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "asi_1", "itemStemText": "Many women have a quality of purity that few men possess.", "responseFormatId": "RF1" },
+                { "itemId": "asi_2", "itemStemText": "Women should be cherished and protected by men.", "responseFormatId": "RF1" },
+                { "itemId": "asi_3", "itemStemText": "Women seek to gain power by getting control over men.", "responseFormatId": "RF1" },
+                { "itemId": "asi_4", "itemStemText": "Every man ought to have a woman whom he adores.", "responseFormatId": "RF1" },
+                { "itemId": "asi_5", "itemStemText": "Men are incomplete without women.", "responseFormatId": "RF1" },
+                { "itemId": "asi_6", "itemStemText": "Women exaggerate problems they have at work.", "responseFormatId": "RF1" },
+                { "itemId": "asi_7", "itemStemText": "Once a woman gets a man to commit to her, she usually tries to put him on a tight leash.", "responseFormatId": "RF1" },
+                { "itemId": "asi_8", "itemStemText": "When women lose to men in a fair competition, they typically complain about being discriminated against.", "responseFormatId": "RF1" },
+                { "itemId": "asi_9", "itemStemText": "Many women get a kick out of teasing men by seeming sexually available and then refusing male advances.", "responseFormatId": "RF1" },
+                { "itemId": "asi_10", "itemStemText": "Women, compared to men, tend to have a superior moral sensibility.", "responseFormatId": "RF1" },
+                { "itemId": "asi_11", "itemStemText": "Men should be willing to sacrifice their own well-being in order to provide financially for the women in their lives.", "responseFormatId": "RF1" },
+                { "itemId": "asi_12", "itemStemText": "Feminists are making unreasonable demands of men.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
