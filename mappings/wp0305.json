@@ -1,0 +1,86 @@
+{
+    "_comment": "SIM scale (final version)",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0305.parquet",
+    "datasetUrl": "https://osf.io/t2kzx/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Heine, C., Schmukle, S. C., & Dufner, M. (2024). The quest for genuine self-knowledge: An investigation into individual differences in the self-insight motive. European Journal of Personality, 0(0). https://doi.org/10.1177/08902070241272184",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Stimme überhaupt nicht zu",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "Stimme voll und ganz zu"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Self-Insight Motive Scale",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "de",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Heine, C., Schmukle, S. C., & Dufner, M. (2024). The quest for genuine self-knowledge: An investigation into individual differences in the self-insight motive. European Journal of Personality, 0(0). https://doi.org/10.1177/08902070241272184",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Self-Insight Motive",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "SAS_1_t1", "SAS_10_t1", "SAS_17_t1", "SAS_7_t1", "SAS_13_t1" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Behavioral manifestations of the Self-Insight Motive",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "SAS_10_t1", "SAS_17_t1" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Cognitive-Affective manifestations of the Self-Insight Motive",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "SAS_7_t1", "SAS_1_t1", "SAS_13_t1" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "SAS_1_t1", "itemStemText": "Ich will genau wissen, was meine Stärken und Schwächen sind.", "responseFormatId": "RF1" },
+                { "itemId": "SAS_10_t1", "itemStemText": "Ich suche sowohl positives als auch negatives Feedback zu meiner Persönlichkeit.", "responseFormatId": "RF1" },
+                { "itemId": "SAS_17_t1", "itemStemText": "Ich versuche häufig herauszufinden, worin ich gut und worin ich schlecht bin.", "responseFormatId": "RF1" },
+                { "itemId": "SAS_7_t1", "itemStemText": "Eine genaue Kenntnis meiner Charaktereigenschaften ist mir sehr wichtig.", "responseFormatId": "RF1" },
+                { "itemId": "SAS_13_t1", "itemStemText": "Es ist mir wichtig zu verstehen, wie ich zu dem Menschen geworden bin, der ich heute bin.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
