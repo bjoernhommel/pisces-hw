@@ -1,0 +1,68 @@
+{
+    "_comment": "Satisfaction with Life Scale (SWLS), German version from self-insight motive paper, sample e",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0316.parquet",
+    "datasetUrl": "https://osf.io/t2kzx/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Heine, C., Schmukle, S. C., & Dufner, M. (2024). The quest for genuine self-knowledge: An investigation into individual differences in the self-insight motive. European Journal of Personality, 0(0). https://doi.org/10.1177/08902070241272184; Richter D., Schupp J. (2015). The soep innovation sample (soep is). Journal of Contextual Economics–Schmollers Jahrbuch, (3), 389–399. https://doi.org/10.3790/schm.135.3.389",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "trifft überhaupt nicht zu",
+                "2": "trifft nicht zu",
+                "3": "trifft eher nicht zu",
+                "4": "teils/teils",
+                "5": "trifft eher zu",
+                "6": "trifft zu",
+                "7": "trifft vollständig zu"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Satisfaction with Life Scale",
+            "instrumentNameShort": "SWLS",
+            "instrumentLanguage": "de",
+            "instrumentUrl": "https://zis.gesis.org/skala/Janke-Gl%C3%B6ckner-Rist-Deutsche-Version-der-Satisfaction-with-Life-Scale-(SWLS)",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Janke, S., & Glöckner-Rist, A. (2012). Deutsche Version der Satisfaction with Life Scale (SWLS). Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis147",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Life Satisfaction",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "swls_1", "swls_2", "swls_3", "swls_4", "swls_5" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "swls_1", "itemStemText": "In den meisten Bereichen entspricht mein Leben meinen Idealvorstellungen.", "responseFormatId": "RF1" },
+                { "itemId": "swls_2", "itemStemText": "Meine Lebensbedingungen sind ausgezeichnet.", "responseFormatId": "RF1" },
+                { "itemId": "swls_3", "itemStemText": "Ich bin mit meinem Leben zufrieden.", "responseFormatId": "RF1" },
+                { "itemId": "swls_4", "itemStemText": "Bisher habe ich die wesentlichen Dinge erreicht, die ich mir für mein Leben wünsche.", "responseFormatId": "RF1" },
+                { "itemId": "swls_5", "itemStemText": "Wenn ich mein Leben noch einmal leben könnte, würde ich kaum etwas ändern.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

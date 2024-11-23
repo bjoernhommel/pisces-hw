@@ -1,0 +1,100 @@
+{
+    "_comment": "Self-Reflection and Insight Scale, German version from self-insight motive paper, sample e",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0317.parquet",
+    "datasetUrl": "https://osf.io/t2kzx/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Heine, C., Schmukle, S. C., & Dufner, M. (2024). The quest for genuine self-knowledge: An investigation into individual differences in the self-insight motive. European Journal of Personality, 0(0). https://doi.org/10.1177/08902070241272184; Richter D., Schupp J. (2015). The soep innovation sample (soep is). Journal of Contextual Economics–Schmollers Jahrbuch, (3), 389–399. https://doi.org/10.3790/schm.135.3.389",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "trifft überhaupt nicht zu",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "trifft voll und ganz zu"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Self-Reflection and Insight Scale",
+            "instrumentNameShort": "SRIS",
+            "instrumentLanguage": "de",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Grant, A. M., Franklin, J., & Langford, P. (2002). The selfreflection and insight scale: A new measure of private self-consciousness. Social Behavior and Personality: International Journal, 30(8), 821–835. https://doi.org/10.2224/sbp.2002.30.8.821",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "“engagement in self-reflection",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "sris_e1", "sris_e2", "sris_e4", "sris_e1" ],
+                    "upperItemIds": [ "sris_e3", "sris_e5", "sris_e6" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "need for self-reflection",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "sris_n1" ],
+                    "upperItemIds": [ "sris_n2", "sris_n3", "sris_n4", "sris_n5", "sris_n6" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "insight",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "sris_i2", "sris_i4", "sris_i5", "sris_i6", "sris_i7" ],
+                    "upperItemIds": [ "sris_i1", "sris_i3", "sris_i9"  ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "sris_e1", "itemStemText": "Ich denke nicht oft über meine Gedanken nach.", "responseFormatId": "RF1" },
+                { "itemId": "sris_e2", "itemStemText": "Ich verbringe selten Zeit mit Selbstreflexion. ", "responseFormatId": "RF1" },
+                { "itemId": "sris_e3", "itemStemText": "Ich begutachte regelmäßig meine Gefühle. ", "responseFormatId": "RF1" },
+                { "itemId": "sris_e4", "itemStemText": "Ich denke nicht wirklich darübernach, warum ich mich so verhalte wie ich es tue.", "responseFormatId": "RF1" },
+                { "itemId": "sris_e5", "itemStemText": "Ich nehme mir regelmäßig Zeit, um über meine Gedanken zu reflektieren.", "responseFormatId": "RF1" },
+                { "itemId": "sris_e6", "itemStemText": "Ich denke oft über die Art und Weise nach wie ich über Dinge fühle.", "responseFormatId": "RF1" },
+                { "itemId": "sris_n1", "itemStemText": "Ich bin nicht wirklich daran interessiert mein Verhalten zu analysieren.", "responseFormatId": "RF1" },
+                { "itemId": "sris_n2", "itemStemText": "Es ist wichtig für mich die Dinge, die ich tue, zu evaluieren.", "responseFormatId": "RF1" },
+                { "itemId": "sris_n3", "itemStemText": "Ich bin sehr daran interessiert zu untersuchen, worüber ich nachdenke.", "responseFormatId": "RF1" },
+                { "itemId": "sris_n4", "itemStemText": "Es ist wichtig für mich, dass ich versuche zu verstehen was meine Gefühle bedeuten.", "responseFormatId": "RF1" },
+                { "itemId": "sris_n5", "itemStemText": "Ich habe das eindeutige Bedürfnis zu verstehen auf welche Art und Weise meine Psyche funktioniert.", "responseFormatId": "RF1" },
+                { "itemId": "sris_n6", "itemStemText": "Es ist wichtig für mich, dass ich in der Lage bin zu verstehen wie meine Gedanken entstehen.", "responseFormatId": "RF1" },
+                { "itemId": "sris_i1", "itemStemText": "Ich bin mir meiner Gedanken normalerweise bewusst.", "responseFormatId": "RF1" },
+                { "itemId": "sris_i2", "itemStemText": "Ich bin oft verwirrt über die Art und Weise, wie ich wirklich über Dinge denke.", "responseFormatId": "RF1" },
+                { "itemId": "sris_i3", "itemStemText": "Ich habe normalerweise eine sehr klare Vorstellung davon, warum ich mich auf eine bestimmte Weise verhalten habe.", "responseFormatId": "RF1" },
+                { "itemId": "sris_i4", "itemStemText": "Ich bin mir oft bewusst, dass ich ein Gefühl habe, aber ich weiß oft nicht genau, was es ist.", "responseFormatId": "RF1" },
+                { "itemId": "sris_i5", "itemStemText": "Mein Verhalten ist mir häufig ein Rätsel.", "responseFormatId": "RF1" },
+                { "itemId": "sris_i6", "itemStemText": "Über meine Gedanken nachzudenken, macht mich noch verwirrter.", "responseFormatId": "RF1" },
+                { "itemId": "sris_i7", "itemStemText": "Es fällt mir häufig schwer, einen Sinn in der Art und Weise zu erkennen, wie ich über Dinge denke.", "responseFormatId": "RF1" },
+                { "itemId": "sris_i8", "itemStemText": "Ich weiß normalerweise, warum ich so fühle, wie ich fühle.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
