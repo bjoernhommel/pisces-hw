@@ -1,0 +1,79 @@
+{
+    "_comment": "Vegetarian Motives Inventory paper, 4Ns scale (belief that eating meat is natural, normal, necessary, and nice)",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0319.parquet",
+    "datasetUrl": "https://osf.io/9wre4/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Hopwood CJ, Bleidorn W, Schwaba T, Chen S (2020) Health, environmental, and animal rights motives for vegetarian eating. PLoS ONE 15(4): e0230609. https://doi.org/10.1371/journal.pone.0230609",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Completely disagree",
+                "2": "",
+                "3": "",
+                "4": "Neither agree nor agree",
+                "5": "",
+                "6": "",
+                "7": "Completely agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "4Ns",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": "https://osf.io/243cs",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Piazza J, Ruby MB, Loughnan S, Luong M, Kulik J, Watkins HM, et al. Rationalizing meat consumption. The 4Ns. Appetite. 2015;91:114–28. pmid:25865663",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "belief that eating meat is natural, normal, necessary, and nice",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "ns01", "ns02", "ns03", "ns04", "ns05", "ns06", "ns07", "ns08", "ns09", "ns10", "ns11", "ns12", "ns13", "ns14", "ns15", "ns16" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "ns01", "itemStemText": "It is only natural to eat meat.", "responseFormatId": "RF1" },
+                { "itemId": "ns02", "itemStemText": "It is necessary to eat meat in order to be healthy.", "responseFormatId": "RF1" },
+                { "itemId": "ns03", "itemStemText": "Not eating meat is socially unacceptable.", "responseFormatId": "RF1" },
+                { "itemId": "ns04", "itemStemText": "Meat is delicious.", "responseFormatId": "RF1" },
+                { "itemId": "ns05", "itemStemText": "It is unnatural to eat an all plant-based diet.", "responseFormatId": "RF1" },
+                { "itemId": "ns06", "itemStemText": "You cannot get all the protein, vitamins, and minerals you need on an all plant-based diet.", "responseFormatId": "RF1" },
+                { "itemId": "ns07", "itemStemText": "It is abnormal for humans not to eat meat.", "responseFormatId": "RF1" },
+                { "itemId": "ns08", "itemStemText": "Meat adds so much flavor to a meal it does not make sense to leave it out.", "responseFormatId": "RF1" },
+                { "itemId": "ns09", "itemStemText": "Our human ancestors ate meat all the time.", "responseFormatId": "RF1" },
+                { "itemId": "ns10", "itemStemText": "Human beings need to eat meat.", "responseFormatId": "RF1" },
+                { "itemId": "ns11", "itemStemText": "Most people I know eat meat.", "responseFormatId": "RF1" },
+                { "itemId": "ns12", "itemStemText": "The best tasting food is normally a meat-based dish.", "responseFormatId": "RF1" },
+                { "itemId": "ns13", "itemStemText": "Human beings are natural meat-eaters.", "responseFormatId": "RF1" },
+                { "itemId": "ns14", "itemStemText": "A healthy diet requires at least some meat.", "responseFormatId": "RF1" },
+                { "itemId": "ns15", "itemStemText": "It is normal to eat meat.", "responseFormatId": "RF1" },
+                { "itemId": "ns16", "itemStemText": "Meals without meat would just be bland and boring.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

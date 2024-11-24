@@ -1,0 +1,96 @@
+{
+    "_comment": "Vegetarian Motives Inventory",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0318.parquet",
+    "datasetUrl": "https://osf.io/9wre4/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Hopwood CJ, Bleidorn W, Schwaba T, Chen S (2020) Health, environmental, and animal rights motives for vegetarian eating. PLoS ONE 15(4): e0230609. https://doi.org/10.1371/journal.pone.0230609",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Not important",
+                "2": "",
+                "3": "",
+                "4": "Moderately important",
+                "5": "",
+                "6": "",
+                "7": "Very important"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Vegetarian Motives Inventory",
+            "instrumentNameShort": "VEMI",
+            "instrumentLanguage": "en",
+            "instrumentUrl": "https://osf.io/52v6z/",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Health",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "vemi01", "vemi05", "vemi07", "vemi14" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Animal welfare",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "vemi03", "vemi04", "vemi09", "vemi11", "vemi13", "vemi15" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Environment",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "vemi02", "vemi06", "vemi08", "vemi10", "vemi12" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "vemi01", "itemStemText": "'I want to be healthy' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi02", "itemStemText": "'Plant-based diets are better for the environment' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi03", "itemStemText": "'Animals do not have to suffer' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi04", "itemStemText": "'Animals’ rights are respected' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi05", "itemStemText": "'I want to live a long time' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi06", "itemStemText": "'Plant-based diets are more sustainable' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi07", "itemStemText": "'I care about my body' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi08", "itemStemText": "'Eating meat is bad for the planet' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi09", "itemStemText": "'Animal rights are important to me' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi10", "itemStemText": "'Plant-based diets are environmentally-friendly' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi11", "itemStemText": "'It does not seem right to exploit animals' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi12", "itemStemText": "'Plants have less of an impact on the environment than animal products' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi13", "itemStemText": "'I am concerned about animal rights' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi14", "itemStemText": "'My health is important to me' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" },
+                { "itemId": "vemi15", "itemStemText": "'I don’t want animals to suffer' as a reason for me to eat less meat or animal products is...", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "_comment": "Vegetarian Motives Inventory paper, Revised 4Ns scale (belief that eating meat is natural, normal, necessary, and nice)",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0320.parquet",
+    "datasetUrl": "https://osf.io/9wre4/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Hopwood CJ, Bleidorn W, Schwaba T, Chen S (2020) Health, environmental, and animal rights motives for vegetarian eating. PLoS ONE 15(4): e0230609. https://doi.org/10.1371/journal.pone.0230609",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Completely disagree",
+                "2": "",
+                "3": "",
+                "4": "Neither agree nor agree",
+                "5": "",
+                "6": "",
+                "7": "Completely agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Revised 4Ns",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": "https://osf.io/243cs",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Piazza J, Ruby MB, Loughnan S, Luong M, Kulik J, Watkins HM, et al. Rationalizing meat consumption. The 4Ns. Appetite. 2015;91:114–28. pmid:25865663",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "belief that eating meat is natural, normal, necessary, and nice",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "rns01", "rns02", "rns03", "rns04", "rns05", "rns06", "rns07", "rns08", "rns09", "rns10", "rns11", "rns12", "rns13", "rns14", "rns15", "rns16", "rns17", "rns18", "rns19", "rns20", "rns21", "rns22", "rns23", "rns24", "rns25", "rns26", "rns27", "rns28", "rns29", "rns30", "rns31", "rns32" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "rns01", "itemStemText": "It goes against nature to eat only plants.", "responseFormatId": "RF1" },
+                { "itemId": "rns02", "itemStemText": "Our bodies need the protein.", "responseFormatId": "RF1" },
+                { "itemId": "rns03", "itemStemText": "I want to fit in.", "responseFormatId": "RF1" },
+                { "itemId": "rns04", "itemStemText": "It is delicious.", "responseFormatId": "RF1" },
+                { "itemId": "rns05", "itemStemText": "It is natural.", "responseFormatId": "RF1" },
+                { "itemId": "rns06", "itemStemText": "Vegetarians are less healthy.", "responseFormatId": "RF1" },
+                { "itemId": "rns07", "itemStemText": "I don’t want other people to be uncomfortable.", "responseFormatId": "RF1" },
+                { "itemId": "rns08", "itemStemText": "I would miss out on too much pleasure if I didn’t eat meat.", "responseFormatId": "RF1" },
+                { "itemId": "rns09", "itemStemText": "It connects humans to the environment.", "responseFormatId": "RF1" },
+                { "itemId": "rns10", "itemStemText": "The human body was made that way.", "responseFormatId": "RF1" },
+                { "itemId": "rns11", "itemStemText": "Otherwise meals can be awkward.", "responseFormatId": "RF1" },
+                { "itemId": "rns12", "itemStemText": "It is in all the best tasting food.", "responseFormatId": "RF1" },
+                { "itemId": "rns13", "itemStemText": "Our ancestors did it.", "responseFormatId": "RF1" },
+                { "itemId": "rns14", "itemStemText": "It makes people strong and vigorous.", "responseFormatId": "RF1" },
+                { "itemId": "rns15", "itemStemText": "Everybody does it.", "responseFormatId": "RF1" },
+                { "itemId": "rns16", "itemStemText": "I don’t want to eat boring food.", "responseFormatId": "RF1" },
+                { "itemId": "rns17", "itemStemText": "If it was good enough for cavepeople it is good enough for me.", "responseFormatId": "RF1" },
+                { "itemId": "rns18", "itemStemText": "It is necessary for good health.", "responseFormatId": "RF1" },
+                { "itemId": "rns19", "itemStemText": "It is part of our society.", "responseFormatId": "RF1" },
+                { "itemId": "rns20", "itemStemText": "It gives me pleasure.", "responseFormatId": "RF1" },
+                { "itemId": "rns21", "itemStemText": "It would be unnatural not to eat meat.", "responseFormatId": "RF1" },
+                { "itemId": "rns22", "itemStemText": "I want to be sure I get all of the vitamins and minerals I need.", "responseFormatId": "RF1" },
+                { "itemId": "rns23", "itemStemText": "Not doing it is a little strange.", "responseFormatId": "RF1" },
+                { "itemId": "rns24", "itemStemText": "I just like it.", "responseFormatId": "RF1" },
+                { "itemId": "rns25", "itemStemText": "It is an essential part of harmony with the ecosystem.", "responseFormatId": "RF1" },
+                { "itemId": "rns26", "itemStemText": "It gives me strength and endurance.", "responseFormatId": "RF1" },
+                { "itemId": "rns27", "itemStemText": "It is a normal thing to do.", "responseFormatId": "RF1" },
+                { "itemId": "rns28", "itemStemText": "It has good flavor.", "responseFormatId": "RF1" },
+                { "itemId": "rns29", "itemStemText": "It is just one of the things people do.", "responseFormatId": "RF1" },
+                { "itemId": "rns30", "itemStemText": "It is too risky for my body not to.", "responseFormatId": "RF1" },
+                { "itemId": "rns31", "itemStemText": "I don’t want to stand out.", "responseFormatId": "RF1" },
+                { "itemId": "rns32", "itemStemText": "Meals without it don’t taste good.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
