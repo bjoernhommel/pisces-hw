@@ -1,0 +1,121 @@
+{
+    "_comment": "Vegetarian Motives Inventory paper, PID-5 / Personality Inventory for DSM-5, brief form",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0323.parquet",
+    "datasetUrl": "https://osf.io/9wre4/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Hopwood CJ, Bleidorn W, Schwaba T, Chen S (2020) Health, environmental, and animal rights motives for vegetarian eating. PLoS ONE 15(4): e0230609. https://doi.org/10.1371/journal.pone.0230609",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 4,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Very False",
+                "2": "Somewhat False",
+                "3": "Somewhat True",
+                "4": "Very True"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Personality Inventory for DSM-5, brief version",
+            "instrumentNameShort": "PID-5-bf",
+            "instrumentLanguage": "en",
+            "instrumentUrl": "https://osf.io/243cs, https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Negative Affect",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["pid08", "pid09", "pid10", "pid11", "pid15"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Detachment",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["pid04", "pid13", "pid14", "pid16", "pid18"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Antagonism",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["pid17", "pid19", "pid20", "pid22", "pid25"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Disinhibition",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["pid01", "pid02", "pid03", "pid05", "pid06"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Psychoticism",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["pid07", "pid12", "pid21", "pid23", "pid24"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "pid01", "itemStemText": "People would describe me as reckless.", "responseFormatId": "RF1" },
+                { "itemId": "pid02", "itemStemText": "I feel like I act totally on impulse.", "responseFormatId": "RF1" },
+                { "itemId": "pid03", "itemStemText": "Even though I know better, I can’t stop making rash decisions.", "responseFormatId": "RF1" },
+                { "itemId": "pid04", "itemStemText": "I often feel like nothing I do really matters.", "responseFormatId": "RF1" },
+                { "itemId": "pid05", "itemStemText": "Others see me as irresponsible.", "responseFormatId": "RF1" },
+                { "itemId": "pid06", "itemStemText": "I’m not good at planning ahead.", "responseFormatId": "RF1" },
+                { "itemId": "pid07", "itemStemText": "My thoughts often don’t make sense to others.", "responseFormatId": "RF1" },
+                { "itemId": "pid08", "itemStemText": "I worry about almost everything.", "responseFormatId": "RF1" },
+                { "itemId": "pid09", "itemStemText": "I get emotional easily, often for very little reason.", "responseFormatId": "RF1" },
+                { "itemId": "pid10", "itemStemText": "I fear being alone in life more than anything else.", "responseFormatId": "RF1" },
+                { "itemId": "pid11", "itemStemText": "I get stuck on one way of doing things, even when it’s clear it won’t work.", "responseFormatId": "RF1" },
+                { "itemId": "pid12", "itemStemText": "I have seen things that weren’t really there.", "responseFormatId": "RF1" },
+                { "itemId": "pid13", "itemStemText": "I steer clear of romantic relationships.", "responseFormatId": "RF1" },
+                { "itemId": "pid14", "itemStemText": "I’m not interested in making friends.", "responseFormatId": "RF1" },
+                { "itemId": "pid15", "itemStemText": "I get irritated easily by all sorts of things.", "responseFormatId": "RF1" },
+                { "itemId": "pid16", "itemStemText": "I don’t like to get too close to people.", "responseFormatId": "RF1" },
+                { "itemId": "pid17", "itemStemText": "It’s no big deal if I hurt other people’s feelings.", "responseFormatId": "RF1" },
+                { "itemId": "pid18", "itemStemText": "I rarely get enthusiastic about anything.", "responseFormatId": "RF1" },
+                { "itemId": "pid19", "itemStemText": "I crave attention.", "responseFormatId": "RF1" },
+                { "itemId": "pid20", "itemStemText": "I often have to deal with people who are less important than me.", "responseFormatId": "RF1" },
+                { "itemId": "pid21", "itemStemText": "I often have thoughts that make sense to me but that other people say are strange.", "responseFormatId": "RF1" },
+                { "itemId": "pid22", "itemStemText": "I use people to get what I want.", "responseFormatId": "RF1" },
+                { "itemId": "pid23", "itemStemText": "I often “zone out” and then suddenly come to and realize that a lot of time has passed.", "responseFormatId": "RF1" },
+                { "itemId": "pid24", "itemStemText": "Things around me often feel unreal, or more real than usual.", "responseFormatId": "RF1" },
+                { "itemId": "pid25", "itemStemText": "It is easy for me to take advantage of others.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

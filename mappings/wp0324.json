@@ -1,0 +1,159 @@
+{
+    "_comment": "Vegetarian Motives Inventory paper, Rosenfeld Dietarian Identity Questionnaire",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0324.parquet",
+    "datasetUrl": "https://osf.io/9wre4/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Hopwood CJ, Bleidorn W, Schwaba T, Chen S (2020) Health, environmental, and animal rights motives for vegetarian eating. PLoS ONE 15(4): e0230609. https://doi.org/10.1371/journal.pone.0230609",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Disagree",
+                "2": "",
+                "3": "",
+                "4": "Neutral",
+                "5": "",
+                "6": "",
+                "7": "Strongly Agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Rosenfeld Dietarian Identity Questionnaire",
+            "instrumentNameShort": "DIQ",
+            "instrumentLanguage": "en",
+            "instrumentUrl": "https://osf.io/243cs",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Centrality",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["diq01", "diq02", "diq03", "diq04", "diq05"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Private Regard",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["diq06", "diq07", "diq08"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Public Regard",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["diq09", "diq10", "diq11"],
+                    "upperItemIds": [],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Out-Group Regard",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["diq12", "diq13", "diq14", "diq15", "diq16", "diq17", "diq18"],
+                    "upperItemIds": [],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Prosocial Motivation",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["diq19", "diq20", "diq21", "diq22", "diq23", "diq24"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Personal Motivation",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["diq25", "diq26", "diq27"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Moral Motivation",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["diq28", "diq29", "diq30"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Strictness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["diq31", "diq32", "diq33"],
+                    "upperItemIds": [],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "diq01", "itemStemText": "My dietary pattern is an important part of how I would describe myself.", "responseFormatId": "RF1" },
+                { "itemId": "diq02", "itemStemText": "My dietary pattern has a big impact on how I think of myself.", "responseFormatId": "RF1" },
+                { "itemId": "diq03", "itemStemText": "A big part of my lifestyle revolves around my dietary pattern.", "responseFormatId": "RF1" },
+                { "itemId": "diq04", "itemStemText": "My dietary pattern defines a significant aspect of who I am.", "responseFormatId": "RF1" },
+                { "itemId": "diq05", "itemStemText": "Following my dietary pattern is an important part of who I am.", "responseFormatId": "RF1" },
+                { "itemId": "diq06", "itemStemText": "People who follow my dietary pattern tend to be good people.", "responseFormatId": "RF1" },
+                { "itemId": "diq07", "itemStemText": "Following my dietary pattern is a respectable way of living.", "responseFormatId": "RF1" },
+                { "itemId": "diq08", "itemStemText": "People who follow my dietary pattern should take pride in their food choices.", "responseFormatId": "RF1" },
+                { "itemId": "diq09", "itemStemText": "People who follow my dietary pattern are judged negatively for their food choices.", "responseFormatId": "RF1" },
+                { "itemId": "diq10", "itemStemText": "People who follow my dietary pattern tend to receive criticism for their food choices.", "responseFormatId": "RF1" },
+                { "itemId": "diq11", "itemStemText": "Following my dietary pattern is associated with negative stereotypes.", "responseFormatId": "RF1" },
+                { "itemId": "diq12", "itemStemText": "I view people as less moral for eating foods that go against my dietary pattern.", "responseFormatId": "RF1" },
+                { "itemId": "diq13", "itemStemText": "I judge people negatively for eating foods that go against my dietary pattern.", "responseFormatId": "RF1" },
+                { "itemId": "diq14", "itemStemText": "Seeing people eat foods that go against my dietary pattern makes me upset or angry.", "responseFormatId": "RF1" },
+                { "itemId": "diq15", "itemStemText": "If I see someone eat foods that go against my dietary pattern, I like him or her less.", "responseFormatId": "RF1" },
+                { "itemId": "diq16", "itemStemText": "It bothers me when people eat foods that go against my dietary pattern.", "responseFormatId": "RF1" },
+                { "itemId": "diq17", "itemStemText": "Seeing someone eat foods that go against my dietary pattern makes him or her less attractive to me.", "responseFormatId": "RF1" },
+                { "itemId": "diq18", "itemStemText": "People should feel guilty about eating foods that go against my dietary pattern.", "responseFormatId": "RF1" },
+                { "itemId": "diq19", "itemStemText": "I view my dietary pattern as a way of making the world a better place for others.", "responseFormatId": "RF1" },
+                { "itemId": "diq20", "itemStemText": "Concerns about social issues motivate me to follow my dietary pattern.", "responseFormatId": "RF1" },
+                { "itemId": "diq21", "itemStemText": "I follow my dietary pattern because I want to benefit society.", "responseFormatId": "RF1" },
+                { "itemId": "diq22", "itemStemText": "I feel motivated to follow my dietary pattern because I am concerned about the effects of my food choices on other beings.", "responseFormatId": "RF1" },
+                { "itemId": "diq23", "itemStemText": "I am motivated to follow my dietary pattern because I want to help others.", "responseFormatId": "RF1" },
+                { "itemId": "diq24", "itemStemText": "I follow my dietary pattern because eating this way is good for the world.", "responseFormatId": "RF1" },
+                { "itemId": "diq25", "itemStemText": "I follow my dietary pattern because I am concerned about the effects of my food choices on my own well-being.", "responseFormatId": "RF1" },
+                { "itemId": "diq26", "itemStemText": "I follow my dietary pattern because eating this way improves my life.", "responseFormatId": "RF1" },
+                { "itemId": "diq27", "itemStemText": "When thinking about which animal products to consume, I consider the effects of my food choices on my own health.", "responseFormatId": "RF1" },
+                { "itemId": "diq28", "itemStemText": "I feel that I have a moral obligation to follow my dietary pattern.", "responseFormatId": "RF1" },
+                { "itemId": "diq29", "itemStemText": "I am motivated to follow my dietary pattern because eating foods that go against my dietary pattern is immoral.", "responseFormatId": "RF1" },
+                { "itemId": "diq30", "itemStemText": "I follow my dietary pattern because eating this way is the morally right thing to do.", "responseFormatId": "RF1" },
+                { "itemId": "diq31", "itemStemText": "I can be flexible and sometimes eat foods that go against my dietary pattern.", "responseFormatId": "RF1" },
+                { "itemId": "diq32", "itemStemText": "From time to time, I eat foods that go against my dietary pattern.", "responseFormatId": "RF1" },
+                { "itemId": "diq33", "itemStemText": "I would eat a food product that goes against my dietary pattern if I were to hear that it tastes exceptionally good.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
