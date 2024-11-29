@@ -1,0 +1,156 @@
+{
+    "_comment": "Vegetarian Motives Inventory paper, Inventory of Interpersonal Problems—Short Circumplex Form (IIP-CF)",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0331.parquet",
+    "datasetUrl": "https://osf.io/9wre4/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Hopwood CJ, Bleidorn W, Schwaba T, Chen S (2020) Health, environmental, and animal rights motives for vegetarian eating. PLoS ONE 15(4): e0230609. https://doi.org/10.1371/journal.pone.0230609",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 0,
+            "responseFormatMaxValue": 4,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "0": "Not at all",
+                "1": "Somewhat",
+                "2": "Moderately",
+                "3": "Very",
+                "4": "Extremely"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Inventory of Interpersonal Problems—Short Circumplex Form",
+            "instrumentNameShort": "IIP-CF",
+            "instrumentLanguage": "en",
+            "instrumentUrl": "https://osf.io/243cs",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Lower Neutral",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["iip05", "iip13", "iip21"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Lower Close",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "iip15" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Neutral Close",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["iip08", "iip16", "iip24", "iip32"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Upper Close",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["iip07", "iip23", "iip31"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Upper Neutral",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["iip17"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Upper Distant",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["iip25", "iip26"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Neutral Distant",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["iip20", "iip03", "iip19"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Lower Distant",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["iip12"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "iip01", "itemStemText": "It is hard for me to understand another person’s point of view.", "responseFormatId": "RF1" },
+                { "itemId": "iip02", "itemStemText": "It is hard for me to be supportive of another person’s goals in life.", "responseFormatId": "RF1" },
+                { "itemId": "iip03", "itemStemText": "It is hard for me to show affection to people.", "responseFormatId": "RF1" },
+                { "itemId": "iip04", "itemStemText": "It is hard for me to join in on groups.", "responseFormatId": "RF1" },
+                { "itemId": "iip05", "itemStemText": "It is hard for me to tell another person to stop bothering me.", "responseFormatId": "RF1" },
+                { "itemId": "iip06", "itemStemText": "It is hard for me to let other people know when I am angry.", "responseFormatId": "RF1" },
+                { "itemId": "iip07", "itemStemText": "It is hard for me to attend to my own welfare when someone else is needy.", "responseFormatId": "RF1" },
+                { "itemId": "iip08", "itemStemText": "It is hard for me to keep things private from other people.", "responseFormatId": "RF1" },
+                { "itemId": "iip09", "itemStemText": "I am too aggressive toward other people.", "responseFormatId": "RF1" },
+                { "itemId": "iip10", "itemStemText": "It is hard for me to feel good about another person’s happiness.", "responseFormatId": "RF1" },
+                { "itemId": "iip11", "itemStemText": "It is hard for me to experience a feeling of love for another person.", "responseFormatId": "RF1" },
+                { "itemId": "iip12", "itemStemText": "It is hard for me to introduce myself to new people.", "responseFormatId": "RF1" },
+                { "itemId": "iip13", "itemStemText": "It is hard for me to confront people with problems that come up.", "responseFormatId": "RF1" },
+                { "itemId": "iip14", "itemStemText": "It is hard for me to be assertive without worrying about hurting the other person’s feelings.", "responseFormatId": "RF1" },
+                { "itemId": "iip15", "itemStemText": "I try to please other people too much.", "responseFormatId": "RF1" },
+                { "itemId": "iip16", "itemStemText": "I open up to people too much.", "responseFormatId": "RF1" },
+                { "itemId": "iip17", "itemStemText": "I try to control other people too much.", "responseFormatId": "RF1" },
+                { "itemId": "iip18", "itemStemText": "I am too suspicious of other people.", "responseFormatId": "RF1" },
+                { "itemId": "iip19", "itemStemText": "It is hard for me to feel close to other people.", "responseFormatId": "RF1" },
+                { "itemId": "iip20", "itemStemText": "It is hard for me to socialize with other people.", "responseFormatId": "RF1" },
+                { "itemId": "iip21", "itemStemText": "It is hard for me to be assertive with another person.", "responseFormatId": "RF1" },
+                { "itemId": "iip22", "itemStemText": "I am too easily persuaded by other people.", "responseFormatId": "RF1" },
+                { "itemId": "iip23", "itemStemText": "I put other people’s needs before my own too much.", "responseFormatId": "RF1" },
+                { "itemId": "iip24", "itemStemText": "I want to be noticed too much.", "responseFormatId": "RF1" },
+                { "itemId": "iip25", "itemStemText": "I argue with other people too much.", "responseFormatId": "RF1" },
+                { "itemId": "iip26", "itemStemText": "I want to get revenge against people too much.", "responseFormatId": "RF1" },
+                { "itemId": "iip27", "itemStemText": "I keep other people at a distance too much.", "responseFormatId": "RF1" },
+                { "itemId": "iip28", "itemStemText": "It is hard for me to ask other people to get together socially with me.", "responseFormatId": "RF1" },
+                { "itemId": "iip29", "itemStemText": "It is hard for me to be firm when I need to be.", "responseFormatId": "RF1" },
+                { "itemId": "iip30", "itemStemText": "I let other people take advantage of me too much.", "responseFormatId": "RF1" },
+                { "itemId": "iip31", "itemStemText": "I am affected by another person’s misery too much.", "responseFormatId": "RF1" },
+                { "itemId": "iip32", "itemStemText": "I tell personal things to other people too much.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

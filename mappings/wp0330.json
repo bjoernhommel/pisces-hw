@@ -1,0 +1,414 @@
+{
+    "_comment": "Vegetarian Motives Inventory paper, Rokeach Values Scale",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0330.parquet",
+    "datasetUrl": "https://osf.io/9wre4/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Hopwood CJ, Bleidorn W, Schwaba T, Chen S (2020) Health, environmental, and animal rights motives for vegetarian eating. PLoS ONE 15(4): e0230609. https://doi.org/10.1371/journal.pone.0230609",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Extremely unimportant",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "",
+                "7": "Extremely important"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Rokeach Value Survey",
+            "instrumentNameShort": "RVS",
+            "instrumentLanguage": "en",
+            "instrumentUrl": "https://osf.io/243cs",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Sincerity and Truthfulness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv01"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Responsibility",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv02"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Hard Work",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv03"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Forgiveness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv04"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Open-mindedness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv05"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Courage",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv06" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Helpfulness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv07"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Love",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv08" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Capability",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv09" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Cleanliness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv10"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Self-control",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv11"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Independence",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv12"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Happiness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv13" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Politeness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv14"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Intellect",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv15" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Obedience",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv16"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Logic",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "rv17" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Creativity",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv18" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "World Peace",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "rv19"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Family Security",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv20" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Freedom",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv21"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Equality",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "rv22" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Self-respect",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "rv23" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Happiness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv24" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Wisdom",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv25" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "National Security",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv26" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Salvation",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv27"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "True Friendship",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv28" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Accomplishment",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv29"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Inner Harmony",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv30"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Comfortable Life",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv31"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Mature Love",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv32"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Beauty",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv33"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Pleasure",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv34"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Social Recognition",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv35"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Excitement in life",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["rv36"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "rv01", "itemStemText": "The value 'Sincere and truthful' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv02", "itemStemText": "The value 'Responsible' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv03", "itemStemText": "The value 'Hardworking' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv04", "itemStemText": "The value 'Forgiving' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv05", "itemStemText": "The value 'Open-minded' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv06", "itemStemText": "The value 'Courageous' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv07", "itemStemText": "The value 'Helpful' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv08", "itemStemText": "The value 'Loving' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv09", "itemStemText": "The value 'Capable' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv10", "itemStemText": "The value 'Clean' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv11", "itemStemText": "The value 'Self-controlled' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv12", "itemStemText": "The value 'Independent' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv13", "itemStemText": "The value 'Happy' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv14", "itemStemText": "The value 'Polite' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv15", "itemStemText": "The value 'Intellectual' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv16", "itemStemText": "The value 'Obedient' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv17", "itemStemText": "The value 'Logical' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv18", "itemStemText": "The value 'Creative' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv19", "itemStemText": "The value 'A world at peace' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv20", "itemStemText": "The value 'Family security' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv21", "itemStemText": "The value 'Freedom' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv22", "itemStemText": "The value 'Equality' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv23", "itemStemText": "The value 'Self-respect' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv24", "itemStemText": "The value 'Happiness' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv25", "itemStemText": "The value 'Wisdom' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv26", "itemStemText": "The value 'National security' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv27", "itemStemText": "The value 'Salvation' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv28", "itemStemText": "The value 'True friendship' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv29", "itemStemText": "The value 'A sense of accomplishment' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv30", "itemStemText": "The value 'Inner harmony' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv31", "itemStemText": "The value 'A comfortable life' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv32", "itemStemText": "The value 'Mature love' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv33", "itemStemText": "The value 'A world of beauty' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv34", "itemStemText": "The value 'Pleasure' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv35", "itemStemText": "The value 'Social recognition' is... to me", "responseFormatId": "RF1" },
+                { "itemId": "rv36", "itemStemText": "The value 'An exciting life' is... to me", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
