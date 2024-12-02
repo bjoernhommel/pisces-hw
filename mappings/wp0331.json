@@ -37,43 +37,7 @@
             "instrumentIsProprietary": false,
             "scales": [
                 {
-                    "scaleName": "Lower Neutral",
-                    "scaleDefinitionText": null,
-                    "lowerItemIds": [],
-                    "upperItemIds": ["iip05", "iip13", "iip21"],
-                    "scaleLowerFeedbackText": null,
-                    "scaleUpperFeedbackText": null,
-                    "scaleFeedbackTexts": null
-                },
-                {
-                    "scaleName": "Lower Close",
-                    "scaleDefinitionText": null,
-                    "lowerItemIds": [],
-                    "upperItemIds": [ "iip15" ],
-                    "scaleLowerFeedbackText": null,
-                    "scaleUpperFeedbackText": null,
-                    "scaleFeedbackTexts": null
-                },
-                {
-                    "scaleName": "Neutral Close",
-                    "scaleDefinitionText": null,
-                    "lowerItemIds": [],
-                    "upperItemIds": ["iip08", "iip16", "iip24", "iip32"],
-                    "scaleLowerFeedbackText": null,
-                    "scaleUpperFeedbackText": null,
-                    "scaleFeedbackTexts": null
-                },
-                {
-                    "scaleName": "Upper Close",
-                    "scaleDefinitionText": null,
-                    "lowerItemIds": [],
-                    "upperItemIds": ["iip07", "iip23", "iip31"],
-                    "scaleLowerFeedbackText": null,
-                    "scaleUpperFeedbackText": null,
-                    "scaleFeedbackTexts": null
-                },
-                {
-                    "scaleName": "Upper Neutral",
+                    "scaleName": "PA (autocratic-dominant)",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
                     "upperItemIds": ["iip17"],
@@ -82,28 +46,64 @@
                     "scaleFeedbackTexts": null
                 },
                 {
-                    "scaleName": "Upper Distant",
+                    "scaleName": "BC (quarrelsome-competitive)",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": ["iip25", "iip26"],
+                    "upperItemIds": ["iip09", "iip10", "iip25", "iip26"],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
                 },
                 {
-                    "scaleName": "Neutral Distant",
+                    "scaleName": "DE (rejecting-cold)",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": ["iip20", "iip03", "iip19"],
+                    "upperItemIds": ["iip01", "iip02", "iip03", "iip11", "iip19", "iip27"],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
                 },
                 {
-                    "scaleName": "Lower Distant",
+                    "scaleName": "FG (introverted-socially avoidant)",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [],
-                    "upperItemIds": ["iip12"],
+                    "upperItemIds": ["iip04", "iip12", "iip13", "iip14", "iip20", "iip28"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "HI (self-doubting-submissive)",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["iip05", "iip06", "iip21", "iip29"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "JK (exploitable-yielding)",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["iip22", "iip23", "iip30"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "LM (nurturing-friendly)",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["iip07", "iip15", "iip31"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "NO (expressive-intrusive)",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["iip08", "iip16", "iip24", "iip23", "iip32"],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
