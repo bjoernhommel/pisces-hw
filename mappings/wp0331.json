@@ -1,5 +1,5 @@
 {
-    "_comment": "Vegetarian Motives Inventory paper, Inventory of Interpersonal Problems—Short Circumplex Form (IIP-CF)",
+    "_comment": "Vegetarian Motives Inventory paper, Inventory of Interpersonal Problems—Short Circumplex Form (IIP-CF), Item 'iip32': 'I tell personal things to other people too much.' was reported as part of the questionnaire but is not part of raw dataset",
     "datasetContentType": "self-report",
     "datasetFilename": "wp0331.parquet",
     "datasetUrl": "https://osf.io/9wre4/",
@@ -148,8 +148,7 @@
                 { "itemId": "iip28", "itemStemText": "It is hard for me to ask other people to get together socially with me.", "responseFormatId": "RF1" },
                 { "itemId": "iip29", "itemStemText": "It is hard for me to be firm when I need to be.", "responseFormatId": "RF1" },
                 { "itemId": "iip30", "itemStemText": "I let other people take advantage of me too much.", "responseFormatId": "RF1" },
-                { "itemId": "iip31", "itemStemText": "I am affected by another person’s misery too much.", "responseFormatId": "RF1" },
-                { "itemId": "iip32", "itemStemText": "I tell personal things to other people too much.", "responseFormatId": "RF1" }
+                { "itemId": "iip31", "itemStemText": "I am affected by another person’s misery too much.", "responseFormatId": "RF1" }
             ]
         }
     ]

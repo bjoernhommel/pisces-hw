@@ -1,0 +1,91 @@
+{
+    "_comment": "Self-Deception Questionnaire",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0341.parquet",
+    "datasetUrl": "https://figshare.com/s/ea818374b1db68d02f61?file=14080385",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Sirvent, C., Herrero, J., Moral, M. D. L. V., & Rodríguez, F. J. (2019). Evaluation of self-deception: Factorial structure, reliability and validity of the SDQ-12 (self-deception questionnaire). PloS one, 14(1), e0210815.",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Agree",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "Strongly Agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Self-Deception Questionnaire",
+            "instrumentNameShort": "SDQ-12",
+            "instrumentLanguage": "en",
+            "instrumentUrl": "Sirvent, C., Herrero, J., Moral, M. D. L. V., & Rodríguez, F. J. (2019). Evaluation of self-deception: Factorial structure, reliability and validity of the SDQ-12 (self-deception questionnaire). PloS one, 14(1), e0210815.",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Self-Deception",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["item35"],
+                    "upperItemIds": ["item11", "item19", "item26", "item29", "item39", "item3", "item7", "item12", "item14", "item31", "item38"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Mystification",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["item3", "item7", "item12", "item14", "item31", "item38"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Manipulation",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["item35"],
+                    "upperItemIds": ["item11", "item19", "item26", "item29", "item39"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "item3", "itemStemText": "It takes me a while to become aware of certain key issues in my life.", "responseFormatId": "RF1" },
+                { "itemId": "item7", "itemStemText": "I often recognize that others see my problems before (and better than) I do.", "responseFormatId": "RF1" },
+                { "itemId": "item11", "itemStemText": "I resort to emotional blackmailing when needed.", "responseFormatId": "RF1" },
+                { "itemId": "item12", "itemStemText": "In important personal matters in my life, I think I repeatedly make the same mistakes.", "responseFormatId": "RF1" },
+                { "itemId": "item14", "itemStemText": "I do not seem to learn from certain mistakes I make in my life.", "responseFormatId": "RF1" },
+                { "itemId": "item19", "itemStemText": "I have been told (or it has been insinuated to me) that I manipulate people.", "responseFormatId": "RF1" },
+                { "itemId": "item26", "itemStemText": "Honestly, I often choose to answer not with the truth but rather with whatever is most convenient for me.", "responseFormatId": "RF1" },
+                { "itemId": "item29", "itemStemText": "If you know me, you'll say that I tend to lie and deceive in order to achieve my goals.", "responseFormatId": "RF1" },
+                { "itemId": "item31", "itemStemText": "I sometimes feel my lifestyle is a sham. I live a lie.", "responseFormatId": "RF1" },
+                { "itemId": "item35", "itemStemText": "I never resort to emotional manipulation.", "responseFormatId": "RF1" },
+                { "itemId": "item38", "itemStemText": "It has been suggested (even if not specifically told) to me that I am wrong about my life.", "responseFormatId": "RF1" },
+                { "itemId": "item39", "itemStemText": "Honestly, I am one for changing things for my own convenience.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
