@@ -1,0 +1,106 @@
+{
+    "_comment": "Patient Transfer Decision Difficulty Scale; study was comnducted in Taiwan but used English items",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0356.parquet",
+    "datasetUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0210946&type=printable",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "0": "Never",
+                "1": "Rarely",
+                "2": "Sometimes",
+                "3": "Oftem",
+                "4": "Always"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Patient Transfer Decision Difficulty Scale",
+            "instrumentNameShort": "PTDDS",
+            "instrumentLanguage": "en",
+            "instrumentUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0210946&type=printable",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Chen, S. (2006). Development of an instrument to assess views on nature of science and attitudes toward teaching science. Science Education, 90(5), 803-819.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Clinical Episode",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "Q7", "Q8", "Q11", "Q12", "Q9", "Q5", "Q13", "Q6" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Communication and Information",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "Q25", "Q22", "Q31", "Q26", "Q23", "Q24" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Timing",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "Q41", "Q42", "Q39", "Q43" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Patient Transfer Decision Difficulty",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "Q7", "Q8", "Q11", "Q12", "Q9", "Q5", "Q13", "Q6", "Q25", "Q22", "Q31", "Q26", "Q23", "Q24", "Q41", "Q42", "Q39", "Q43" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Q7", "itemStemText": "Observed abnormal pulse rhythm", "responseFormatId": "RF1" },
+                { "itemId": "Q8", "itemStemText": "Observed abnormal breathing", "responseFormatId": "RF1" },
+                { "itemId": "Q11", "itemStemText": "Observed hematuria", "responseFormatId": "RF1" },
+                { "itemId": "Q12", "itemStemText": "Observed coffee-ground emesis", "responseFormatId": "RF1" },
+                { "itemId": "Q9", "itemStemText": "Observed fluctuating abnormal blood pressure", "responseFormatId": "RF1" },
+                { "itemId": "Q5", "itemStemText": "Resident experienced changes in consciousness status", "responseFormatId": "RF1" },
+                { "itemId": "Q13", "itemStemText": "Resident reported 4 points or more on the pain rating scale", "responseFormatId": "RF1" },
+                { "itemId": "Q16", "itemStemText": "Abnormal body temperature occurred twice within 1 week", "responseFormatId": "RF1" },
+                { "itemId": "Q25", "itemStemText": "Interaction between a resident and his or her family members", "responseFormatId": "RF1" },
+                { "itemId": "Q22", "itemStemText": "Trusting relationship between nurses and resident’s family members", "responseFormatId": "RF1" },
+                { "itemId": "Q26", "itemStemText": "Signing of a “do not resuscitate” (DNR) consent form", "responseFormatId": "RF1" },
+                { "itemId": "Q31", "itemStemText": "Availability of oxygen supply equipment", "responseFormatId": "RF1" },
+                { "itemId": "Q23", "itemStemText": "Resident’s willingness to visit an emergency department for medical care", "responseFormatId": "RF1" },
+                { "itemId": "Q24", "itemStemText": "Family members’ willingness for the resident to visit an emergency department for medical care", "responseFormatId": "RF1" },
+                { "itemId": "Q42", "itemStemText": "The frequency of a resident being transferred to an emergency department influenced the LTCF’s reputation", "responseFormatId": "RF1" },
+                { "itemId": "Q41", "itemStemText": "Emergency department staff doubted the timing of the resident’s visit to an emergency department for medical care", "responseFormatId": "RF1" },
+                { "itemId": "Q43", "itemStemText": "The frequency of a resident being transferred to an emergency department influenced the LTCF’s revenue", "responseFormatId": "RF1" },
+                { "itemId": "Q39", "itemStemText": "Possible medical disputes", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
