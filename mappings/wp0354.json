@@ -1,0 +1,109 @@
+{
+    "_comment": "Perceived Science Dispute Reasons scale",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0354.parquet",
+    "datasetUrl": "https://www.openicpsr.org/openicpsr/project/108306/version/V1/view?path=/openicpsr/108306/fcr:versions/V1/Study-6&type=folder",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Dieckmann NF, Johnson BB (2019) Why do scientists disagree? Explaining and improving measures of the perceived causes of scientific disputes. PLOS ONE 14(2): e0211269. https://doi.org/10.1371/journal.pone.0211269",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "never a cause of disagreements",
+                "2": "seldom a cause of disagreements",
+                "3": "sometimes a cause of disagreements",
+                "4": "often a cause of disagreements",
+                "5": "almost always a cause of disagreements"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Perceived Science Dispute Reasons scale",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": "https://www.openicpsr.org/openicpsr/project/108306/version/V1/view?path=/openicpsr/108306/fcr:versions/V1/Study-6&type=folder",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Dieckmann NF, Johnson BB (2019) Why do scientists disagree? Explaining and improving measures of the perceived causes of scientific disputes. PLOS ONE 14(2): e0211269. https://doi.org/10.1371/journal.pone.0211269",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Process/Competence",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "Cause_Disagreement1", "Cause_Disagreement2", "Cause_Disagreement3", "Cause_Disagreement4", "Cause_Disagreement5", "Cause_Disagreement6", "Cause_Disagreement7", "Cause_Disagreement8", "Cause_Disagreement9", "Cause_Disagreement10" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Interests/Values",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "Cause_Disagreement11", "Cause_Disagreement12", "Cause_Disagreement13", "Cause_Disagreement14", "Cause_Disagreement15", "Cause_Disagreement16", "Cause_Disagreement17", "Cause_Disagreement18", "Cause_Disagreement19", "Cause_Disagreement20", "Cause_Disagreement21", "Cause_Disagreement22", "Cause_Disagreement23", "Cause_Disagreement24" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Complexity/Uncertainty",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "Cause_Disagreement25", "Cause_Disagreement26", "Cause_Disagreement27", "Cause_Disagreement28", "Cause_Disagreement29", "Cause_Disagreement30" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Cause_Disagreement1", "itemStemText": "Scientists use different measuring tools.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement2", "itemStemText": "Scientists use different research methods.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement3", "itemStemText": "Techniques for analyzing study data differ from study to study.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement4", "itemStemText": "Scientists disagree on the best research designs to test their ideas.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement5", "itemStemText": "Scientists focus on slightly different variables in their research studies.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement6", "itemStemText": "Different studies use different research designs.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement7", "itemStemText": "Scientists vary in competence.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement8", "itemStemText": "Scientists have different credentials for this research.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement9", "itemStemText": "Scientists vary in their experience studying the issue.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement10", "itemStemText": "Scientists put different amounts of effort and care into their research.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement11", "itemStemText": "Scientific studies can be done badly.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement12", "itemStemText": "Scientists can miss important information.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement13", "itemStemText": "Scientists compete with other scientists.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement14", "itemStemText": "Scientists conform to what their close colleagues want.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement15", "itemStemText": "Scientists are influenced by the chance for money and promotion.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement16", "itemStemText": "Businesses, governments, and activists press scientists to take certain positions.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement17", "itemStemText": "Scientists want recognition and a good reputation.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement18", "itemStemText": "Employers persuade their scientist employees to reach certain conclusions.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement19", "itemStemText": "The topic is so complex scientists may not realize they’re grasping only part of it.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement20", "itemStemText": "The topic is too unpredictable.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement21", "itemStemText": "The topic is too complex to get clear results.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement22", "itemStemText": "Reaching general conclusions on the topic is hard.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement23", "itemStemText": "Too many factors influence results for this topic.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement24", "itemStemText": "There is too much uncertainty in this area for definite answers.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement25", "itemStemText": "Scientists tend to reach conclusions that fit their personal values.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement26", "itemStemText": "Their life experiences affect scientists’ conclusions.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement27", "itemStemText": "Scientists’ views on science are affected by their political beliefs.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement28", "itemStemText": "Scientists’ values affect their conclusions about science.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement29", "itemStemText": "Scientists’ desire for “elegant solutions” affects their conclusions.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_Disagreement30", "itemStemText": "Scientists reach conclusions shaped by what they want to believe.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

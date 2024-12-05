@@ -1,0 +1,167 @@
+{
+    "_comment": "Views on Science and Education Questionnaire",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0355.parquet",
+    "datasetUrl": "https://www.openicpsr.org/openicpsr/project/108306/version/V1/view?path=/openicpsr/108306/fcr:versions/V1/Study-6&type=folder",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Dieckmann NF, Johnson BB (2019) Why do scientists disagree? Explaining and improving measures of the perceived causes of scientific disputes. PLOS ONE 14(2): e0211269. https://doi.org/10.1371/journal.pone.0211269",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Disagree",
+                "2": "Disagree",
+                "3": "Uncertain or No Comment",
+                "4": "Agree",
+                "5": "Strongly Agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Views on Science and Education Questionnaire",
+            "instrumentNameShort": "VOSE",
+            "instrumentLanguage": "en",
+            "instrumentUrl": "https://www.openicpsr.org/openicpsr/project/108306/version/V1/view?path=/openicpsr/108306/fcr:versions/V1/Study-6&type=folder",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Chen, S. (2006). Development of an instrument to assess views on nature of science and attitudes toward teaching science. Science Education, 90(5), 803-819.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Belief that scientists will accept two theories at the same time",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Statements_Set1_3", "Statements_Set1_4", "Statements_Set1_5", "Statements_Set1_6", "Statements_Set1_7", "Statements_Set1_8" ],
+                    "upperItemIds": [ "Statements_Set1_1", "Statements_Set1_2" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Belief that scientific investigations are influenced by socio-cultural values",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Statements_Set2_3", "Statements_Set2_4" ],
+                    "upperItemIds": [ "Statements_Set2_1", "Statements_Set2_2" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Belief that when scientists are conducting scientific research, they will use their imagination",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Statements_Set3_3", "Statements_Set3_4", "Statements_Set3_5" ],
+                    "upperItemIds": [ "Statements_Set3_1", "Statements_Set3_2" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Belief that scientific theory (e.g., natural selection, atomic theory) is 'discovered' rather than 'invented' by scientists",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Statements_Set4_4", "Statements_Set4_5", "Statements_Set4_6" ],
+                    "upperItemIds": [ "Statements_Set4_1", "Statements_Set4_2" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }, 
+                {
+                    "scaleName": "Belief that scientific law (e.g., gravitational law) is 'discovered' rather than 'invented' by scientists",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Statements_Set5_4", "Statements_Set5_5" ],
+                    "upperItemIds": [ "Statements_Set5_1", "Statements_Set5_2" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }, 
+                {
+                    "scaleName": "Belief that in comparison to laws, theories have less evidence to support them",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Statements_Set6_3", "Statements_Set6_4" ],
+                    "upperItemIds": [ "Statements_Set6_1", "Statements_Set6_2" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }, 
+                {
+                    "scaleName": "Belief that scientists’ observations are influenced by personal beliefs and therefore will be different for the same experiment",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Statements_Set7_2", "Statements_Set7_3", "Statements_Set7_4", "Statements_Set7_5" ],
+                    "upperItemIds": [ "Statements_Set7_1" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }, 
+                {
+                    "scaleName": "Belief that most scientists follow the universal scientific method",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Statements_Set8_3", "Statements_Set8_4", "Statements_Set8_5", "Statements_Set8_6" ],
+                    "upperItemIds": [ "Statements_Set8_1", "Statements_Set8_2" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Statements_Set1_1", "itemStemText": "When two different theories arise to explain the same phenomenon (e.g., fossils of dinosaurs), scientists will accept both at the same time because they cannot objectively tell which one is better and will therefore accept both tentatively.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set1_2", "itemStemText": "When two different theories arise to explain the same phenomenon (e.g., fossils of dinosaurs), scientists will accept both at the same time because the two theories may provide explanations from different perspectives, and there is no right or wrong.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set1_3", "itemStemText": "When two different theories arise to explain the same phenomenon (e.g., fossils of dinosaurs), scientists will not accept both at the same time because they tend to accept the theory they are more familiar with.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set1_4", "itemStemText": "When two different theories arise to explain the same phenomenon (e.g., fossils of dinosaurs), scientists will not accept both at the same time because they tend to prefer simpler theories and avoid complex ones.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set1_5", "itemStemText": "When two different theories arise to explain the same phenomenon (e.g., fossils of dinosaurs), scientists will not accept both at the same time because the academic status of each theory proposer influences their acceptance.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set1_6", "itemStemText": "When two different theories arise to explain the same phenomenon (e.g., fossils of dinosaurs), scientists will not accept both at the same time because they tend to accept new theories that deviate less from the contemporary core scientific theory.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set1_7", "itemStemText": "When two different theories arise to explain the same phenomenon (e.g., fossils of dinosaurs), scientists will not accept both at the same time because they use intuition to make judgments.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set1_8", "itemStemText": "When two different theories arise to explain the same phenomenon (e.g., fossils of dinosaurs), scientists will not accept both at the same time because there is only one truth, and they will not accept any theory before distinguishing which is best.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set2_1", "itemStemText": "Socio-cultural values influence the direction and topics of scientific investigations.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set2_2", "itemStemText": "Scientific investigations are influenced by socio-cultural values (e.g., current trends, values), because scientists participating in scientific investigations are influenced by socio-cultural values.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set2_3", "itemStemText": "Scientific investigations are not influenced by socio-cultural values (e.g., current trends, values), because scientists with good training will remain value-free when carrying out research.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set2_4", "itemStemText": "Scientific investigations are not influenced by socio-cultural values (e.g., current trends, values), because science requires objectivity, which is contrary to the subjective socio-cultural values.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set3_1", "itemStemText": "When scientists are conducting scientific research, they will use their imagination because imagination is the main source of innovation.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set3_2", "itemStemText": "When scientists are conducting scientific research, they will use their imagination because scientists use their imagination more or less in scientific research.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set3_3", "itemStemText": "When scientists are conducting scientific research, they will not use their imagination because imagination is not consistent with the logical principles of science.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set3_4", "itemStemText": "When scientists are conducting scientific research, they will not use their imagination because imagination may become a means for a scientist to prove their point at all costs.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set3_5", "itemStemText": "When scientists are conducting scientific research, they will not use their imagination because imagination lacks reliability.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set4_1", "itemStemText": "Scientific theory (e.g., natural selection, atomic theory) is discovered because the idea was there all the time to be uncovered.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set4_2", "itemStemText": "Scientific theory (e.g., natural selection, atomic theory) is discovered because it is based on experimental facts.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set4_3", "itemStemText": "Scientific theory (e.g., natural selection, atomic theory) can be discovered accidentally by some scientists, while others may invent a theory from their known facts.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set4_4", "itemStemText": "Scientific theory (e.g., natural selection, atomic theory) is invented because it is an interpretation of experimental facts, and experimental facts are discovered by scientists.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set4_5", "itemStemText": "Scientific theory (e.g., natural selection, atomic theory) is invented because it is created or worked out by scientists.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set4_6", "itemStemText": "Scientific theory (e.g., natural selection, atomic theory) is invented because it can be disproved.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set5_1", "itemStemText": "Scientific law (e.g., gravitational law) is discovered because scientific laws are out there in nature, and scientists just have to find them.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set5_2", "itemStemText": "Scientific law (e.g., gravitational law) is discovered because scientific laws are based on experimental facts.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set5_3", "itemStemText": "Scientific law (e.g., gravitational law) can be discovered accidentally by some scientists, while others may invent a law from their known facts.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set5_4", "itemStemText": "Scientific law (e.g., gravitational law) is invented because scientists invent scientific laws to interpret discovered experimental facts.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set5_5", "itemStemText": "Scientific law (e.g., gravitational law) is invented since there are no absolutes in nature, therefore, the law is invented by scientists.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set6_1", "itemStemText": "In comparison to laws, theories have less evidence to support them because theories are not as definite as laws.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set6_2", "itemStemText": "In comparison to laws, theories have less evidence to support them because if a theory stands up to many tests it will eventually become a law, and therefore, a law has more supporting evidence.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set6_3", "itemStemText": "In comparison to laws, theories do not necessarily have less evidence to support them because some theories have more supporting evidence than some laws.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set6_4", "itemStemText": "In comparison to laws, theories do not have less evidence to support them because theories and laws are different types of ideas and cannot be compared.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set7_1", "itemStemText": "Scientist's observations will be different, because different beliefs lead to different expectations influencing the observation.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set7_2", "itemStemText": "Scientist's observations will be the same, because the scientists trained in the same field hold similar ideas.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set7_3", "itemStemText": "Scientist's observations will be the same, because through scientific training scientists can abandon personal values to conduct objective observations.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set7_4", "itemStemText": "Scientist's observations will be the same, because observations are exactly what we see and nothing more. Facts are facts. Interpretations may be different from one person to another, but observations should be the same.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set7_5", "itemStemText": "Scientist's observations will be the same. Although subjectivity cannot be completely avoided in observation, scientists use different methods to verify the results and improve objectivity.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set8_1", "itemStemText": "The scientific method (i.e., state a hypothesis, design an experiment, collect data, and draw conclusions) ensures valid, clear, logical, and accurate results. Thus, most scientists follow the universal method in research.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set8_2", "itemStemText": "Most scientists use the scientific method (i.e., state a hypothesis, design an experiment, collect data, and draw conclusions) because it is a logical procedure.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set8_3", "itemStemText": "The scientific method (i.e., state a hypothesis, design an experiment, collect data, and draw conclusions) is useful in most instances, but it does not ensure results; therefore, scientists invent new methods.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set8_4", "itemStemText": "There is no so-called scientific method (i.e., state a hypothesis, design an experiment, collect data, and draw conclusions). Scientists use any methods to obtain results.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set8_5", "itemStemText": "There is no fixed scientific method (i.e., state a hypothesis, design an experiment, collect data, and draw conclusions); scientific knowledge could be accidentally discovered.", "responseFormatId": "RF1" },
+                { "itemId": "Statements_Set8_6", "itemStemText": "No matter how the results are obtained, scientists use the scientific method (i.e., state a hypothesis, design an experiment, collect data, and draw conclusions) to verify it.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
