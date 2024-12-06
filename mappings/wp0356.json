@@ -12,14 +12,14 @@
             "responseFormatId": "RF1",
             "responseFormatType": "rating scale",
             "responseFormatDataType": "integer",
-            "responseFormatMinValue": 1,
-            "responseFormatMaxValue": 5,
+            "responseFormatMinValue": 0,
+            "responseFormatMaxValue": 4,
             "responseFormatIncrementValue": 1,
             "responseFormatLabels": {
                 "0": "Never",
                 "1": "Rarely",
                 "2": "Sometimes",
-                "3": "Oftem",
+                "3": "Often",
                 "4": "Always"
             }
         }
@@ -40,7 +40,7 @@
                     "scaleName": "Clinical Episode",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [  ],
-                    "upperItemIds": [ "Q7", "Q8", "Q11", "Q12", "Q9", "Q5", "Q13", "Q6" ],
+                    "upperItemIds": [ "Q7", "Q8", "Q11", "Q12", "Q9", "Q5", "Q13", "Q24" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -67,7 +67,7 @@
                     "scaleName": "Patient Transfer Decision Difficulty",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [  ],
-                    "upperItemIds": [ "Q7", "Q8", "Q11", "Q12", "Q9", "Q5", "Q13", "Q6", "Q25", "Q22", "Q31", "Q26", "Q23", "Q24", "Q41", "Q42", "Q39", "Q43" ],
+                    "upperItemIds": [ "Q7", "Q8", "Q11", "Q12", "Q9", "Q5", "Q13", "Q25", "Q22", "Q31", "Q26", "Q23", "Q24", "Q41", "Q42", "Q39", "Q43" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -89,7 +89,6 @@
                 { "itemId": "Q9", "itemStemText": "Observed fluctuating abnormal blood pressure", "responseFormatId": "RF1" },
                 { "itemId": "Q5", "itemStemText": "Resident experienced changes in consciousness status", "responseFormatId": "RF1" },
                 { "itemId": "Q13", "itemStemText": "Resident reported 4 points or more on the pain rating scale", "responseFormatId": "RF1" },
-                { "itemId": "Q16", "itemStemText": "Abnormal body temperature occurred twice within 1 week", "responseFormatId": "RF1" },
                 { "itemId": "Q25", "itemStemText": "Interaction between a resident and his or her family members", "responseFormatId": "RF1" },
                 { "itemId": "Q22", "itemStemText": "Trusting relationship between nurses and resident’s family members", "responseFormatId": "RF1" },
                 { "itemId": "Q26", "itemStemText": "Signing of a “do not resuscitate” (DNR) consent form", "responseFormatId": "RF1" },

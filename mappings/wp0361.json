@@ -1,0 +1,71 @@
+{
+    "_comment": "ONS Wellbeing scale",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0361.parquet",
+    "datasetUrl": "https://osf.io/nrvax/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Fancourt D, Garnett C, Spiro N, West R, Müllensiefen D (2019) How do artistic creative activities regulate our emotions? Validation of the Emotion Regulation Strategies for Artistic Creative Activities Scale (ERS-ACA). PLOS ONE 14(2): e0211362. https://doi.org/10.1371/journal.pone.0211362",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 0,
+            "responseFormatMaxValue": 10,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "0": "Not at all",
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "",
+                "7": "",
+                "8": "",
+                "9": "",
+                "10": "Completely"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "ONS Wellbeing scale",
+            "instrumentNameShort": "ONS4",
+            "instrumentLanguage": "en",
+            "instrumentUrl": "https://www.local.gov.uk/sites/default/files/documents/ONS%20questions.pdf",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Personal Well-Being",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "ONS4" ],
+                    "upperItemIds": [ "ONS1", "ONS2", "ONS3" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "ONS1", "itemStemText": "Overall, how satisfied are you with your life nowadays?", "responseFormatId": "RF1" },
+                { "itemId": "ONS2", "itemStemText": "Overall, to what extent do you feel that the things you do in your life are worthwhile?", "responseFormatId": "RF1" },
+                { "itemId": "ONS3", "itemStemText": "Overall, how happy did you feel yesterday?", "responseFormatId": "RF1" },
+                { "itemId": "ONS4", "itemStemText": "Overall, how anxious did you feel yesterday?", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

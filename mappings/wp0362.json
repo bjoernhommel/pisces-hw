@@ -1,0 +1,114 @@
+{
+    "_comment": "Short 15-item Big Five Inventory from Creative Activities paper",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0362.parquet",
+    "datasetUrl": "https://osf.io/nrvax/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Fancourt D, Garnett C, Spiro N, West R, Müllensiefen D (2019) How do artistic creative activities regulate our emotions? Validation of the Emotion Regulation Strategies for Artistic Creative Activities Scale (ERS-ACA). PLOS ONE 14(2): e0211362. https://doi.org/10.1371/journal.pone.0211362",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "strongly disagree",
+                "2": "disagree",
+                "3": "somewhat disagree",
+                "4": "neither agree nor disagree",
+                "5": "somewhat agree",
+                "6": "agree",
+                "7": "strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Short 15-item Big Five Inventory",
+            "instrumentNameShort": "BFI-S",
+            "instrumentLanguage": "en",
+            "instrumentUrl": "Hahn, E., Gottschling, J., & Spinath, F. M. (2012). Short measurements of personality–Validity and reliability of the GSOEP Big Five Inventory (BFI-S). Journal of Research in Personality, 46(3), 355-359.",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Openness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["pers7", "pers8", "pers9"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Conscientiousness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["pers14"],
+                    "upperItemIds": ["pers13", "pers15"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Extraversion",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["pers6"],
+                    "upperItemIds": ["pers4", "pers5"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Agreeableness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["pers10"],
+                    "upperItemIds": ["pers11", "pers12"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Neuroticism",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["pers3"],
+                    "upperItemIds": ["pers1", "pers2"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "pers1", "itemStemText": "I see myself as someone who worries a lot", "responseFormatId": "RF1" },
+                { "itemId": "pers2", "itemStemText": "I see myself as someone who gets nervous easily", "responseFormatId": "RF1" },
+                { "itemId": "pers3", "itemStemText": "I see myself as someone who remains calm in tense situations", "responseFormatId": "RF1" },
+                { "itemId": "pers4", "itemStemText": "I see myself as someone who is talkative", "responseFormatId": "RF1" },
+                { "itemId": "pers5", "itemStemText": "I see myself as someone who is outgoing, sociable", "responseFormatId": "RF1" },
+                { "itemId": "pers6", "itemStemText": "I see myself as someone who is reserved", "responseFormatId": "RF1" },
+                { "itemId": "pers7", "itemStemText": "I see myself as someone who is original, comes up with new ideas", "responseFormatId": "RF1" },
+                { "itemId": "pers8", "itemStemText": "I see myself as someone who values artistic, aesthetic experiences", "responseFormatId": "RF1" },
+                { "itemId": "pers9", "itemStemText": "I see myself as someone who has an active imagination", "responseFormatId": "RF1" },
+                { "itemId": "pers10", "itemStemText": "I see myself as someone who is sometimes rude to others", "responseFormatId": "RF1" },
+                { "itemId": "pers11", "itemStemText": "I see myself as someone who has a forgiving nature", "responseFormatId": "RF1" },
+                { "itemId": "pers12", "itemStemText": "I see myself as someone who is considerate and kind to almost everyone", "responseFormatId": "RF1" },
+                { "itemId": "pers13", "itemStemText": "I see myself as someone who does a thorough job", "responseFormatId": "RF1" },
+                { "itemId": "pers14", "itemStemText": "I see myself as someone who tends to be lazy", "responseFormatId": "RF1" },
+                { "itemId": "pers15", "itemStemText": "I see myself as someone who does things efficiently", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

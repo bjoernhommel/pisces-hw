@@ -1,0 +1,110 @@
+{
+    "_comment": "ERS-ACA Scale - development version",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0360.parquet",
+    "datasetUrl": "https://osf.io/nrvax/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Fancourt D, Garnett C, Spiro N, West R, Müllensiefen D (2019) How do artistic creative activities regulate our emotions? Validation of the Emotion Regulation Strategies for Artistic Creative Activities Scale (ERS-ACA). PLOS ONE 14(2): e0211362. https://doi.org/10.1371/journal.pone.0211362",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Disagree",
+                "2": "Disagree",
+                "3": "Neither Agree nor Disagree",
+                "4": "Agree",
+                "5": "Strongly Agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Emotion Regulation Strategies for Artistic Creative Activities scale (ERS-ACA), development version",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Fancourt D, Garnett C, Spiro N, West R, Müllensiefen D (2019) How do artistic creative activities regulate our emotions? Validation of the Emotion Regulation Strategies for Artistic Creative Activities Scale (ERS-ACA). PLOS ONE 14(2): e0211362. https://doi.org/10.1371/journal.pone.0211362",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Emotion Regulation through Artistic Creative Activities",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "q3", "q17", "q25", "q33", "q32", "q46", "q49" ],
+                    "upperItemIds": [ "q1", "q2", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q26", "q27", "q28", "q29", "q30", "q31", "q34", "q35", "q36", "q27", "q38", "q40", "q41", "q42", "q43", "q44", "q45", "q47", "q48" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "q1", "itemStemText": "When engaging in [name the artistic creative activity], I feel at peace with myself.", "responseFormatId": "RF1" },
+                { "itemId": "q2", "itemStemText": "When engaging in [name the artistic creative activity], it creates a safe space for me.", "responseFormatId": "RF1" },
+                { "itemId": "q3", "itemStemText": "When engaging in [name the artistic creative activity], it makes me feel more stressed.", "responseFormatId": "RF1" },
+                { "itemId": "q4", "itemStemText": "When engaging in [name the artistic creative activity], it evokes strong positive emotions.", "responseFormatId": "RF1" },
+                { "itemId": "q5", "itemStemText": "When engaging in [name the artistic creative activity], I am completely ‘in the zone’ and only focus on the activity itself.", "responseFormatId": "RF1" },
+                { "itemId": "q6", "itemStemText": "When engaging in [name the artistic creative activity], it helps me to come to terms with my own emotions.", "responseFormatId": "RF1" },
+                { "itemId": "q7", "itemStemText": "When engaging in [name the artistic creative activity], I am proud to be doing the activity.", "responseFormatId": "RF1" },
+                { "itemId": "q8", "itemStemText": "When engaging in [name the artistic creative activity], it redirects my attention so I forget unwanted thoughts and feelings.", "responseFormatId": "RF1" },
+                { "itemId": "q9", "itemStemText": "When engaging in [name the artistic creative activity], I am reassured of my own abilities.", "responseFormatId": "RF1" },
+                { "itemId": "q10", "itemStemText": "When engaging in [name the artistic creative activity], it helps me to think rationally about things in my life.", "responseFormatId": "RF1" },
+                { "itemId": "q11", "itemStemText": "When engaging in [name the artistic creative activity], I can block out any unwanted thoughts or feelings.", "responseFormatId": "RF1" },
+                { "itemId": "q12", "itemStemText": "When engaging in [name the artistic creative activity], it reaffirms my identity.", "responseFormatId": "RF1" },
+                { "itemId": "q13", "itemStemText": "When engaging in [name the artistic creative activity], I can contemplate what is going on in my life with a clear mind.", "responseFormatId": "RF1" },
+                { "itemId": "q14", "itemStemText": "When engaging in [name the artistic creative activity], it reminds me of people and places.", "responseFormatId": "RF1" },
+                { "itemId": "q15", "itemStemText": "When engaging in [name the artistic creative activity], I can shake off any anxieties in my life.", "responseFormatId": "RF1" },
+                { "itemId": "q16", "itemStemText": "When engaging in [name the artistic creative activity], it makes me feel stronger in myself.", "responseFormatId": "RF1" },
+                { "itemId": "q17", "itemStemText": "When engaging in [name the artistic creative activity], I feel less confident in myself and my abilities.", "responseFormatId": "RF1" },
+                { "itemId": "q18", "itemStemText": "When engaging in [name the artistic creative activity], I conjure up pleasant visual images or daydreams in my mind.", "responseFormatId": "RF1" },
+                { "itemId": "q19", "itemStemText": "When engaging in [name the artistic creative activity], I feel a part of something bigger.", "responseFormatId": "RF1" },
+                { "itemId": "q20", "itemStemText": "When engaging in [name the artistic creative activity], it helps me to vent negative feelings such as anger.", "responseFormatId": "RF1" },
+                { "itemId": "q21", "itemStemText": "When engaging in [name the artistic creative activity], I feel a sense of connection to other people (even people I don’t know) who do.", "responseFormatId": "RF1" },
+                { "itemId": "q22", "itemStemText": "When engaging in [name the artistic creative activity], it makes me feel detached from negative things in my life.", "responseFormatId": "RF1" },
+                { "itemId": "q23", "itemStemText": "When engaging in [name the artistic creative activity], it helps me to disengage from things that are bothering me.", "responseFormatId": "RF1" },
+                { "itemId": "q24", "itemStemText": "When engaging in [name the artistic creative activity], I feel I am in my own little bubble, away from ordinary worries.", "responseFormatId": "RF1" },
+                { "itemId": "q25", "itemStemText": "When engaging in [name the artistic creative activity], I feel more alone.", "responseFormatId": "RF1" },
+                { "itemId": "q26", "itemStemText": "When engaging in [name the artistic creative activity], I feel relaxed.", "responseFormatId": "RF1" },
+                { "itemId": "q27", "itemStemText": "When engaging in [name the artistic creative activity], I feel like I’m part of a community.", "responseFormatId": "RF1" },
+                { "itemId": "q28", "itemStemText": "When engaging in [name the artistic creative activity], it helps me to put worries or problems I have in perspective.", "responseFormatId": "RF1" },
+                { "itemId": "q29", "itemStemText": "When engaging in [name the artistic creative activity], I feel more capable of tackling challenges.", "responseFormatId": "RF1" },
+                { "itemId": "q30", "itemStemText": "When engaging in [name the artistic creative activity], it makes me feel exhilarated and excited.", "responseFormatId": "RF1" },
+                { "itemId": "q31", "itemStemText": "When engaging in [name the artistic creative activity], I feel more confident in myself.", "responseFormatId": "RF1" },
+                { "itemId": "q32", "itemStemText": "When engaging in [name the artistic creative activity], my mind feels more agitated.", "responseFormatId": "RF1" },
+                { "itemId": "q33", "itemStemText": "When engaging in [name the artistic creative activity], I worry more about things in my life.", "responseFormatId": "RF1" },
+                { "itemId": "q34", "itemStemText": "When engaging in [name the artistic creative activity], it helps me to understand my own feelings on things that are on my mind.", "responseFormatId": "RF1" },
+                { "itemId": "q35", "itemStemText": "When engaging in [name the artistic creative activity], I imagine myself in another place.", "responseFormatId": "RF1" },
+                { "itemId": "q36", "itemStemText": "When engaging in [name the artistic creative activity], I think with fondness on past events.", "responseFormatId": "RF1" },
+                { "itemId": "q37", "itemStemText": "When engaging in [name the artistic creative activity], it boosts my self-esteem.", "responseFormatId": "RF1" },
+                { "itemId": "q38", "itemStemText": "When engaging in [name the artistic creative activity], I am in my own world.", "responseFormatId": "RF1" },
+                { "itemId": "q39", "itemStemText": "When engaging in [name the artistic creative activity], it evokes strong happy memories.", "responseFormatId": "RF1" },
+                { "itemId": "q40", "itemStemText": "When engaging in [name the artistic creative activity], it gives me a sense of purpose.", "responseFormatId": "RF1" },
+                { "itemId": "q41", "itemStemText": "When engaging in [name the artistic creative activity], it gives me the space to focus on myself.", "responseFormatId": "RF1" },
+                { "itemId": "q42", "itemStemText": "When engaging in [name the artistic creative activity], I feel like I have a role within society.", "responseFormatId": "RF1" },
+                { "itemId": "q43", "itemStemText": "When engaging in [name the artistic creative activity], it helps me forget about my worries.", "responseFormatId": "RF1" },
+                { "itemId": "q44", "itemStemText": "When engaging in [name the artistic creative activity], it helps me refocus on what matters in my life.", "responseFormatId": "RF1" },
+                { "itemId": "q45", "itemStemText": "When engaging in [name the artistic creative activity], I actively plan about how I can solve worries or problems in my life.", "responseFormatId": "RF1" },
+                { "itemId": "q46", "itemStemText": "When engaging in [name the artistic creative activity], it helps me to channel feelings of sadness and misery.", "responseFormatId": "RF1" },
+                { "itemId": "q47", "itemStemText": "When engaging in [name the artistic creative activity], it makes me feel cleansed of negative feelings.", "responseFormatId": "RF1" },
+                { "itemId": "q48", "itemStemText": "When engaging in [name the artistic creative activity], it makes me reflect on my emotions.", "responseFormatId": "RF1" },
+                { "itemId": "q49", "itemStemText": "When engaging in [name the artistic creative activity], it produces such strong emotions I get goose bumps.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
