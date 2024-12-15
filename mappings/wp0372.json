@@ -1,0 +1,66 @@
+{
+    "_comment": "Essentialism Scale Revised",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0372.parquet",
+    "datasetUrl": "https://osf.io/sd54k",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Horne, Z., & Cimpian, A. (2019). Intuitions about personal identity are rooted in essentialist thinking across development. Cognition, 191, Article 103981. https://doi.org/10.1016/j.cognition.2019.05.018",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Disagree",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "Strongly Agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Essentialism Scale Revised",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": "Horne, Z., & Cimpian, A. (2019). Intuitions about personal identity are rooted in essentialist thinking across development. Cognition, 191, Article 103981. https://doi.org/10.1016/j.cognition.2019.05.018",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Belief in Essentialism",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["Essentialism_Item_1", "Essentialism_Item_2", "Essentialism_Item_3", "Essentialism_Item_4"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Essentialism_Item_1", "itemStemText": "At the microscopic level, there is something about the physical substance of each person’s body that makes them who they are. ", "responseFormatId": "RF1" },
+                { "itemId": "Essentialism_Item_2", "itemStemText": "Throughout life, a person’s thoughts and actions leave traces that permeate their body, making them unique. ", "responseFormatId": "RF1" },
+                { "itemId": "Essentialism_Item_3", "itemStemText": "A person’s individuality is embodied in the unique chemical details of their nervous system.  ", "responseFormatId": "RF1" },
+                { "itemId": "Essentialism_Item_4", "itemStemText": "A person’s biological makeup, down to the level of molecules, makes them a distinctive individual.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

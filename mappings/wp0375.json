@@ -1,0 +1,99 @@
+{
+    "_comment": "Development Version (36 items) of the Psychologically Rich Life Questionnaire",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0375.parquet",
+    "datasetUrl": "https://osf.io/sva2z/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Oishi, S., Choi, H., Buttrick, N., Heintzelman, S. J., Kushlev, K., Westgate, E. C., Tucker, J., Ebersole, C. R., Axt, J., Gilbert, E., Ng, B. W., & Besser, L. L. (2019). The psychologically rich life questionnaire. Journal of Research in Personality, 81, 257–270. https://doi.org/10.1016/j.jrp.2019.06.010",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Disagree",
+                "2": "Disagree",
+                "3": "Slightly Disagree",
+                "4": "Neither Agree nor Disagree",
+                "5": "Slightly Agree",
+                "6": "Agree",
+                "7": "Strongly Agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Psychologically Rich Life Questionnaire - Development Version",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": "Oishi, S., Choi, H., Buttrick, N., Heintzelman, S. J., Kushlev, K., Westgate, E. C., Tucker, J., Ebersole, C. R., Axt, J., Gilbert, E., Ng, B. W., & Besser, L. L. (2019). The psychologically rich life questionnaire. Journal of Research in Personality, 81, 257–270. https://doi.org/10.1016/j.jrp.2019.06.010",
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Living a psychologically rich life",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["Pre_PsychRich6", "Pre_PsychRich20", "Pre_PsychRich21", "Pre_PsychRich22", "Pre_PsychRich23", "Pre_PsychRich24", "Pre_PsychRich25", "Pre_PsychRich26", "Pre_PsychRich27", "Pre_PsychRich28", "Pre_PsychRich29", "Pre_PsychRich30", "Pre_PsychRich34", "Pre_PsychRich35" ],
+                    "upperItemIds": ["Pre_PsychRich1", "Pre_PsychRich2", "Pre_PsychRich3", "Pre_PsychRich4", "Pre_PsychRich5", "Pre_PsychRich7", "Pre_PsychRich8", "Pre_PsychRich9", "Pre_PsychRich10", "Pre_PsychRich11", "Pre_PsychRich12", "Pre_PsychRich13", "Pre_PsychRich14", "Pre_PsychRich15", "Pre_PsychRich16", "Pre_PsychRich17", "Pre_PsychRich18", "Pre_PsychRich19", "Pre_PsychRich31", "Pre_PsychRich32", "Pre_PsychRich33", "Pre_PsychRich36"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Pre_PsychRich1", "itemStemText": "My life has been psychologically rich.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich2", "itemStemText": "My life has been experientially rich.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich3", "itemStemText": "My life has been emotionally rich.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich4", "itemStemText": "I have had a lot of interesting experiences.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich5", "itemStemText": "I have had a lot of novel experiences.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich6", "itemStemText": "I have had a lot of difficult experiences.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich7", "itemStemText": "My life has been full of unique, unusual experiences.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich8", "itemStemText": "My life consists of rich, intense moments.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich9", "itemStemText": "My life has been dramatic.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich10", "itemStemText": "I have acquired different perspectives on life.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich11", "itemStemText": "I experience a full range of emotions fairly regularly via literature, films, sports, and others.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich12", "itemStemText": "I experience a full range of emotions via first-hand experiences such as travel and attending concerts.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich13", "itemStemText": "I have a lot of personal life stories to tell others.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich14", "itemStemText": "On my deathbed, I am likely to say “I had an interesting life.”", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich15", "itemStemText": "On my deathbed, I am likely to say “I have seen and learned a lot.”", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich16", "itemStemText": "My life would make a good novel or movie.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich17", "itemStemText": "I like serendipity (unexpectedly finding valuable things or experiences).", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich18", "itemStemText": "I would rather do something interesting than something just fun.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich19", "itemStemText": "Many of my best memories in life come from unexpected events.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich20", "itemStemText": "My life has been monotonous.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich21", "itemStemText": "I often feel bored with my life.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich22", "itemStemText": "My life has been uneventful.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich23", "itemStemText": "My life has been stable.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich24", "itemStemText": "I lead a predictable life.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich25", "itemStemText": "My life is full of routines.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich26", "itemStemText": "Everyday is pretty much the same.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich27", "itemStemText": "My life has been very typical of anyone with a similar background.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich28", "itemStemText": "I have not had much adversity in my life.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich29", "itemStemText": "My life has been easy.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich30", "itemStemText": "My life has been simple.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich31", "itemStemText": "I seek out mental stimulation.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich32", "itemStemText": "I seek out adventures, either first-hand or vicariously.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich33", "itemStemText": "I pay attention to the details.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich34", "itemStemText": "My life has been dominated by a singular emotion.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich35", "itemStemText": "I can’t remember the last time I’ve done or experienced something new.", "responseFormatId": "RF1" },
+                { "itemId": "Pre_PsychRich36", "itemStemText": "I’ve learned more from my own experiences and from the experiences of others than I have through academics.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
