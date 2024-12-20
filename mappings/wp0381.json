@@ -13,16 +13,15 @@
             "responseFormatType": "rating scale",
             "responseFormatDataType": "integer",
             "responseFormatMinValue": 1,
-            "responseFormatMaxValue": 7,
+            "responseFormatMaxValue": 6,
             "responseFormatIncrementValue": 1,
             "responseFormatLabels": {
                 "1": "Strongly disagree",
-                "2": "Somewhat disagree",
-                "3": "A little disagree",
-                "4": "Neither agree or disagree",
-                "5": "A little agree",
-                "6": "Somewhat agree",
-                "7": "Strongly agree"
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "Strongly agree"
             }
         }
     ],
