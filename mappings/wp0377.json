@@ -1,0 +1,68 @@
+{
+    "_comment": "Satisfaction with Life Scale from the Psychologically Rich Life Questionnaire paper study 3, English version",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0377.parquet",
+    "datasetUrl": "https://osf.io/sva2z/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Oishi, S., Choi, H., Buttrick, N., Heintzelman, S. J., Kushlev, K., Westgate, E. C., Tucker, J., Ebersole, C. R., Axt, J., Gilbert, E., Ng, B. W., & Besser, L. L. (2019). The psychologically rich life questionnaire. Journal of Research in Personality, 81, 257–270. https://doi.org/10.1016/j.jrp.2019.06.010",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Disagree",
+                "2": "Disagree",
+                "3": "Slightly Disagree",
+                "4": "Neither Agree nor Disagree",
+                "5": "Slightly Agree",
+                "6": "Agree",
+                "7": "Strongly Agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Satisfaction with Lie Scale, English version",
+            "instrumentNameShort": "SWLS",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Diener, E. D., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The satisfaction with life scale. Journal of personality assessment, 49(1), 71-75.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Satisfaction with Life",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["SWLS_1", "SWLS_2", "SWLS_3", "SWLS_4", "SWLS_5"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "SWLS_1", "itemStemText": "In most ways my life is close to my ideal.", "responseFormatId": "RF1" },
+                { "itemId": "SWLS_2", "itemStemText": "The conditions of my life are excellent.", "responseFormatId": "RF1" },
+                { "itemId": "SWLS_3", "itemStemText": "I am satisfied with my life.", "responseFormatId": "RF1" },
+                { "itemId": "SWLS_4", "itemStemText": "So far I have gotten the important things I want in life.", "responseFormatId": "RF1" },
+                { "itemId": "SWLS_5", "itemStemText": "If I could live my life over, I would change almost nothing.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

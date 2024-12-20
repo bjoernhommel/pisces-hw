@@ -1,0 +1,82 @@
+{
+    "_comment": "Meaining in life Questionnaire from the Psychologically Rich Life Questionnaire paper study 3",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0379.parquet",
+    "datasetUrl": "https://osf.io/sva2z/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Oishi, S., Choi, H., Buttrick, N., Heintzelman, S. J., Kushlev, K., Westgate, E. C., Tucker, J., Ebersole, C. R., Axt, J., Gilbert, E., Ng, B. W., & Besser, L. L. (2019). The psychologically rich life questionnaire. Journal of Research in Personality, 81, 257–270. https://doi.org/10.1016/j.jrp.2019.06.010",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Absolutely Untrue",
+                "2": "Mostly Untrue",
+                "3": "Somewhat Untrue",
+                "4": "Can’t Say True or False",
+                "5": "Somewhat True",
+                "6": "Mostly True",
+                "7": "Absolutely True"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Meaning in Life Questionnaire",
+            "instrumentNameShort": "MLQ",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Steger, M. F., Frazier, P., Oishi, S., & Kaler, M. (2006). The meaning in life questionnaire: assessing the presence of and search for meaning in life. Journal of counseling psychology, 53(1), 80.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [ 
+                {
+                    "scaleName": "Presence of Meaning in Life",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["MLQ_9"],
+                    "upperItemIds": ["MLQ_1", "MLQ_4", "MLQ_5", "MLQ_6"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }, 
+                {
+                    "scaleName": "Search for Meaning in Life",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["MLQ_2", "MLQ_3", "MLQ_7", "MLQ_8", "MLQ_10"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "MLQ_1", "itemStemText": "I understand my life’s meaning.", "responseFormatId": "RF1" },
+                { "itemId": "MLQ_2", "itemStemText": "I am looking for something that makes my life feel meaningful.", "responseFormatId": "RF1" },
+                { "itemId": "MLQ_3", "itemStemText": "I am always looking to find my life’s purpose.", "responseFormatId": "RF1" },
+                { "itemId": "MLQ_4", "itemStemText": "My life has a clear sense of purpose.", "responseFormatId": "RF1" },
+                { "itemId": "MLQ_5", "itemStemText": "I have a good sense of what makes my life meaningful.", "responseFormatId": "RF1" },
+                { "itemId": "MLQ_6", "itemStemText": "I have discovered a satisfying life purpose.", "responseFormatId": "RF1" },
+                { "itemId": "MLQ_7", "itemStemText": "I am always searching for something that makes my life feel significant.", "responseFormatId": "RF1" },
+                { "itemId": "MLQ_8", "itemStemText": "I am seeking a purpose or mission for my life.", "responseFormatId": "RF1" },
+                { "itemId": "MLQ_9", "itemStemText": "My life has no clear purpose.", "responseFormatId": "RF1" },
+                { "itemId": "MLQ_10", "itemStemText": "I am searching for meaning in my life.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

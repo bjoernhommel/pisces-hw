@@ -1,0 +1,159 @@
+{
+    "_comment": "42-item Psychological Well-Being scale from the Psychologically Rich Life Questionnaire paper study 3; in response format, originally 1 indicated agreement and 7 disagreement; response format and accordingly, item loadings were reversed",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0380.parquet",
+    "datasetUrl": "https://osf.io/sva2z/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Oishi, S., Choi, H., Buttrick, N., Heintzelman, S. J., Kushlev, K., Westgate, E. C., Tucker, J., Ebersole, C. R., Axt, J., Gilbert, E., Ng, B. W., & Besser, L. L. (2019). The psychologically rich life questionnaire. Journal of Research in Personality, 81, 257–270. https://doi.org/10.1016/j.jrp.2019.06.010",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly disagree",
+                "2": "Somewhat disagree",
+                "3": "A little disagree",
+                "4": "Neither agree or disagree",
+                "5": "A little agree",
+                "6": "Somewhat agree",
+                "7": "Strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Psychological Well-Being scale, 42 items version",
+            "instrumentNameShort": "PWB-42",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": "Ryff, C. D. (1989). Happiness is everything, or is it? Explorations on the meaning of psychological well-being. Journal of personality and social psychology, 57(6), 1069.",
+            "instrumentIsProprietary": false,
+            "scales": [ 
+                {
+                    "scaleName": "Psychological Well-Being",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["RyffPWB_5", "RyffPWB_8", "RyffPWB_12", "RyffPWB_14", "RyffPWB_15", "RyffPWB_16", "RyffPWB_18", "RyffPWB_19", "RyffPWB_24", "RyffPWB_25", "RyffPWB_26", "RyffPWB_28", "RyffPWB_30", "RyffPWB_32", "RyffPWB_33", "RyffPWB_34", "RyffPWB_39", "RyffPWB_42"],
+                    "upperItemIds": ["RyffPWB_1", "RyffPWB_2", "RyffPWB_3", "RyffPWB_4", "RyffPWB_6", "RyffPWB_7", "RyffPWB_9", "RyffPWB_10", "RyffPWB_11", "RyffPWB_13", "RyffPWB_17", "RyffPWB_20", "RyffPWB_21", "RyffPWB_22", "RyffPWB_23", "RyffPWB_27", "RyffPWB_29", "RyffPWB_31", "RyffPWB_35", "RyffPWB_36", "RyffPWB_37", "RyffPWB_38", "RyffPWB_40", "RyffPWB_41"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Autonomy",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["RyffPWB_13", "RyffPWB_24", "RyffPWB_35"],
+                    "upperItemIds": ["RyffPWB_1", "RyffPWB_10", "RyffPWB_21", "RyffPWB_41"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Environmental Mastery",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["RyffPWB_12", "RyffPWB_15", "RyffPWB_26", "RyffPWB_42"],
+                    "upperItemIds": ["RyffPWB_3", "RyffPWB_23", "RyffPWB_36"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Personal Growth",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["RyffPWB_5", "RyffPWB_14", "RyffPWB_25", "RyffPWB_28"],
+                    "upperItemIds": ["RyffPWB_2", "RyffPWB_17", "RyffPWB_37"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Positive Relations with Others",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["RyffPWB_16", "RyffPWB_18", "RyffPWB_30"],
+                    "upperItemIds": ["RyffPWB_4", "RyffPWB_7", "RyffPWB_27", "RyffPWB_38"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Purpose in Life",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["RyffPWB_32", "RyffPWB_33", "RyffPWB_39"],
+                    "upperItemIds": ["RyffPWB_6", "RyffPWB_9", "RyffPWB_20", "RyffPWB_29"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Self-Acceptance",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["RyffPWB_8", "RyffPWB_19", "RyffPWB_34"],
+                    "upperItemIds": ["RyffPWB_11", "RyffPWB_22", "RyffPWB_31", "RyffPWB_40"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "RyffPWB_1", "itemStemText": "I am not afraid to voice my opinions, even when they are in opposition to the opinions of most people.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_2", "itemStemText": "For me, life has been a continuous process of learning, changing, and growth.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_3", "itemStemText": "In general, I feel I am in charge of the situation in which I live.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_4", "itemStemText": "People would describe me as a giving person, willing to share my time with others.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_5", "itemStemText": "I am not interested in activities that will expand my horizons.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_6", "itemStemText": "I enjoy making plans for the future and working to make them a reality.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_7", "itemStemText": "Most people see me as loving and affectionate.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_8", "itemStemText": "In many ways I feel disappointed about my achievements in life.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_9", "itemStemText": "I live life one day at a time and don’t really think about the future.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_10", "itemStemText": "I tend to worry about what other people think of me.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_11", "itemStemText": "When I look at the story of my life, I am pleased with how things have turned out.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_12", "itemStemText": "I have difficulty arranging my life in a way that is satisfying to me.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_13", "itemStemText": "My decisions are not usually influenced by what everyone else is doing.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_14", "itemStemText": "I gave up trying to make big improvements or changes in my life a long time ago.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_15", "itemStemText": "The demands of everyday life often get me down.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_16", "itemStemText": "I have not experienced many warm and trusting relationships with others.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_17", "itemStemText": "I think it is important to have new experiences that challenge how you think about yourself and the world.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_18", "itemStemText": "Maintaining close relationships has been difficult and frustrating for me.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_19", "itemStemText": "My attitude about myself is probably not as positive as most people feel about themselves.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_20", "itemStemText": "I have a sense of direction and purpose in life.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_21", "itemStemText": "I judge myself by what I think is important, not by the values of what others think is important.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_22", "itemStemText": "In general, I feel confident and positive about myself.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_23", "itemStemText": "I have been able to build a living environment and a lifestyle for myself that is much to my liking.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_24", "itemStemText": "I tend to be influenced by people with strong opinions.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_25", "itemStemText": "I do not enjoy being in new situations that require me to change my old familiar ways of doing things.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_26", "itemStemText": "I do not fit very well with the people and the community around me.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_27", "itemStemText": "I know that I can trust my friends, and they know they can trust me.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_28", "itemStemText": "When I think about it, I haven’t really improved much as a person over the years.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_29", "itemStemText": "Some people wander aimlessly through life, but I am not one of them.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_30", "itemStemText": "I often feel lonely because I have few close friends with whom to share my concerns.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_31", "itemStemText": "When I compare myself to friends and acquaintances, it makes me feel good about who I am.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_32", "itemStemText": "I don’t have a good sense of what it is I’m trying to accomplish in life.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_33", "itemStemText": "I sometimes feel as if I’ve done all there is to do in life.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_34", "itemStemText": "I feel like many of the people I know have gotten more out of life than I have.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_35", "itemStemText": "I have confidence in my opinions, even if they are contrary to the general consensus.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_36", "itemStemText": "I am quite good at managing the many responsibilities of my daily life.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_37", "itemStemText": "I have the sense that I have developed a lot as a person over time.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_38", "itemStemText": "I enjoy personal and mutual conversations with family members and friends.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_39", "itemStemText": "My daily activities often seem trivial and unimportant to me.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_40", "itemStemText": "I like most parts of my personality.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_41", "itemStemText": "It’s difficult for me to voice my own opinions on controversial matters.", "responseFormatId": "RF1" },
+                { "itemId": "RyffPWB_42", "itemStemText": "I often feel overwhelmed by my responsibilities.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

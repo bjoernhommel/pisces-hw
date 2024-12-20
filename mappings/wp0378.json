@@ -1,0 +1,82 @@
+{
+    "_comment": "Scale of Positive and Negative Experience (SPANE) from the Psychologically Rich Life Questionnaire paper study 3",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0378.parquet",
+    "datasetUrl": "https://osf.io/sva2z/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": "Oishi, S., Choi, H., Buttrick, N., Heintzelman, S. J., Kushlev, K., Westgate, E. C., Tucker, J., Ebersole, C. R., Axt, J., Gilbert, E., Ng, B. W., & Besser, L. L. (2019). The psychologically rich life questionnaire. Journal of Research in Personality, 81, 257–270. https://doi.org/10.1016/j.jrp.2019.06.010",
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Very Rarely or Never",
+                "2": "Rarely",
+                "3": "Sometimes",
+                "4": "Often",
+                "5": "Very often or always"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Scale of Positive and Negative Experience",
+            "instrumentNameShort": "SPANE",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Diener, E., Wirtz, D., Tov, W., Kim-Prieto, C., Choi, D. W., Oishi, S., & Biswas-Diener, R. (2010). New well-being measures: Short scales to assess flourishing and positive and negative feelings. Social indicators research, 97, 143-156.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Positive Experiences",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["SPANE_1", "SPANE_3", "SPANE_5", "SPANE_7","SPANE_10", "SPANE_12"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Negative Experiences",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["SPANE_2", "SPANE_4", "SPANE_6", "SPANE_8", "SPANE_9","SPANE_11"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "SPANE_1", "itemStemText": "During the past 4 weeks, I experienced the feeling [Positive]...", "responseFormatId": "RF1" },
+                { "itemId": "SPANE_2", "itemStemText": "During the past 4 weeks, I experienced the feeling [Negative]...", "responseFormatId": "RF1" },
+                { "itemId": "SPANE_3", "itemStemText": "During the past 4 weeks, I experienced the feeling [Good]...", "responseFormatId": "RF1" },
+                { "itemId": "SPANE_4", "itemStemText": "During the past 4 weeks, I experienced the feeling [Bad]...", "responseFormatId": "RF1" },
+                { "itemId": "SPANE_5", "itemStemText": "During the past 4 weeks, I experienced the feeling [Pleasant]...", "responseFormatId": "RF1" },
+                { "itemId": "SPANE_6", "itemStemText": "During the past 4 weeks, I experienced the feeling [Unpleasant]...", "responseFormatId": "RF1" },
+                { "itemId": "SPANE_7", "itemStemText": "During the past 4 weeks, I experienced the feeling [Happy]...", "responseFormatId": "RF1" },
+                { "itemId": "SPANE_8", "itemStemText": "During the past 4 weeks, I experienced the feeling [Sad]...", "responseFormatId": "RF1" },
+                { "itemId": "SPANE_9", "itemStemText": "During the past 4 weeks, I experienced the feeling [Afraid]...", "responseFormatId": "RF1" },
+                { "itemId": "SPANE_10", "itemStemText": "During the past 4 weeks, I experienced the feeling [Joyful]...", "responseFormatId": "RF1" },
+                { "itemId": "SPANE_11", "itemStemText": "During the past 4 weeks, I experienced the feeling [Angry]...", "responseFormatId": "RF1" },
+                { "itemId": "SPANE_12", "itemStemText": "During the past 4 weeks, I experienced the feeling [Contented]...", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
